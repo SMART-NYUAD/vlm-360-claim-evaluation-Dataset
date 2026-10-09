@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "gemma3:12b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.20056515048324236,
+    "bert_score_ref_mean": 0.8673305975066291,
+    "consistency_mean": 0.5474423408503891,
+    "latency_p50_ms": 6031.18175198324,
+    "latency_p95_ms": 6586.620146990754
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a large room or hall, in an early stage of finishing. Drywall has been installed on the walls and ceiling, but is currently unfinished and awaiting taping, mudding, and sanding. There are several workers present, one visible near the entrance and others further into the space, and materials such as drywall sheets, scaffolding, and a fire extinguisher are visible.\n\n**QUALITY ISSUES**\n\nThere appears to be a significant amount of debris and dust on the floor, which will impact the final finish quality if not addressed. The drywall seams are visible and appear to be uneven in some areas, suggesting potential issues with alignment and fastening during installation. The fire extinguisher is partially obscured by materials, which could hinder access in an emergency.\n\n**SAFETY ISSUES**\n\nThe scaffolding appears to be unstable and is not properly secured to the floor, posing a risk of tipping or collapse. There is a potential tripping hazard due to the scattered materials and debris on the floor, particularly in the foreground. The worker near the entrance is not wearing appropriate personal protective equipment (PPE), specifically a hard hat, which is a critical safety requirement on a construction site.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 8293.474800011609,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22535211267605634,
+          "bert_score_ref": 0.8734493255615234
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building. Drywall has been installed on the walls and ceiling, but is unfinished and appears to be awaiting taping and mudding, with some areas showing exposed framing. Several workers are present, engaged in what appears to be scaffolding erection and material handling.\n\n**QUALITY ISSUES**\n\nThere are visible inconsistencies in the drywall installation, with some panels appearing misaligned or not flush with adjacent surfaces, particularly visible on the left wall. The exposed framing shows some areas where the insulation is not fully seated within the wall cavities, which could impact thermal performance. The scaffolding appears to be hastily erected, with some connections not fully tightened or secured.\n\n**SAFETY ISSUES**\n\nThe scaffolding appears unstable and is not adequately braced, posing a risk of collapse, especially given the presence of workers nearby. There is a fire extinguisher visible but obstructed by scaffolding, potentially hindering access in an emergency.  Debris and loose materials are scattered across the floor, creating a tripping hazard for workers navigating the space.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 3255.8830699999817,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19801980198019803,
+          "bert_score_ref": 0.8717111945152283
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**INSPECTION REPORT**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building. Drywall framing is visible on all walls and the ceiling, indicating ongoing interior finishing work. Several workers are present, engaged in what appears to be scaffolding erection and material handling.\n\n**QUALITY ISSUES:**\n\nThere are visible gaps and inconsistencies in the drywall framing along the left wall, suggesting potential issues with alignment and installation accuracy. The exposed framing appears to be lacking proper bracing in several areas, which could lead to instability and require rework. The surface of the drywall appears to have some minor imperfections, potentially indicating a need for additional finishing work.\n\n**SAFETY ISSUES:**\n\nThe scaffolding appears to be unstable and improperly secured, with wheels not locked and a lack of visible bracing, creating a significant fall hazard.  There is a fire extinguisher visible but obstructed by materials, potentially hindering access in an emergency.  Workers are present without clear visibility of personal protective equipment (PPE) usage, raising concerns about eye and respiratory protection.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image.",
+          "latency_ms": 3196.657336957287,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18686868686868688,
+          "bert_score_ref": 0.8670099973678589
+        }
+      ],
+      "avg_rouge_l_ref": 0.2034135338416471,
+      "avg_bert_score_ref": 0.8707235058148702,
+      "avg_consistency": 0.4626426091438539,
+      "avg_latency_ms": 4915.338402322959
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**REPORT: Construction Site Inspection**\n\n**SCENE:**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing drywall installation work. Several workers are present, engaged in applying drywall to the walls and preparing materials. The space appears to be large, with a concrete floor and a suspended ceiling grid with exposed ductwork and mechanical systems.\n\n**QUALITY ISSUES:**\n\nThere is visible patching and repair work on the drywall near the window on the left side of the image, suggesting potential inconsistencies in the initial installation or damage during handling. The drywall seams appear to be uneven in places, particularly visible on the wall in the center of the image, which may require additional attention during finishing. The cut of the drywall around the window frame appears slightly imprecise, potentially impacting the final aesthetic.\n\n**SAFETY ISSUES:**\n\nThe ground is littered with debris, including drywall scraps and packaging, creating a slip and trip hazard throughout the workspace.  A stack of drywall sheets is precariously positioned near the center of the image, posing a risk of falling and potential injury to workers.  The lack of clear demarcation or barriers around the work area could lead to unauthorized personnel entering the zone and being exposed to hazards.\n\n\n\nLet me know if you'd like me to analyze another image!",
+          "latency_ms": 3570.8001229795627,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2186046511627907,
+          "bert_score_ref": 0.8687252998352051
+        },
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing drywall installation work. Several workers are present, engaged in tasks such as drywall hanging and taping, and material handling. The space appears to be large, with a visible window area and a partially completed ceiling grid system.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall finishing on the wall near the window, with visible patching and uneven texture. The placement of the orange traffic cones seems haphazard and doesn't appear to be strategically placed to protect newly finished areas. The drywall sheets are not perfectly aligned with the window frame, indicating a potential need for adjustment.\n\n**SAFETY ISSUES:**\n\nThe scaffolding in the left corner of the image lacks visible guardrails or toe boards, posing a fall hazard for workers. Loose drywall sheets are stacked precariously near the work area, creating a potential tripping hazard and risk of material falling. The workers are wearing high-visibility vests, which is positive, but a more comprehensive hazard assessment is needed to ensure all risks are mitigated.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 3288.635417004116,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20095693779904306,
+          "bert_score_ref": 0.864942729473114
+        },
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\n\nThe image depicts an interior space, likely a large room or hallway, undergoing finishing work.  Plasterboard is being installed on the walls, with a worker actively applying plaster, and several sheets are stacked nearby.  Scaffolding is erected along the left wall to facilitate the plastering work, and there are multiple workers present, seemingly involved in various tasks related to the finishing process.\n\n**QUALITY ISSUES:**\n\nThe plaster application on the wall near the worker appears uneven, with visible ridges and inconsistencies in the thickness of the plaster.  There is a noticeable gap between the plasterboard and the floor near the center of the image, which needs to be addressed to ensure a proper seal and prevent future issues.  The edges of the installed plasterboard appear slightly rough, suggesting a need for more precise cutting or finishing.\n\n**SAFETY ISSUES:**\n\nThere is a potential trip hazard created by the stacked plasterboard sheets on the floor, particularly in the central area of the room.  The scaffolding appears to be adequately braced, but a visual inspection of the securing mechanisms and load capacity is recommended.  Dust generated from the plastering work is not being adequately controlled, posing a respiratory hazard to the workers; a dust suppression system or respiratory protection should be implemented.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 3770.9834189736284,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1826280623608018,
+          "bert_score_ref": 0.8623890280723572
+        }
+      ],
+      "avg_rouge_l_ref": 0.20072988377421186,
+      "avg_bert_score_ref": 0.8653523524602255,
+      "avg_consistency": 0.41095017257946165,
+      "avg_latency_ms": 3543.4729863191023
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**Date:** 2024-02-29\n**Location:** Unspecified Construction Site\n**Inspector:** AI Construction Inspector\n\n**SECTION 1: SCENE DESCRIPTION**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building.  Significant drywall framing and installation work is underway, with exposed framing visible on walls and ceilings, and a substantial amount of electrical conduit and wiring already in place. Several workers are present, some clustered in groups near the back of the space, and others appear to be engaged in drywall installation activities.\n\n**SECTION 2: QUALITY ISSUES**\n\nThere appears to be a lack of consistent spacing between drywall studs in the areas visible, which could impact the structural integrity and fire resistance of the walls.  The exposed electrical conduit and wiring are not neatly bundled or secured, which could lead to damage or interference during subsequent work.  The floor surface, while appearing relatively clean, shows signs of potential damage or unevenness, requiring further investigation to ensure a level and stable base for future finishes.\n\n**SECTION 3: SAFETY ISSUES**\n\nThe scaffolding in the foreground is positioned very close to the work area, creating a potential tripping hazard for workers moving around the space.  There is a lack of visible fall protection measures for workers accessing the elevated areas, particularly around the scaffolding and the ceiling framing.  The presence of a discarded hard hat on the floor poses a tripping hazard and demonstrates a lack of adherence to basic PPE protocols.\n\n\n\nLet me know if you'd like me to focus on any specific aspect or area of the image for a more detailed analysis.",
+          "latency_ms": 6957.991297997069,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19305019305019308,
+          "bert_score_ref": 0.8609070181846619
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**Date:** 2024-02-29\n**Location:** Unspecified Construction Site\n**Inspector:** AI Construction Inspector\n\n**SECTION 1: SCENE DESCRIPTION**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building.  Significant drywall framing and installation work is underway, with exposed framing visible on walls and ceilings, and a substantial amount of electrical conduit and wiring already in place. Several workers are present, some clustered in groups discussing the work, while others are actively engaged in drywall installation and scaffolding setup.\n\n**SECTION 2: QUALITY ISSUES**\n\nThere appears to be inconsistent drywall installation, with some sections showing gaps and misaligned edges, particularly visible on the left wall. The scaffolding appears to be hastily erected, with some bracing appearing incomplete or potentially unstable.  The exposed electrical wiring lacks proper labeling and organization, which could complicate future maintenance and troubleshooting.\n\n**SECTION 3: SAFETY ISSUES**\n\nSeveral workers are observed in the work area without appropriate personal protective equipment (PPE), specifically eye protection, despite the presence of dust and potential debris. The scaffolding is positioned directly in a walkway, creating a tripping hazard and obstructing access, and lacks proper signage to warn of its presence.  Loose materials, including a hard hat on the floor, present a potential slip and trip hazard throughout the workspace.\n\n\n\nLet me know if you'd like me to focus on any specific aspect or area of the image for a more detailed analysis.",
+          "latency_ms": 6443.471100996248,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19672131147540983,
+          "bert_score_ref": 0.8581961393356323
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**Date:** 2024-02-29\n**Location:** Unspecified Construction Site\n**Inspector:** AI Construction Inspector\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Significant drywall work is underway, with portions of the walls and ceiling already covered, while other areas remain exposed framing. Several workers are present, some clustered in a group near the back wall, and others appear to be engaged in drywall installation activities.\n\n**QUALITY ISSUES:**\n\nThere is visible dust accumulation on the exposed framing and drywall, suggesting a lack of regular cleaning during construction. The drywall seams appear to be poorly taped and mudded in several areas, with visible imperfections and potential cracking.  The exposed ceiling grid appears to have some misaligned or loosely secured components, which could impact the final ceiling finish.\n\n**SAFETY ISSUES:**\n\nThe scaffolding in the foreground is positioned directly on the plywood floor sheeting, which could compromise the structural integrity of the floor and create a tripping hazard.  There is a lack of visible fall protection measures for workers accessing the elevated ceiling area, posing a risk of falls from height.  The presence of a discarded hard hat on the floor presents a tripping hazard and demonstrates a lack of proper equipment storage.\n\n\n\nLet me know if you'd like me to analyze another image or focus on a specific aspect of the construction site!",
+          "latency_ms": 6293.279147997964,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1991701244813278,
+          "bert_score_ref": 0.8635444641113281
+        }
+      ],
+      "avg_rouge_l_ref": 0.19631387633564357,
+      "avg_bert_score_ref": 0.8608825405438741,
+      "avg_consistency": 0.5670049751243782,
+      "avg_latency_ms": 6564.913848997094
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Work appears to be focused on drywall installation and ceiling grid construction, with several workers actively engaged in these tasks using scaffolding. Numerous stacks of drywall sheets and other building materials are present, indicating ongoing supply and preparation for further construction.\n\n**QUALITY ISSUES**\n\nThere are visible gaps and inconsistencies in the drywall installation along the left wall, suggesting a need for closer attention to detail and potentially rework. The scaffolding appears to be hastily erected, with some bracing appearing incomplete or misaligned, which could compromise its stability.  The overall level of finish on the exposed surfaces is rough, which is expected at this stage but warrants monitoring to ensure it meets project specifications.\n\n**SAFETY ISSUES**\n\nSeveral workers are observed working at height on the scaffolding without visible fall protection harnesses or lanyards, posing a significant risk of falls.  The floor is littered with debris and materials, creating a tripping hazard for workers navigating the area.  Additionally, the proximity of stacked materials to the scaffolding base creates a potential for material collapse and injury.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5861.291167035233,
+          "structure_valid": true,
+          "rouge_l_ref": 0.194647201946472,
+          "bert_score_ref": 0.8694264888763428
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Ongoing work appears to involve the installation of drywall and a suspended ceiling grid system, with several workers actively engaged in these tasks.  Materials present include stacks of drywall sheets, ceiling tiles, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES:**\n\nThere are visible gaps and inconsistencies in the drywall installation along the left wall, suggesting a lack of precision or potentially inadequate framing.  The alignment of the ceiling grid appears slightly off in several areas, which could impact the aesthetic finish and potentially affect lighting or HVAC functionality.  The floor is covered in debris and material packaging, which will need to be cleaned up before flooring installation.\n\n**SAFETY ISSUES:**\n\nSeveral workers are working at height on scaffolding without visible fall protection harnesses or lanyards, posing a significant risk of falls.  The floor is littered with debris and materials, creating a substantial slip, trip, and fall hazard for all personnel on site.  There is a potential electrical hazard due to exposed wiring and conduit visible in the ceiling grid, requiring immediate attention and proper insulation.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5735.937850025948,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2028985507246377,
+          "bert_score_ref": 0.8708518147468567
+        },
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Ongoing work appears to involve the installation of drywall and a suspended ceiling grid system, with several workers actively engaged in these tasks.  Materials present include stacked drywall sheets, ceiling tiles, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES:**\n\nThere are visible gaps and inconsistencies in the drywall installation along the left wall, suggesting a lack of precision or potentially inadequate framing. The alignment of the ceiling grid appears slightly off in places, which could impact the aesthetic finish and potentially create issues with lighting or HVAC integration.  The floor is covered in debris and material packaging, which will need to be cleaned up to ensure a smooth and safe working environment.\n\n**SAFETY ISSUES:**\n\nSeveral workers are working at height on scaffolding without visible fall protection harnesses or lanyards, posing a significant risk of falls.  The floor is littered with debris and materials, creating a substantial slip, trip, and fall hazard throughout the entire workspace.  There is a potential for electrical hazards due to exposed wiring and the presence of electrical tools in close proximity to water and debris.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5781.805930018891,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20095693779904306,
+          "bert_score_ref": 0.871473491191864
+        }
+      ],
+      "avg_rouge_l_ref": 0.19950089682338426,
+      "avg_bert_score_ref": 0.8705839316050211,
+      "avg_consistency": 0.693943097697013,
+      "avg_latency_ms": 5793.011649026691
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Ongoing work appears to involve interior wall framing and drywall installation, with several workers visible engaged in these activities.  Materials present include drywall sheets, buckets of paint, lumber, and various tools scattered across the concrete floor.\n\n**QUALITY ISSUES**\n\nThere are visible gaps and inconsistencies in the drywall installation along the left wall, suggesting a lack of precision in the framing or installation process.  The exposed framing appears to be unevenly spaced in some areas, which could impact the final aesthetic and structural integrity of the walls.  The paint buckets are stacked precariously, indicating a potential lack of organization and proper material storage.\n\n**SAFETY ISSUES**\n\nMultiple extension cords are running across the floor, creating a significant tripping hazard for workers and potentially causing damage to the cords themselves.  There is a lack of clear demarcation or barriers around the work areas, increasing the risk of personnel walking into active construction zones.  The scattered tools and materials on the floor also contribute to a general hazard, increasing the likelihood of slips, trips, and falls.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6056.25013198005,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18097447795823665,
+          "bert_score_ref": 0.8673954606056213
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Ongoing work appears to involve drywall installation and finishing, with several workers actively engaged in this process.  Materials present include drywall sheets, buckets of paint, lumber, and various tools scattered across the concrete floor.\n\n**QUALITY ISSUES**\n\nThere are visible inconsistencies in the drywall installation, particularly around the edges of the walls and around the window opening, suggesting potential issues with alignment and joint compound application.  The lumber stacked near the window appears to be leaning and not properly secured, which could lead to instability and potential damage.  The paint buckets are stacked precariously, which could lead to spills and potential hazards.\n\n**SAFETY ISSUES**\n\nThe concrete floor is littered with debris, including tools, lumber scraps, and paint containers, creating a significant trip hazard throughout the entire workspace.  There is a lack of clear demarcation or barriers around the work areas, increasing the risk of workers or visitors entering hazardous zones.  The exposed electrical conduit and wiring overhead pose a potential electrocution hazard if not properly protected or insulated.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 5825.324665987864,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19158878504672897,
+          "bert_score_ref": 0.8694010376930237
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Ongoing work appears to involve drywall installation and finishing, with several workers actively engaged in this process, along with some paneling being installed on the right side of the image.  Materials present include drywall sheets, buckets of paint, tools, and various construction debris scattered across the concrete floor.\n\n**QUALITY ISSUES**\n\nThere are visible gaps and inconsistencies in the drywall installation along the left wall, suggesting a lack of precision in the fitting and alignment of the sheets.  The exposed ceiling grid shows some areas where insulation or other components may be missing or improperly installed, which could impact thermal performance.  The paint buckets are stacked precariously, indicating a potential for spills and mess.\n\n**SAFETY ISSUES**\n\nSeveral orange traffic cones are placed haphazardly, creating a tripping hazard for workers and potentially obstructing pathways.  There is a significant amount of debris and loose materials on the floor, which poses a slip and fall risk, particularly in the central area of the space.  The exposed electrical wiring and ductwork in the ceiling presents a potential electrocution hazard if not properly guarded or insulated.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5996.388819010463,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20956719817767655,
+          "bert_score_ref": 0.8741995692253113
+        }
+      ],
+      "avg_rouge_l_ref": 0.19404348706088073,
+      "avg_bert_score_ref": 0.8703320225079855,
+      "avg_consistency": 0.6208119580879564,
+      "avg_latency_ms": 5959.321205659459
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing work related to electrical and potentially HVAC systems.  There is significant scaffolding and material storage present, including lumber, drywall sheets, and electrical conduit, suggesting a phase of interior build-out.  The space appears to be divided into multiple rooms or zones, with some areas already having partial wall finishes.\n\n**QUALITY ISSUES**\n\nThe drywall installation appears inconsistent, with visible gaps and misalignments around the perimeter of the finished wall section on the right side of the image.  The electrical conduit runs appear somewhat haphazard, lacking a consistent routing or neatness, which could impact future maintenance.  There is a visible accumulation of dust and debris on the floor, indicating a lack of regular cleaning during construction.\n\n**SAFETY ISSUES**\n\nThe scaffolding appears to be inadequately secured, with some sections leaning and lacking proper bracing, posing a collapse risk.  There is a potential tripping hazard due to the scattered lumber and debris across the floor, particularly in the foreground.  The fire extinguisher is positioned in a location that could be obstructed by materials or workers, potentially hindering access in an emergency.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6162.054556014482,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21315192743764172,
+          "bert_score_ref": 0.865409255027771
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing electrical and drywall work.  There are visible sections of finished wood paneling on some walls, contrasting with unfinished concrete block walls and exposed ceiling structure.  Materials present include lumber, drywall sheets, electrical conduit, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThe exposed wood paneling appears to have inconsistent spacing between boards, suggesting a potential lack of precision during installation.  There are visible gaps and misalignments in the drywall framing, which could impact the final finish and potentially compromise the integrity of the wall.  The floor appears to have some debris and a slight unevenness, which could hinder the movement of workers and equipment.\n\n**SAFETY ISSUES**\n\nSeveral potential tripping hazards are present due to the scattered lumber, tools, and debris across the floor.  The scaffolding appears to be inadequately secured, posing a risk of collapse if bumped or overloaded.  There is a fire extinguisher visible, but its accessibility is obstructed by materials, potentially delaying response in an emergency.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5827.354679990094,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19294117647058825,
+          "bert_score_ref": 0.8664824366569519
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Ongoing work appears to involve the installation of electrical conduit and wiring, with a significant amount of exposed ductwork and unfinished walls.  Materials present include lumber, drywall sheets, scaffolding, and various tools, suggesting a phase of interior build-out.\n\n**QUALITY ISSUES**\n\nThere is a visible gap between the drywall and the wall framing on the right side of the image, indicating a potential lack of proper attachment or alignment during installation.  The lumber stacked on the scaffolding appears to be haphazardly arranged, which could lead to instability and difficulty in accessing materials.  The exposed electrical conduit appears to be loosely secured, which may lead to damage or misalignment during future work.\n\n**SAFETY ISSUES**\n\nThe scaffolding is positioned very close to the exposed electrical conduit, creating a risk of accidental contact and potential electrical shock.  There is a significant amount of debris and loose materials scattered across the floor, creating a tripping hazard for workers.  The lack of clear demarcation or barriers around the work area poses a risk of unauthorized personnel entering the zone and encountering hazards.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5983.623725012876,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1764705882352941,
+          "bert_score_ref": 0.8646707534790039
+        }
+      ],
+      "avg_rouge_l_ref": 0.1941878973811747,
+      "avg_bert_score_ref": 0.8655208150545756,
+      "avg_consistency": 0.4620006161737953,
+      "avg_latency_ms": 5991.010987005818
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with significant ongoing work.  There is extensive ductwork and piping installed overhead, suggesting HVAC or plumbing work is in progress, and drywall is partially installed on the walls. Workers are present, engaged in what appears to be drywall installation and material handling.\n\n**QUALITY ISSUES**\n\nThe drywall installation appears incomplete and potentially rushed, with visible gaps and inconsistencies in the joints.  There are several areas where the drywall is not flush with the framing, which will require additional work to achieve a smooth, professional finish.  The stacking of materials near the walls also appears disorganized, potentially hindering access and future work.\n\n**SAFETY ISSUES**\n\nSeveral safety concerns are evident, including a lack of proper fall protection for workers on the elevated platforms.  The floor is littered with debris and materials, creating a significant trip hazard throughout the entire workspace.  Additionally, the fire extinguisher is positioned in a location that is obstructed by materials, potentially hindering access in an emergency.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5793.681485985871,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20500000000000002,
+          "bert_score_ref": 0.8632574677467346
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with significant ongoing work.  There is evidence of HVAC ductwork installation, electrical conduit runs, and drywall framing, with some areas already finished with wood paneling. Two workers are visible, one operating a saw and the other appearing to be moving materials, amidst scattered construction debris and equipment.\n\n**QUALITY ISSUES**\n\nThe exposed drywall framing appears to have inconsistent spacing and alignment, potentially impacting the final finish and requiring rework.  There is a visible accumulation of dust and debris on the floor, which could affect the adhesion of any subsequent flooring materials.  The saw being operated by the worker appears to be positioned precariously close to stacked materials, which could lead to instability and potential damage.\n\n**SAFETY ISSUES**\n\nThe floor is littered with materials and equipment, creating a significant trip hazard for workers and potentially obstructing emergency egress routes.  The saw being operated is not adequately cord-managed, posing a potential entanglement or electrical hazard.  There is a lack of clear demarcation or barriers around the work area, increasing the risk of unauthorized personnel entering the active construction zone.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 5872.931909980252,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2132701421800948,
+          "bert_score_ref": 0.8603969812393188
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Significant mechanical, electrical, and plumbing (MEP) work is underway, with extensive ductwork and piping visible on the ceiling and walls.  Materials present include drywall sheets, metal studs, insulation, and various construction tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThere appears to be inconsistent drywall installation on the left wall, with some sections not properly aligned or secured.  The exposed metal stud framing shows some areas with visible gaps and potential inconsistencies in fastener spacing.  The overall condition of the floor is dusty and uneven, suggesting a need for thorough cleaning and potential leveling before subsequent flooring installation.\n\n**SAFETY ISSUES**\n\nSeveral traffic cones are positioned haphazardly, creating a potential tripping hazard for workers navigating the space.  The exposed electrical wiring and ductwork hanging from the ceiling pose a risk of entanglement or accidental contact.  There is a lack of clear demarcation of pedestrian walkways, increasing the risk of workers being struck by moving equipment.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5624.776622047648,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2155388471177945,
+          "bert_score_ref": 0.8640580177307129
+        }
+      ],
+      "avg_rouge_l_ref": 0.21126966309929643,
+      "avg_bert_score_ref": 0.8625708222389221,
+      "avg_consistency": 0.4213145530094842,
+      "avg_latency_ms": 5763.7966726712575
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Drywall installation is underway, with sections of wall completed and others awaiting work, and a significant amount of materials including drywall sheets, plaster, and insulation bags are present on the floor. Several workers are actively engaged in drywall hanging and finishing activities, utilizing scaffolding and ladders to reach higher areas.\n\n**QUALITY ISSUES**\n\nThere appears to be a significant amount of debris and material scattered across the floor, which could impact the final floor finish and potentially create trip hazards. The drywall seams visible on the completed sections of wall need to be carefully inspected for proper taping and mudding to ensure a smooth, even surface.  The exposed concrete floor shows a visible crack, which should be assessed and addressed to prevent further structural issues.\n\n**SAFETY ISSUES**\n\nMultiple orange traffic cones are present, but their placement seems inadequate to effectively cordon off work areas and prevent pedestrian access to active construction zones.  Workers are observed working at height on scaffolding without visible fall protection harnesses or guardrails, posing a risk of falls.  The presence of loose materials and debris on the floor creates a significant trip hazard for all personnel on site.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6287.470240960829,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20361990950226244,
+          "bert_score_ref": 0.870631754398346
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Drywall installation is actively underway, with several workers engaged in cutting and positioning panels, and a significant amount of material present on the floor.  The space is well-lit with temporary lighting fixtures suspended from a grid ceiling system, and there are multiple doorways and windows visible, indicating the building is nearing completion.\n\n**QUALITY ISSUES**\n\nThere appears to be a significant amount of debris and material scattered across the floor, which could impact the final floor finish and potentially contribute to dust issues. The drywall seams visible on the left wall appear to have inconsistent joint compound application, potentially leading to cracking or an uneven surface.  The exposed concrete floor shows a visible crack running across the center of the image, which should be assessed for structural integrity and potential repair.\n\n**SAFETY ISSUES**\n\nMultiple orange traffic cones are present, but appear to be insufficient to adequately cordon off areas of active work and potential hazards.  Workers are present in close proximity to each other and equipment, increasing the risk of collisions and injuries.  The exposed concrete floor presents a slip hazard due to dust and debris, and the crack could pose a trip hazard.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6128.229302994441,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18058690744920994,
+          "bert_score_ref": 0.8662245273590088
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or industrial building.  Drywall installation is actively underway, with several workers engaged in cutting and positioning panels, and scaffolding is present to facilitate the work at height.  Materials such as drywall sheets, cement bags, and scrap lumber are scattered throughout the area, indicating ongoing construction activity.\n\n**QUALITY ISSUES**\n\nThere appears to be a significant crack running across the concrete floor near the center of the image, which could impact the stability of the finished surface and require repair or leveling.  The drywall seams visible on the left wall appear uneven and may require additional taping and mudding to achieve a smooth, professional finish.  The exposed concrete floor has a rough texture and may require grinding or polishing to achieve the desired aesthetic.\n\n**SAFETY ISSUES**\n\nMultiple traffic cones are present, but their placement seems inadequate to effectively cordon off areas of work and prevent pedestrian access to hazards.  There is a potential trip hazard from the scattered materials and debris across the floor, particularly the large sheet of white material near the bottom center of the image.  Workers are present near the scaffolding, and a more robust fall protection system, such as guardrails or harnesses, should be implemented to mitigate the risk of falls from height.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6245.576441055164,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17660044150110374,
+          "bert_score_ref": 0.8672724366188049
+        }
+      ],
+      "avg_rouge_l_ref": 0.18693575281752536,
+      "avg_bert_score_ref": 0.8680429061253866,
+      "avg_consistency": 0.5447579540562751,
+      "avg_latency_ms": 6220.425328336812
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Work appears to be focused on drywall installation and ceiling grid construction, with materials like drywall sheets, metal studs, and ceiling tiles visible throughout the area. Several workers are present, engaged in activities including drywall handling, scaffolding setup, and what appears to be a discussion or inspection near the center of the room.\n\n**QUALITY ISSUES**\n\nThere is a visible gap between the drywall sheets on the left wall, which needs to be addressed to ensure proper sealing and prevent drafts or moisture intrusion. The exposed metal studs on the ceiling grid appear to have some inconsistencies in alignment, which may impact the final aesthetic and structural integrity.  The floor surface shows signs of unevenness and debris, which could hinder the installation of finished flooring.\n\n**SAFETY ISSUES**\n\nThe scaffolding on the left side of the image lacks proper guardrails, creating a fall hazard for workers accessing the elevated areas.  There is a potential tripping hazard due to the scattered materials and debris across the floor, particularly in the central area.  The lack of clear demarcation or barriers around the work zones increases the risk of accidental contact with equipment or materials for personnel not directly involved in the construction activities.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6159.401220967993,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20512820512820512,
+          "bert_score_ref": 0.8733528256416321
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Work appears to be focused on drywall installation and ceiling grid construction, with a scaffolding structure erected to facilitate this.  Materials present include drywall sheets, metal studs, ceiling grid components, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThere is visible damage to the drywall on the left wall, with a large section appearing cracked or partially broken. The exposed metal studs on the floor appear to be protruding and not properly secured, which could lead to tripping hazards and potential damage.  The alignment of the ceiling grid appears slightly inconsistent in places, requiring further assessment and potential adjustment.\n\n**SAFETY ISSUES**\n\nThe scaffolding structure lacks proper guardrails or toe boards, creating a fall hazard for workers.  Debris and loose materials are scattered across the floor, posing a significant tripping hazard throughout the entire workspace.  There is a lack of clear demarcation or barriers around the work area, potentially exposing other workers to falling materials or equipment.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 5559.258589986712,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2467866323907455,
+          "bert_score_ref": 0.8739360570907593
+        },
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Work appears to be focused on drywall installation and ceiling grid construction, with a scaffolding platform erected to facilitate this.  Materials present include drywall sheets, metal studs, ceiling grid components, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThere are visible gaps and inconsistencies in the drywall installation around the window opening, suggesting a need for refinement and patching. The alignment of the metal studs in the ceiling grid appears slightly off in places, which could impact the final aesthetic and structural integrity.  The floor surface is uneven with debris, which may hinder the installation of flooring and create a tripping hazard.\n\n**SAFETY ISSUES**\n\nThe scaffolding platform lacks guardrails or toe boards, creating a fall hazard for workers on the elevated platform.  Debris and loose materials are scattered across the floor, posing a significant tripping hazard for all personnel in the area.  There is a potential electrical hazard from the exposed wiring and lighting fixtures, which should be properly covered or secured.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5623.968772997614,
+          "structure_valid": true,
+          "rouge_l_ref": 0.25380710659898476,
+          "bert_score_ref": 0.8765108585357666
+        }
+      ],
+      "avg_rouge_l_ref": 0.2352406480393118,
+      "avg_bert_score_ref": 0.8745999137560526,
+      "avg_consistency": 0.5918825432375264,
+      "avg_latency_ms": 5780.876194650773
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building.  Significant ongoing work is visible, including exposed HVAC ductwork, electrical conduit, and unfinished drywall on the walls and ceiling.  Several workers are present, engaged in tasks such as installing drywall and working on electrical systems, with materials like drywall sheets, lumber, and electrical wiring scattered throughout the area.\n\n**QUALITY ISSUES**\n\nThere appears to be a lack of consistent surface preparation on the drywall, with some areas showing visible patching and unevenness.  The exposed electrical conduit seems to be loosely secured in places, potentially leading to future issues with vibration and damage.  The drywall joint compound application appears inconsistent, with some areas appearing thick and others thin.\n\n**SAFETY ISSUES**\n\nMultiple traffic cones are scattered throughout the workspace, but their placement doesn't seem to effectively control pedestrian flow around work areas.  The boom lift is positioned near a pile of materials, creating a potential obstruction and hazard for workers moving through the area.  There is a visible hard hat on the floor, indicating a potential lack of adherence to personal protective equipment (PPE) requirements.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6153.47317000851,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1769041769041769,
+          "bert_score_ref": 0.8662651181221008
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building.  Significant work is underway, including what appears to be HVAC ductwork installation and drywall framing, with materials like insulation and lumber visible. Several workers are present, engaged in various tasks, and the floor is covered in debris and construction materials.\n\n**QUALITY ISSUES**\n\nThe drywall framing appears to be inconsistent in its straightness and alignment, particularly visible on the left wall, which may require correction to ensure a smooth, even finish.  There is a noticeable amount of debris and dust accumulation on the floor and surfaces, indicating a need for more frequent cleaning to maintain a tidy workspace.  The exposed ductwork shows some areas with incomplete insulation, which could impact the system's efficiency.\n\n**SAFETY ISSUES**\n\nMultiple traffic cones are scattered throughout the space, but their placement doesn't seem to adequately delineate walkways or hazardous areas, increasing the risk of trips and falls.  The boom lift is positioned close to stacked materials, creating a potential instability hazard if the materials were to shift or fall.  Workers are present without clear visibility of personal protective equipment (PPE) usage, which requires immediate attention to ensure compliance with safety protocols.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or focus on a specific area of concern.",
+          "latency_ms": 6149.641640018672,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17061611374407584,
+          "bert_score_ref": 0.8685193657875061
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building.  Significant work is underway, including the installation of HVAC ductwork and electrical conduit across the ceiling, with drywall partially installed on the walls.  Materials present include drywall sheets, insulation, lumber, and various tools, with workers visible engaged in construction activities.\n\n**QUALITY ISSUES**\n\nThere appears to be inconsistent drywall installation on the left wall, with gaps and misaligned edges visible.  The exposed insulation on the ceiling shows some areas where it may not be fully compressed or properly secured.  The lumber stacked near the right wall appears to be piled in an unstable manner, potentially indicating a lack of proper storage practices.\n\n**SAFETY ISSUES**\n\nMultiple traffic cones are scattered throughout the workspace, indicating a potential hazard for foot traffic and a lack of clearly defined walkways.  The boom lift positioned on the left side of the image appears to be positioned on an uneven surface, which could compromise its stability.  Workers are visible in the image without full personal protective equipment (PPE), specifically lacking visible eye protection.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 5880.221839004662,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18000000000000002,
+          "bert_score_ref": 0.8627791404724121
+        }
+      ],
+      "avg_rouge_l_ref": 0.17584009688275093,
+      "avg_bert_score_ref": 0.865854541460673,
+      "avg_consistency": 0.48190466361356876,
+      "avg_latency_ms": 6061.112216343948
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**REPORT: Construction Site Inspection**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building.  Ongoing work appears to involve the installation of HVAC ductwork and electrical wiring, with visible scaffolding and materials scattered throughout the area.  Workers are present, engaged in what appears to be ductwork assembly and placement.\n\n**QUALITY ISSUES:**\n\nThere is a significant accumulation of debris (cardboard, insulation) on the floor, indicating a lack of housekeeping and potentially impacting the quality of subsequent flooring installation.  The exposed wooden paneling on the walls shows some inconsistencies in alignment and finish, suggesting a need for closer attention to detail during installation.  The exposed conduit and wiring appear to be loosely secured, which could lead to damage or dislodgement during future work.\n\n**SAFETY ISSUES:**\n\nThe floor is covered in loose debris, creating a significant slip and trip hazard for workers and potentially obstructing access to work areas.  Several orange traffic cones are present, but their placement doesn't adequately cordon off all hazardous areas, particularly around the scaffolding and exposed ductwork.  The lack of clear demarcation of pedestrian walkways and work zones increases the risk of collisions between workers and equipment.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6258.84619198041,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19178082191780824,
+          "bert_score_ref": 0.8625171780586243
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**REPORT: Construction Site Inspection**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building. Ongoing work appears to involve the installation of ductwork and HVAC systems, with visible piping and metal framing across the ceiling.  Materials present include drywall scraps, insulation, electrical conduit, and various construction tools and equipment scattered throughout the area.\n\n**QUALITY ISSUES:**\n\nThere is a significant accumulation of debris (drywall, insulation) on the floor, which could impede movement and potentially damage newly installed flooring if it were present. The exposed wooden paneling on the walls appears to have some inconsistencies in the alignment and finish, requiring closer inspection and potential remediation.  The exposed electrical conduit and wiring lack proper labeling and organization, which could complicate future maintenance and troubleshooting.\n\n**SAFETY ISSUES:**\n\nThe floor is covered in loose debris, creating a slip hazard for workers and potentially obstructing access to emergency exits.  There are several orange traffic cones positioned haphazardly, suggesting a potential hazard area that isn't clearly defined or marked.  The exposed electrical wiring and ductwork present a risk of accidental contact and potential electrical shock if not properly guarded or insulated.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or focus on a specific area of concern.",
+          "latency_ms": 6003.464268986136,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18850574712643678,
+          "bert_score_ref": 0.866705596446991
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**REPORT: Construction Site Inspection**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or office building. Ongoing work appears to involve the installation of ductwork and HVAC systems, with visible piping and metal framing throughout the ceiling.  There are workers present, engaged in what appears to be material handling and potentially some installation tasks, and a significant amount of construction debris is scattered across the floor.\n\n**QUALITY ISSUES:**\n\nThe exposed wooden paneling on the walls shows some inconsistencies in alignment and potential gaps, which may require further attention to ensure a uniform finish.  There is a pile of what appears to be insulation material stacked precariously near the wall, which could indicate improper storage or handling.  The exposed conduit and wiring on the ceiling appear to lack proper labeling or organization, potentially complicating future maintenance.\n\n**SAFETY ISSUES:**\n\nThe floor is covered in loose debris, creating a significant slip and trip hazard for workers and anyone traversing the area.  There are several orange traffic cones placed haphazardly, which do not effectively delineate safe pathways and could be easily knocked over.  The exposed electrical wiring and ductwork present a potential electrocution hazard if not properly guarded or insulated.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6031.18175198324,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18181818181818182,
+          "bert_score_ref": 0.8647258281707764
+        }
+      ],
+      "avg_rouge_l_ref": 0.1873682502874756,
+      "avg_bert_score_ref": 0.8646495342254639,
+      "avg_consistency": 0.6034717823380398,
+      "avg_latency_ms": 6097.830737649929
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE:**\n\nThe image depicts an interior space under construction, likely a large room or hall.  Work appears to be focused on installing what looks like a raised flooring system and reinforcing steel for a concrete slab, with drywall framing already in place on the walls. Several workers are present, engaged in various tasks related to the flooring and rebar installation.\n\n**QUALITY ISSUES:**\n\nThe drywall framing appears to have inconsistent spacing and alignment, particularly visible on the left wall, which may impact the final finish and structural integrity.  There is a significant amount of debris (small pieces of rebar, wire, and dust) scattered across the floor, which could hinder the installation of the raised flooring system and create a tripping hazard.  The rebar placement appears somewhat haphazard, potentially requiring adjustments to ensure proper concrete coverage and load distribution.\n\n**SAFETY ISSUES:**\n\nSeveral workers are not wearing appropriate footwear, with some appearing to be in open-toed shoes, which poses a risk of injury from dropped materials or sharp objects on the floor.  There is a lack of clear demarcation or barriers around the work area, increasing the risk of unauthorized personnel entering and potentially being injured by falling materials or equipment.  Loose pieces of rebar and wire are scattered across the floor, creating a significant tripping hazard for all personnel on site.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6586.620146990754,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21551724137931033,
+          "bert_score_ref": 0.8636266589164734
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts an interior space under construction, likely a large room or hall.  Work appears to be focused on installing rebar for a concrete slab, with several workers actively engaged in positioning and securing the reinforcement.  Drywall framing is visible on the walls, indicating that interior finishing is progressing alongside the structural work.\n\n**QUALITY ISSUES**\n\nThe rebar placement appears somewhat haphazard, with inconsistent spacing and potential for inadequate overlap at joints.  The drywall framing shows some inconsistencies in alignment and screw placement, which could impact the final finish and require rework.  There is a significant amount of debris (small pieces of rebar, wire, and dust) scattered across the floor, which could hinder work and create a tripping hazard.\n\n**SAFETY ISSUES**\n\nSeveral workers are not wearing appropriate footwear, with some appearing to be in open-toed shoes, which poses a risk of foot injury from dropped materials or sharp objects.  The exposed rebar presents a laceration hazard, and the lack of clear demarcation or barriers around the work area increases the risk of accidental contact.  There is a loose cable lying on the floor, creating a tripping hazard and potential electrical risk.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6197.14046100853,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2105263157894737,
+          "bert_score_ref": 0.8673835396766663
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE:**\n\nThe image depicts an interior space under construction, likely a large room or hall.  Work appears to be focused on installing what looks like a raised flooring system and reinforcing steel for a concrete slab, with drywall framing already in place on the walls. Several workers are present, engaged in various tasks related to the flooring and rebar installation.\n\n**QUALITY ISSUES:**\n\nThe rebar placement appears somewhat haphazard and disorganized, potentially leading to issues with concrete flow and consolidation during the pour.  There's a visible accumulation of debris (small pieces of rebar, wire, and other materials) scattered across the floor, which could impact the final floor finish.  The drywall framing appears to have some inconsistencies in alignment and spacing, which may affect the final appearance and structural integrity of the walls.\n\n**SAFETY ISSUES:**\n\nThere is a significant tripping hazard due to the loose debris and exposed rebar scattered across the floor.  The workers are wearing appropriate PPE (helmets, high-visibility vests), but the lack of clear demarcation or barriers around the work area poses a risk of unauthorized personnel entering the zone.  The exposed electrical cable on the floor near the bottom left of the image presents an electrocution hazard and needs to be secured or covered immediately.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6337.990604981314,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20309050772626933,
+          "bert_score_ref": 0.8671056628227234
+        }
+      ],
+      "avg_rouge_l_ref": 0.20971135496501778,
+      "avg_bert_score_ref": 0.8660386204719543,
+      "avg_consistency": 0.6029937962884853,
+      "avg_latency_ms": 6373.917070993532
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or institutional building.  Significant work is underway, primarily involving the installation of suspended ceiling grids and drywall, with visible scaffolding and materials scattered throughout the area. Two workers are present, one near the entrance and another working on the ceiling grid system.\n\n**QUALITY ISSUES:**\n\nThe drywall seams appear uneven in several locations, particularly visible on the wall near the center of the image, suggesting potential issues with taping and mudding.  The alignment of the ceiling grid sections does not appear perfectly consistent, which could impact the final aesthetic and potentially create issues with lighting or HVAC integration.  There is a visible gap between the drywall and the floor near the right side of the image, which needs to be addressed to ensure proper sealing and prevent drafts.\n\n**SAFETY ISSUES:**\n\nThere is a significant amount of debris and loose materials on the floor, creating a slip and trip hazard throughout the workspace.  The scaffolding appears to be inadequately secured, with no visible guardrails or toe boards, posing a fall risk for workers.  The electrical cords running across the floor are a potential tripping hazard and should be properly managed with cable protectors or raised pathways.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6360.099560988601,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21192052980132448,
+          "bert_score_ref": 0.8651518225669861
+        },
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Ongoing work appears to be focused on installing suspended ceiling grids and drywall, with significant amounts of metal stud framing visible on the floor and walls.  Workers are present, engaged in drywall installation and material handling, and the space is cluttered with construction materials and equipment.\n\n**QUALITY ISSUES:**\n\nThere are visible gaps and inconsistencies in the drywall installation along the walls, particularly near the center of the image, suggesting a need for closer attention to alignment and fitting. The exposed metal studs on the floor appear to be poorly organized, potentially creating tripping hazards and hindering workflow.  The ceiling grid installation also appears to have some inconsistencies in alignment, requiring further review and correction.\n\n**SAFETY ISSUES:**\n\nSeveral potential safety hazards are present, including loose debris and materials scattered across the floor, creating a significant tripping hazard throughout the workspace.  The lack of proper barricades or signage around the exposed metal studs and drywall framing poses a risk of injury to workers and visitors.  Workers are observed working at height without visible fall protection, which is a serious concern given the scaffolding and ceiling grid work being performed.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6148.6542070051655,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22271714922049,
+          "bert_score_ref": 0.871288001537323
+        },
+        {
+          "text": "Okay, here's a construction site inspection report based on the provided panoramic image, adhering to your instructions.\n\n**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Significant work is underway, primarily involving the installation of suspended ceiling grids and drywall, with materials like metal studs, drywall sheets, and electrical conduit visible throughout the space. Two workers are present, one near the entrance and another working on the ceiling grid system.\n\n**QUALITY ISSUES:**\n\nThe drywall seams appear to have inconsistent joint compound application, with some areas showing visible ridges and unevenness.  The alignment of the suspended ceiling grid appears slightly off in places, suggesting a potential lack of precision during installation.  There is a visible gap between the drywall and the floor near the center of the image, which needs to be addressed to ensure proper sealing and prevent drafts.\n\n**SAFETY ISSUES:**\n\nThere are multiple tripping hazards present due to scattered materials, including metal studs and debris, across the floor.  The worker on the ceiling grid is not wearing adequate fall protection, given the height and potential for a fall.  The lack of clear demarcation and barriers around the work area poses a risk of unauthorized personnel entering the construction zone.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 6057.35498300055,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2018348623853211,
+          "bert_score_ref": 0.8650783896446228
+        }
+      ],
+      "avg_rouge_l_ref": 0.21215751380237852,
+      "avg_bert_score_ref": 0.8671727379163107,
+      "avg_consistency": 0.5230809920229738,
+      "avg_latency_ms": 6188.702916998106
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing drywall installation and HVAC work.  Multiple workers are present, engaged in various tasks including drywall hanging, scaffolding erection, and what appears to be electrical conduit installation.  Materials visible include drywall sheets, lumber, scaffolding components, and various electrical wiring and conduit.\n\n**QUALITY ISSUES**\n\nThere appears to be inconsistent drywall installation, with some sections showing gaps or misaligned edges near the center of the image. The lumber used for temporary bracing and scaffolding seems to be of varying quality and thickness, potentially impacting stability.  The exposed electrical conduit on the ceiling lacks proper support and appears loosely routed, which could lead to damage or dislodgement.\n\n**SAFETY ISSUES**\n\nSeveral safety concerns are apparent, including a lack of proper fall protection for workers on the scaffolding, particularly those on the right side of the image.  Loose electrical wiring and conduit on the floor present a tripping hazard and potential electrical shock risk throughout the workspace.  The accumulation of debris and dust on the floor creates a slip hazard and obstructs clear pathways.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6085.500222980045,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21182266009852216,
+          "bert_score_ref": 0.8682486414909363
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, adhering to your instructions.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing drywall installation and HVAC work. Several workers are present, engaged in various tasks including drywall hanging, scaffolding erection, and what appears to be electrical conduit installation. Materials visible include drywall sheets, lumber, scaffolding components, and electrical wiring, with a general appearance of a space in the middle of a significant construction phase.\n\n**QUALITY ISSUES**\n\nThere appears to be inconsistent drywall installation, with some sections showing gaps or misaligned edges near the left wall. The lumber used for temporary bracing and scaffolding seems to be of varying quality and thickness, potentially impacting structural stability.  The exposed electrical conduit on the ceiling lacks proper support and appears loosely routed, which could lead to damage or dislodgement.\n\n**SAFETY ISSUES**\n\nSeveral workers are observed working at height without adequate fall protection, particularly those on the scaffolding and near the ceiling. Loose electrical wiring and cables are strewn across the floor, creating a significant tripping hazard throughout the workspace.  The scaffolding appears to be inadequately braced and secured, posing a risk of collapse if not properly stabilized.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 5896.64014801383,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18137254901960784,
+          "bert_score_ref": 0.8672810196876526
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts an interior construction site, likely a commercial space, with ongoing drywall and HVAC installation work.  Multiple workers are present, engaged in various tasks including drywall hanging, scaffolding erection, and what appears to be HVAC ductwork installation.  Materials visible include drywall sheets, lumber, insulation, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThere appears to be inconsistent drywall installation along the left wall, with visible gaps and misaligned edges. The lumber used for temporary bracing appears to be of varying quality and thickness, potentially impacting the stability of the drywall installation.  The exposed insulation on the floor near the center of the image suggests a potential for material waste and possible damage.\n\n**SAFETY ISSUES**\n\nSeveral safety concerns are evident, including a significant amount of debris and loose materials on the floor, creating a tripping hazard throughout the workspace.  The scaffolding on the right side appears to be inadequately secured and lacks proper guardrails, posing a fall risk for workers.  Additionally, electrical wiring is exposed and unsecured in multiple locations, presenting an electrocution hazard.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 5899.858977994882,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20347394540942929,
+          "bert_score_ref": 0.8696867823600769
+        }
+      ],
+      "avg_rouge_l_ref": 0.1988897181758531,
+      "avg_bert_score_ref": 0.8684054811795553,
+      "avg_consistency": 0.6809299615805944,
+      "avg_latency_ms": 5960.666449662919
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Ongoing work appears to involve the installation of HVAC ductwork and electrical wiring, with several workers actively engaged in these tasks.  Materials present include drywall sheets, insulation, ductwork components, electrical conduit, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThere is a significant amount of debris and material cluttering the floor, which could impede movement and potentially damage newly installed components.  The drywall seams appear to be unfinished, indicating a lack of attention to detail in the initial installation phase.  The exposed insulation on the walls also suggests a need for proper covering and finishing to meet building standards.\n\n**SAFETY ISSUES**\n\nMultiple workers are working at height on ladders and scaffolding without apparent fall protection, creating a risk of serious injury.  The floor is covered in loose materials and debris, presenting a significant slip, trip, and fall hazard for all personnel on site.  Several electrical cables are lying on the floor, posing a potential electrocution risk if stepped on or damaged.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6117.584677005652,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21153846153846156,
+          "bert_score_ref": 0.8686091303825378
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Ongoing work appears to involve the installation of HVAC ductwork and electrical conduit, with several workers actively engaged in these tasks.  Materials present include drywall sheets, insulation, metal ductwork, electrical wiring, and various tools and equipment scattered across the floor.\n\n**QUALITY ISSUES**\n\nThere is a significant amount of debris and material waste scattered across the floor, which could impede movement and potentially damage newly installed components.  The drywall seams appear to be poorly taped and mudded in several areas, indicating a need for additional finishing work.  The insulation appears to be loosely installed in some areas, potentially compromising its thermal performance.\n\n**SAFETY ISSUES**\n\nMultiple workers are working at height without adequate fall protection, specifically on the ladders and scaffolding, posing a significant risk of injury.  The floor is cluttered with materials and tools, creating a tripping hazard for workers and potentially obstructing emergency egress routes.  There is a lack of clear demarcation or barriers around the work areas, increasing the risk of accidental contact with equipment or materials.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze a different image!",
+          "latency_ms": 5978.05148496991,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20574162679425836,
+          "bert_score_ref": 0.8691816926002502
+        },
+        {
+          "text": "Okay, here's a detailed inspection report based on the provided panoramic image, broken down into the requested sections.\n\n**SCENE**\n\nThe image depicts a large, unfinished interior space, likely a commercial or public building.  Significant electrical and HVAC work is underway, with exposed ductwork and wiring visible across the ceiling and walls.  Multiple workers are present, engaged in various tasks including electrical installation, drywall work, and general construction activities, with materials like drywall sheets, electrical conduit, and tools scattered throughout the area.\n\n**QUALITY ISSUES**\n\nThere appears to be a significant amount of debris and construction waste accumulating on the floor, which could hinder movement and potentially damage newly installed materials.  The drywall installation on the left wall shows some inconsistencies in joint alignment and potential gaps, which will require attention during finishing.  The exposed electrical conduit and wiring lack proper labeling and organization, which could complicate future maintenance and troubleshooting.\n\n**SAFETY ISSUES**\n\nSeveral safety hazards are apparent, including multiple tripping hazards from scattered materials and debris across the floor.  The red ladder is positioned precariously close to an open edge, posing a fall risk if not properly secured or used with appropriate fall protection.  Workers are present in the area without adequate personal protective equipment (PPE), specifically eye protection and potentially hearing protection given the likely noise levels from power tools.\n\n\n\nLet me know if you'd like me to elaborate on any of these points or analyze other aspects of the image!",
+          "latency_ms": 6242.018202028703,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19134396355353073,
+          "bert_score_ref": 0.8698968887329102
+        }
+      ],
+      "avg_rouge_l_ref": 0.20287468396208355,
+      "avg_bert_score_ref": 0.869229237238566,
+      "avg_consistency": 0.5439454378024302,
+      "avg_latency_ms": 6112.551454668089
+    }
+  ]
+}

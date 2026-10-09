@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "gemma3:4b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.19210230921432883,
+    "bert_score_ref_mean": 0.8662961761156718,
+    "consistency_mean": 0.5023373816000385,
+    "latency_p50_ms": 4166.033771005459,
+    "latency_p95_ms": 5144.88638099283
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior room undergoing drywall installation. Workers are actively applying drywall to the walls and ceiling, with several sections already covered in a white, textured finish. Equipment includes scaffolding, ladders, and a variety of hand tools, suggesting a significant portion of the interior is in the process of being completed. \n\nThe overall condition of the space is one of active construction, with a focus on the installation of the drywall.  Several workers are present, engaged in applying the drywall material and securing it to the framing.  The room is illuminated by overhead lighting, contributing to the ongoing work. \n\nThe floor is covered in a light grey material, likely a protective covering, and the walls are entirely covered in drywall.  A doorway is visible on the left side of the image, and a small storage container is positioned near the scaffolding. \n\n**QUALITY ISSUES:**\n\nThe drywall application appears uneven in several areas, particularly along the edges of the ceiling. There are noticeable gaps between the drywall sheets and the framing members in the upper right section of the image.  The seams between the drywall panels are not consistently straight, with some misalignment visible near the center of the image. \n\nThe scaffolding support beams exhibit a slight deviation from a perfectly straight line, creating a visual distortion.  The metal supports are not perfectly aligned, creating a noticeable visual anomaly.  The overall finish of the drywall is not uniform, with some areas appearing slightly rough. \n\nThere is a noticeable gap between the drywall and the base of the wall on the right side of the image. This gap suggests a potential issue with the installation process and requires further inspection. \n\n**SAFETY ISSUES:**\n\nFall Hazard: Workers are utilizing scaffolding, and there is no visible guardrail on the scaffolding. This poses a risk of falls for workers operating at elevated heights. \n\nTrip Hazard: Orange cones are placed on the floor, creating a potential trip hazard for workers moving around the construction site.  These cones are located near the scaffolding and the doorway. \n\nPPE: Workers are wearing hard hats, but there is no visible use of safety glasses or other protective equipment.  This suggests a potential lack of adherence to PPE requirements. \n\nWorker Risk: Workers are operating near the scaffolding, increasing the risk of collision or accidental contact.  The workers are positioned close to the scaffolding supports, creating a potential hazard.",
+          "latency_ms": 3004.728511965368,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1895093062605753,
+          "bert_score_ref": 0.8659888505935669
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior construction area, likely a warehouse or industrial building, with walls and ceilings covered in freshly applied drywall. Workers are actively engaged in installing drywall, with several individuals visible applying joint compound and taping seams. Equipment includes scaffolding, a ladder, and several hand tools, suggesting ongoing work on the interior finishing.\n\n**QUALITY ISSUES:**\n\nThe drywall seams in the foreground exhibit uneven joints, with some areas lacking proper taping and compound application. The scaffolding appears to be slightly misaligned, with one support beam positioned at an angle relative to the adjacent structure. There is a noticeable gap between the drywall and the ceiling, particularly near the center of the image, indicating a potential issue with the ceiling installation.\n\n**SAFETY ISSUES:**\n\nA worker is positioned on a ladder near the scaffolding, presenting a potential fall hazard due to the elevated height. The scaffolding itself poses a trip hazard due to the exposed cross bracing and the potential for workers to inadvertently step on the supports. Workers are not wearing appropriate Personal Protective Equipment (PPE), specifically hard hats, which increases the risk of head injury.",
+          "latency_ms": 1571.3343719835393,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19473684210526315,
+          "bert_score_ref": 0.8717992305755615
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior construction area, likely a warehouse or industrial building, with walls and ceilings finished in white drywall. Workers are actively engaged in installing drywall on the walls and ceiling, with several individuals visible using hand tools and applying joint compound.  Equipment includes scaffolding, ladders, and a small utility cart positioned near the entrance, suggesting ongoing work on the interior fit-out.\n\n**QUALITY ISSUES:**\n\nThe drywall seams along the ceiling are uneven and lack consistent joint compound application, particularly visible in the upper-right section of the image.  The scaffolding appears to be slightly misaligned, with one support beam angled outward, creating a visual distortion.  There is a noticeable gap between the drywall and the ceiling support structure in the upper-left corner.\n\n**SAFETY ISSUES:**\n\nA worker is using a ladder without a guardrail, posing a potential fall hazard in the lower-right section of the image.  A worker is standing on the scaffolding without appropriate fall protection, presenting a fall risk.  Several workers are not wearing high-visibility vests, reducing their visibility within the construction zone.",
+          "latency_ms": 1574.9777660239488,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21390374331550804,
+          "bert_score_ref": 0.8773865699768066
+        }
+      ],
+      "avg_rouge_l_ref": 0.1993832972271155,
+      "avg_bert_score_ref": 0.8717248837153116,
+      "avg_consistency": 0.39429218400689603,
+      "avg_latency_ms": 2050.3468833242855
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:** \nThe space appears to be a large, interior room undergoing final finishing work.  Workers are actively applying a white coating to the walls and ceiling, indicating the project is nearing completion.  The room is furnished with a grey countertop along the right wall, and a metal support structure dominates the center of the space. \n\n**QUALITY ISSUES:** \nThere is a noticeable area on the left wall where the white coating is uneven and patchy, approximately 1.5 meters from the floor.  The countertop along the right wall has a visible seam running down its center, approximately 1 meter in length.  A section of the floor near the support structure shows a slight discoloration, approximately 0.8 meters in diameter. \n\n**SAFETY ISSUES:** \nA worker wearing a yellow vest is standing on a section of the floor near the support structure, potentially creating a trip hazard.  A stack of wooden planks is positioned directly in front of the support structure, posing a potential trip hazard.  One worker is not wearing a high-visibility vest, increasing the risk of being difficult to see in the workspace.",
+          "latency_ms": 1823.7303500063717,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19240506329113924,
+          "bert_score_ref": 0.8537863492965698
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:**\n\nThe space appears to be a large, interior room under construction, with a predominantly white, smooth floor and ceiling.  A significant portion of the walls are covered in drywall, with some areas still exposed and awaiting finishing.  A scaffolding structure dominates the foreground, supporting workers engaged in various tasks, including the installation of a window. \n\n**QUALITY ISSUES:**\n\nOn the right wall, the drywall application appears uneven, with noticeable gaps between the sheets and the surrounding wall.  A section of the floor near the window shows a raised area, likely due to an uneven application of the floor covering material.  The exposed framing on the left wall has several gaps between the studs, suggesting inadequate fastening or installation. \n\n**SAFETY ISSUES:**\n\nA worker wearing a yellow vest is standing on a section of the scaffolding, potentially creating a fall hazard.  The scaffolding itself appears to be unstable, with some supports not fully secured, posing a potential trip hazard.  Several workers are wearing high-visibility vests, but one worker is not wearing any protective equipment. \n\n---",
+          "latency_ms": 1637.665111979004,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18701298701298702,
+          "bert_score_ref": 0.8643933534622192
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work.  Workers are actively applying a white coating to the walls and ceiling, indicating the project is nearing completion.  The room is dominated by a large window and a central counter area constructed of grey stone-like material, with wooden planks visible along the floor. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable area on the left wall where the white coating is uneven and appears to have been applied too thickly.  The wooden planks along the floor show some gaps between them, particularly near the window, suggesting inadequate spacing.  Additionally, the countertop has several visible seams and uneven edges where the stone-like material is joined. \n\n**SAFETY ISSUES:**\n\nA worker wearing a yellow vest is standing on a section of the scaffolding, potentially creating a fall hazard.  The scaffolding itself appears to be in a precarious position, with one of the support legs not fully extended, posing a potential instability risk.  Several workers are wearing high-visibility vests, but one worker is not wearing any protective equipment.",
+          "latency_ms": 1647.4457259755582,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17902813299232734,
+          "bert_score_ref": 0.8561038970947266
+        }
+      ],
+      "avg_rouge_l_ref": 0.18614872776548452,
+      "avg_bert_score_ref": 0.8580945332845052,
+      "avg_consistency": 0.5196876405757985,
+      "avg_latency_ms": 1702.9470626536447
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior room in the early stages of construction. The floor is covered with plywood sheeting, and the walls are largely unfinished with exposed ceiling framing. Several workers are present, some are positioned around the scaffolding, while others are observing the work. \n\nThe ceiling is partially completed with exposed ductwork and a suspended grid system.  Scaffolding is erected around the perimeter of the room, providing access to the ceiling and walls.  There are several yellow warning signs visible on the floor. \n\nThe overall condition suggests a building undergoing interior finishing, with significant work remaining on the walls and ceiling. \n\n**QUALITY ISSUES:**\n\nThere appears to be a small section of exposed drywall on the left wall, approximately 1.5 meters from the floor, where the drywall has not been properly attached to the framing.  The exposed framing is visible along the ceiling, with some gaps between the ceiling grid and the wall framing.  The plywood flooring shows some minor scratches and damage in several areas. \n\nThe suspended ceiling grid shows some misalignment in the upper right quadrant, with some of the ceiling tiles not fully seated.  The edges of the plywood flooring are not consistently finished, with some areas having exposed edges.  There is a noticeable gap between the ceiling grid and the wall framing near the right-hand corner. \n\n**SAFETY ISSUES:**\n\nA worker is standing on the scaffolding near the center of the room, posing a potential fall hazard.  The worker is not wearing a safety harness, increasing the risk of injury if they lose their balance.  There is a trip hazard presented by the exposed plywood sheeting in the center of the room. \n\nSeveral workers are operating near the scaffolding, creating a potential trip hazard for those working below.  Workers are not wearing appropriate Personal Protective Equipment (PPE) such as hard hats, increasing the risk of head injury.  The exposed electrical wiring in the ceiling presents an electrical hazard to anyone working near it.",
+          "latency_ms": 5073.739217012189,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2031523642732049,
+          "bert_score_ref": 0.8663750886917114
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior room in the early stages of construction. The floor is covered with plywood sheeting, and the walls are largely unfinished with exposed ceiling framing. Several workers are present, some are operating equipment and others are involved in installing ceiling tiles and wiring. \n\n**QUALITY ISSUES:**\n\nThere are several exposed ceiling wires visible running across the ceiling, some appear to be loosely connected. The ceiling tiles are not fully installed, with gaps between the tiles and the framing, particularly near the right side of the image.  The plywood flooring has several exposed fasteners, some of which are protruding slightly above the surface. \n\n**SAFETY ISSUES:**\n\nA worker is standing on a rolling scaffold, which is positioned close to the edge of the plywood flooring. This presents a potential trip hazard for the worker and anyone passing by.  Several workers are not wearing high-visibility vests, making them less visible to equipment operators and other personnel.  There is a loose cable running across the floor near the center of the image, posing a potential electrical hazard.",
+          "latency_ms": 3942.00672802981,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2333333333333333,
+          "bert_score_ref": 0.8745145797729492
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior room in the early stages of construction. The floor is covered with plywood sheeting, and the walls are largely unfinished with exposed ceiling framing. Several workers are present, some are positioned on scaffolding while others are working on the ceiling installation, suggesting ongoing drywall and ceiling work. \n\n**QUALITY ISSUES:**\n\nThere appears to be a section of exposed ceiling framing near the right side of the image where the drywall has not been fully applied. Additionally, the ceiling gridwork shows some gaps between the metal supports, particularly in the central area. The plywood flooring exhibits several visible seams and uneven edges along the perimeter. \n\n**SAFETY ISSUES:**\n\nA worker is positioned on a section of scaffolding near the center of the image, presenting a potential fall hazard. Several workers are wearing high-visibility vests, but there is no visible Personal Protective Equipment (PPE) such as hard hats. The open plywood flooring presents a potential trip hazard for workers and visitors.",
+          "latency_ms": 3908.073113008868,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21182266009852216,
+          "bert_score_ref": 0.8757295608520508
+        }
+      ],
+      "avg_rouge_l_ref": 0.2161027859016868,
+      "avg_bert_score_ref": 0.8722064097722372,
+      "avg_consistency": 0.46538392558031016,
+      "avg_latency_ms": 4307.939686016955
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be an interior construction area of a large building, with significant progress made on the interior fit-out. Workers are actively engaged in installing drywall on the walls and ceiling, with several large sheets of drywall visible stacked near the entrance.  A steel framework is present across the ceiling, supporting the installation of the ceiling grid and associated lighting fixtures. \n\n**QUALITY ISSUES:**\n\nThere is evidence of uneven drywall application along the right-hand wall, specifically near the center of the image, where the drywall appears to be slightly raised.  The ceiling grid installation shows some misalignment between the horizontal and vertical members in the central section.  Additionally, the edges of the drywall sheets along the left wall appear to have a small gap, approximately 10-15cm, between the sheets. \n\n**SAFETY ISSUES:**\n\nA worker is observed working at a height on a scissor lift, posing a potential fall risk. The worker is located in the central area of the image, operating the lift.  Several workers are wearing high-visibility vests, but one worker is missing a hard hat near the right-hand wall.  The worker without a hard hat is located near the entrance, close to the scaffolding.",
+          "latency_ms": 4136.5565020241775,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1799485861182519,
+          "bert_score_ref": 0.8598176836967468
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\nThe space appears to be a large, interior construction area undergoing drywall installation. Workers are actively applying drywall to the walls and ceiling, with several large sheets of drywall stacked near the entrance. Exposed structural steel framing is visible throughout the space, supporting the ceiling grid and wall supports. \n\n**QUALITY ISSUES:**\nThere are several areas where drywall seams are visible, with noticeable gaps between the sheets along the right wall. The drywall application appears uneven in the central section of the ceiling, with some areas having a thicker layer than others.  A small section of the ceiling near the exit door shows incomplete coverage with exposed framing. \n\n**SAFETY ISSUES:**\nA worker is observed working on a scissor lift positioned near the right wall, potentially creating a fall hazard if the lift is not properly secured.  Several workers are wearing high-visibility vests, but one worker is not wearing a hard hat near the ceiling framing.  A tool bag is lying on the floor near the center of the image, presenting a potential trip hazard.",
+          "latency_ms": 3785.5403919820674,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1878453038674033,
+          "bert_score_ref": 0.8743845820426941
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large interior construction area, with significant progress made on the drywall installation. Workers are actively engaged in applying drywall to the walls and ceiling, utilizing various tools and equipment. The floor is concrete, and exposed structural steel framing is visible throughout the space, supporting the ceiling grid. \n\n**QUALITY ISSUES:**\n\nThere are several areas where the drywall application appears incomplete, particularly along the right-hand wall near the exit. The drywall seams are visible and not fully covered with tape, and the edges of the drywall panels are not flush with the framing. Additionally, the ceiling grid has exposed wiring and conduit, with some connections appearing loose and uninsulated. \n\n**SAFETY ISSUES:**\n\nA worker is observed working at a height on a scissor lift, presenting a potential fall hazard. The worker is not wearing a safety harness, and the lift platform appears to be slightly elevated. There is a trip hazard presented by several tools and materials scattered across the floor near the center of the image. \n\nWorkers are wearing high-visibility vests, but some are not wearing appropriate footwear for the construction environment.",
+          "latency_ms": 3977.0303099649027,
+          "structure_valid": true,
+          "rouge_l_ref": 0.175531914893617,
+          "bert_score_ref": 0.8732581734657288
+        }
+      ],
+      "avg_rouge_l_ref": 0.18110860162642406,
+      "avg_bert_score_ref": 0.8691534797350565,
+      "avg_consistency": 0.4849472165261639,
+      "avg_latency_ms": 3966.375734657049
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under development.  The floor is primarily concrete, with sections of the floor covered in grey painted concrete.  Framing and drywall are installed on the walls, and a significant amount of exposed ceiling support structure is present, indicating the building is in the late stages of interior construction. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the drywall and the ceiling support structure along the left wall, approximately 1.5 meters from the floor.  The paint on the wooden paneling near the center of the image shows uneven application, with drips and streaks visible.  Additionally, the drywall on the right wall exhibits a slight misalignment with the adjacent wall, approximately 1 meter from the floor. \n\n**SAFETY ISSUES:**\n\nA single orange traffic cone is positioned directly in the center of the floor, posing a potential trip hazard for workers.  A worker is observed without a hard hat near the center of the image, presenting a risk of head injury.  Several tools, including a hammer and a level, are scattered on the floor near the wooden paneling, creating a potential trip hazard.",
+          "latency_ms": 4252.637623983901,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18407960199004977,
+          "bert_score_ref": 0.8643043637275696
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building undergoing significant renovation. The floor is primarily concrete, with sections of new wood flooring visible near the walls.  Framing and drywall are installed on the majority of the walls, and a metal framework supports the ceiling, indicating ongoing electrical work. Several workers are present, engaged in tasks such as installing drywall and managing materials. \n\n**QUALITY ISSUES:**\n\nThere is uneven drywall installation along the right wall, with noticeable gaps between the drywall sheets and the framing.  The wood flooring near the left wall exhibits a misalignment with the adjacent concrete floor, creating a slight step.  Additionally, paint drips are visible on the lower portion of the wall near the center of the image, suggesting a need for touch-up work. \n\n**SAFETY ISSUES:**\n\nA traffic cone is positioned directly in the center of the floor, presenting a potential trip hazard for workers.  A worker is observed without a hard hat near the right wall, posing a risk of head injury.  Several tools and materials are scattered across the floor, creating a potential trip hazard for anyone navigating the space.",
+          "latency_ms": 4057.4697290430777,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18999999999999997,
+          "bert_score_ref": 0.8686468005180359
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under development. The floor is primarily concrete, with sections of the floor covered in grey painted concrete.  Framing and drywall are installed on the walls, and a significant amount of exposed ceiling support structure is present, indicating the building is in the late stages of interior construction. Several workers are present, engaged in tasks such as installing drywall and managing materials.\n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the drywall and the ceiling support structure along the left wall, approximately 1.5 meters from the floor.  The drywall on the right wall exhibits uneven joints, with a slight misalignment of the seams.  Additionally, the painted floor section near the center of the image shows signs of uneven paint application, with a slightly raised texture.\n\n**SAFETY ISSUES:**\n\nA single orange traffic cone is positioned directly in the center of the floor, posing a potential trip hazard for workers.  One worker is observed without a hard hat, located near the right wall, presenting a risk of head injury.  A loose cable is visible running across the floor near the center, potentially creating an electrical hazard for those working in the area.",
+          "latency_ms": 4119.044067978393,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1791767554479419,
+          "bert_score_ref": 0.8634545803070068
+        }
+      ],
+      "avg_rouge_l_ref": 0.18441878581266388,
+      "avg_bert_score_ref": 0.8654685815175375,
+      "avg_consistency": 0.644218656123418,
+      "avg_latency_ms": 4143.050473668457
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:**\nThe space appears to be a large interior room undergoing final construction. The walls are primarily finished with a light-colored wood paneling, while the ceiling is dominated by extensive electrical conduit work. Several workers are present, engaged in installing and connecting wiring within the ceiling structure, alongside the placement of additional wood panels. The floor is concrete, and there are several scaffolding structures throughout the room.\n\n**QUALITY ISSUES:**\nThere is a noticeable gap between the ceiling conduit and the upper wall paneling near the center of the image. Additionally, the wood paneling appears unevenly installed along the left wall, with a slight misalignment of the panels.  Several exposed conduit connections are visible without adequate covering, particularly near the right-hand scaffolding.\n\n**SAFETY ISSUES:**\nA worker is positioned on a scaffold near the center of the image, presenting a potential fall hazard due to the elevated height.  The exposed conduit and wiring create a potential electrical hazard, particularly for workers working near the equipment.  A worker is observed without apparent Personal Protective Equipment (PPE) while working near the electrical conduit.",
+          "latency_ms": 4364.647962967865,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18627450980392157,
+          "bert_score_ref": 0.8609672784805298
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:**\n\nThe space appears to be a large interior room undergoing final construction. The walls are primarily finished with a light-colored wood paneling, while the ceiling is dominated by a complex framework of metal conduit and wiring. Several workers are present, engaged in installing and connecting electrical components within the framework.  Scaffolding is positioned around the perimeter of the room, providing access to the ceiling and walls. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the floor and the base of the wall paneling along the left side of the image.  The conduit framework exhibits some uneven spacing between the runs, particularly near the center of the ceiling.  Several exposed electrical connections are visible without appropriate covers or protection, located in the central area of the ceiling. \n\n**SAFETY ISSUES:**\n\nA single worker is positioned on a scaffold near the center of the room, presenting a potential fall hazard.  The exposed electrical connections pose an electrical hazard to anyone who may come into contact with them.  The worker on the scaffold is not wearing a safety harness, increasing the risk of a fall.",
+          "latency_ms": 4166.033771005459,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22439024390243903,
+          "bert_score_ref": 0.86187744140625
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:**\nThe space appears to be a large interior room undergoing final construction. The walls are primarily finished with a light-colored wood paneling, while the ceiling is dominated by extensive electrical conduit work. Several workers are present, engaged in installing and connecting wiring within the ceiling structure, and there are several scaffolding units scattered throughout the room. The floor is covered with a grey concrete finish, and there are several large wooden panels stacked against the walls awaiting installation. \n\n**QUALITY ISSUES:**\nThere is a noticeable gap between the ceiling conduit and the upper wall surface near the center of the image. The conduit appears to be installed at a higher level than the wall, creating a space approximately 15-20cm wide. Additionally, several exposed electrical connections are visible on the ceiling, with some wires not properly secured to the conduit.  The wooden panels on the right side of the image have visible gaps between them and the wall framing. \n\n**SAFETY ISSUES:**\nA scissor lift is positioned near the right wall, presenting a potential fall hazard for workers accessing the upper portions of the ceiling. A worker is observed working on a scaffold near the center of the image, posing a potential trip hazard due to the exposed wiring and scattered tools.  The worker is not wearing a hard hat, presenting a potential head injury hazard.",
+          "latency_ms": 4389.237365976442,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21192052980132453,
+          "bert_score_ref": 0.8617660403251648
+        }
+      ],
+      "avg_rouge_l_ref": 0.20752842783589504,
+      "avg_bert_score_ref": 0.8615369200706482,
+      "avg_consistency": 0.5734837915807581,
+      "avg_latency_ms": 4306.639699983255
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:** \nThe space appears to be an interior construction area within a building under development. The floor is covered in a light-colored dust, and the walls are partially clad with wood paneling. Workers are actively engaged in installing ceiling fixtures and running electrical conduits throughout the room. \n\nThe construction stage is primarily focused on the ceiling installation, with significant progress made on the framework and wiring.  Visible materials include wood paneling, metal conduits, and various construction supports. Several workers are present, wearing high-visibility vests and hard hats, coordinating the installation process. \n\nThe overall condition of the space is active and busy, with ongoing work concentrated on the ceiling and associated electrical systems.  A small, partially assembled metal staircase is located in the foreground, suggesting ongoing work on a higher level. \n\n**QUALITY ISSUES:** \nThere is a noticeable gap between the ceiling grid and the wall paneling on the right side of the image. This gap appears to be approximately 15-20 centimeters wide and is located near the center of the image.  Additionally, the wood paneling on the left side of the image shows slight misalignment with the adjacent wall, creating a small, uneven joint. \n\nThe exposed electrical conduits are not consistently aligned with the ceiling grid, resulting in some minor offsets. These offsets are most prominent near the center of the image, where multiple conduits converge.  The metal supports holding the ceiling grid seem to be spaced inconsistently, with some gaps between the supports. \n\n**SAFETY ISSUES:** \nA worker is wearing a high-visibility vest, but is not wearing a hard hat. This worker is located near the center of the image, close to the exposed electrical conduits.  A stack of metal scaffolding is present in the foreground, posing a potential trip hazard for workers. \n\nA red and white traffic cone is positioned near the scaffolding, likely to direct foot traffic.  A fire extinguisher is visible on the right side of the image, indicating a potential hazard in case of a fire. \n\n**End of Report**",
+          "latency_ms": 5326.998431992251,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18450184501845018,
+          "bert_score_ref": 0.8570272326469421
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:** \nThe construction site depicts an interior space undergoing final finishing work. The room is largely complete with wooden wall panels installed along the perimeter, and a suspended ceiling system is in progress. Workers are actively installing ceiling tiles and running electrical conduits throughout the space, with several large metal support frames visible. \n\n**QUALITY ISSUES:**\nThe ceiling tile installation appears uneven in several areas, particularly around the central support columns, with some tiles slightly protruding beyond the frame. There is a noticeable gap between the ceiling tiles and the structural framing in the upper right quadrant of the image. The wooden wall panels show some misalignment at the floor-wall joint, with a small gap visible along the lower portion of the wall on the right side. \n\n**SAFETY ISSUES:**\nA worker is wearing a high-visibility vest, indicating a potential hazard related to visibility in the dimly lit space. A metal ladder is positioned in the center of the room, presenting a potential trip hazard for workers moving around the area. One worker is not wearing appropriate eye protection, which could expose them to dust and debris during the ceiling installation.",
+          "latency_ms": 4159.887970017735,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18639798488664988,
+          "bert_score_ref": 0.857069194316864
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** Unknown\n**Inspector:** AI Construction Inspector\n\n**SCENE:** \nThe space appears to be an interior construction area within a large building, with significant progress having been made. The floor is covered in a light-colored dust, and the walls are partially clad with wood paneling. Workers are actively engaged in installing ceiling fixtures and running electrical conduits throughout the space.\n\n**QUALITY ISSUES:**\nThere is a noticeable gap between the ceiling grid and the wood paneling on the right side of the image, approximately 15 feet from the center. Several exposed electrical conduits are not neatly aligned with the ceiling grid, creating a slight misalignment in the ceiling. The installation of the ceiling fixtures appears to be uneven, with some fixtures positioned higher than others.\n\n**SAFETY ISSUES:**\nA worker is wearing a high-visibility vest, indicating a potential risk of being in a high-traffic area. A metal ladder is positioned in the center of the image, presenting a potential trip hazard for workers. A red safety cone is placed near the ladder, likely to warn of the hazard, but its placement is not optimal for immediate visibility.",
+          "latency_ms": 4152.213592024054,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1761658031088083,
+          "bert_score_ref": 0.8608622550964355
+        }
+      ],
+      "avg_rouge_l_ref": 0.18235521100463611,
+      "avg_bert_score_ref": 0.8583195606867472,
+      "avg_consistency": 0.4393760799720552,
+      "avg_latency_ms": 4546.366664678014
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under significant progress. The walls are predominantly finished with white drywall, and the floor is concrete, showing signs of recent application. Workers are actively engaged in installing ceiling tiles and running electrical conduits throughout the space, with several scaffolding structures visible for access. \n\n**QUALITY ISSUES:**\n\nA noticeable gap is present between the ceiling tiles and the ceiling structure near the center of the image, approximately 15 feet from the lower left corner.  There is a small section of exposed concrete along the right wall, approximately 10 feet from the lower right corner, where the floor finish is incomplete.  The electrical conduits are not aligned perfectly with the wall studs in several locations, particularly near the scaffolding structure in the foreground. \n\n**SAFETY ISSUES:**\n\nA trip hazard is present due to several orange and white traffic cones scattered across the concrete floor, primarily in the foreground and near the scaffolding. A fall hazard exists due to the presence of scaffolding structures, with workers potentially at risk of falling if proper fall protection measures are not in place. Workers are not wearing high-visibility vests, increasing the risk of being difficult to see in the busy construction environment.",
+          "latency_ms": 4353.045371011831,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18627450980392157,
+          "bert_score_ref": 0.8684288859367371
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area, likely a commercial building, with significant progress made on the walls and ceiling. Workers are actively engaged in installing ceiling tiles and applying finishing coats to the walls, indicating a stage of interior build-out. The floor is concrete, and visible materials include drywall, ceiling tiles, and various construction tools and equipment. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable unevenness in the application of the drywall finish along the right wall, approximately halfway up, where the surface appears slightly raised.  A small section of the ceiling tile installation is misaligned near the center of the image, with one tile slightly protruding beyond the adjacent tiles.  The edges of the drywall on the left wall show a slight gap between the drywall and the floor, approximately 15cm wide. \n\n**SAFETY ISSUES:**\n\nA section of scaffolding is visible near the center of the image, posing a potential fall hazard for workers accessing the higher areas.  Two workers are standing on the scaffolding, and the structure appears to be in a state of disrepair.  A traffic cone is positioned near the scaffolding, potentially creating a trip hazard for workers moving around the area.  One worker is not wearing a safety helmet, presenting a risk of head injury.",
+          "latency_ms": 4242.987179022748,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1844660194174757,
+          "bert_score_ref": 0.865794837474823
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under significant progress. The walls are predominantly finished with white drywall, and the floor is concrete, showing signs of recent application. Workers are actively engaged in installing ceiling tiles and cabling, with a scaffolding structure visible in the foreground supporting the installation process. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable unevenness in the drywall installation along the right-hand wall, approximately halfway up, where the surface appears slightly recessed.  The ceiling tiles are not uniformly aligned in several sections, with gaps visible between the tiles near the center of the image.  Additionally, the cabling is not neatly routed along the ceiling, with some wires exposed and not secured to the ceiling grid. \n\n**SAFETY ISSUES:**\n\nA trip hazard is present due to several orange and white traffic cones scattered across the concrete floor, particularly near the scaffolding. A worker is at risk of a fall due to the exposed scaffolding structure in the foreground, with no apparent guardrails or safety netting in place.  Several workers are not wearing high-visibility vests, increasing the risk of them being difficult to see in the busy construction environment.",
+          "latency_ms": 4137.921266024932,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1616161616161616,
+          "bert_score_ref": 0.8706827163696289
+        }
+      ],
+      "avg_rouge_l_ref": 0.1774522302791863,
+      "avg_bert_score_ref": 0.8683021465937296,
+      "avg_consistency": 0.4563832137564243,
+      "avg_latency_ms": 4244.651272019837
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work. The floor is covered in a light grey, dust-covered material, and the walls are largely finished with a smooth, off-white plaster. A suspended ceiling grid is installed throughout the room, with numerous light fixtures attached, and a scaffold is positioned near the right wall. Several workers are present, engaged in tasks such as applying finishing coats to the walls and inspecting the ceiling work. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable unevenness in the plaster finish along the lower portion of the wall on the left side of the image.  A small section of the ceiling grid appears to be slightly misaligned near the center of the room, with one section sitting lower than the others.  The edges of the floor covering show some minor displacement, particularly near the doorway on the right, suggesting a need for better alignment during installation. \n\n**SAFETY ISSUES:**\n\nA worker is positioned on the top platform of the scaffold, presenting a potential fall hazard. The worker is not wearing a safety harness, and the platform appears to be exposed to the open space.  There is a potential trip hazard presented by the exposed wiring and cabling running across the floor near the center of the room.  Several workers are not wearing high-visibility vests, reducing their visibility within the space.",
+          "latency_ms": 4227.278479025699,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19607843137254902,
+          "bert_score_ref": 0.8671086430549622
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work. The floor is covered in a light grey, dust-covered material, and the walls are largely finished with a smooth, off-white plaster. A suspended ceiling grid is installed throughout the room, with numerous light fixtures attached to it. \n\nSeveral workers are present, engaged in tasks such as applying finishing coats to the walls and installing ceiling components. A scaffold is positioned near the right wall, supporting a worker who is working on the ceiling. \n\nEquipment includes a small generator and several hand tools are visible on the floor. The overall condition of the space is one of active construction with significant progress made on the interior finishes. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable unevenness in the plaster application on the left wall, approximately halfway up. The surface appears slightly raised and not fully smooth, suggesting a need for further sanding or patching.  A section of the ceiling grid near the center of the image shows a gap between the suspension cables and the ceiling panel. \n\nThe ceiling paneling is not uniformly aligned across the entire grid, with some panels appearing slightly misaligned with the adjacent panels.  A small amount of debris, likely plaster dust, is visible on the floor near the entrance door, indicating a potential need for cleaning. \n\n**SAFETY ISSUES:**\n\nA worker is positioned on the scaffold at a height, presenting a potential fall hazard if the ladder is not properly secured. The worker is at risk of falling from the scaffold if the ladder is unstable or if the worker loses their balance. \n\nThere is a trip hazard presented by the exposed electrical cables running across the floor near the center of the image.  A worker is at risk of tripping over the cables if they are not properly covered or secured. \n\nSeveral workers are not wearing appropriate Personal Protective Equipment (PPE), specifically safety glasses, which could pose a risk to their eyes from dust or debris.  The workers are at risk of eye injury from the dust.",
+          "latency_ms": 4777.552379993722,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17208413001912043,
+          "bert_score_ref": 0.8596566319465637
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work. The floor is covered in a light grey, dusty material, likely a primer or sealant, and the walls are largely covered in white, unpainted gypsum board. A suspended ceiling grid is installed, with numerous light fixtures attached, and a scaffolding structure is present in the foreground. Several workers are visible, engaged in tasks such as applying finishing coats to the walls and inspecting the ceiling work.\n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the gypsum board and the ceiling grid in the upper-right section of the image.  Additionally, the application of the finishing coat on the wall appears uneven near the doorway on the left side of the image.  The floor surface shows signs of scattered debris and dust, particularly around the base of the scaffolding.\n\n**SAFETY ISSUES:**\n\nA worker is positioned on the scaffolding, presenting a potential fall hazard due to the height.  The worker is not wearing a safety harness, increasing the risk of a fall.  There is a potential trip hazard posed by the scattered debris on the floor, particularly near the scaffolding and the doorway.  One worker is not wearing a high-visibility vest, making them less visible to other workers.",
+          "latency_ms": 4027.5598959997296,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19023136246786632,
+          "bert_score_ref": 0.8648735880851746
+        }
+      ],
+      "avg_rouge_l_ref": 0.1861313079531786,
+      "avg_bert_score_ref": 0.8638796210289001,
+      "avg_consistency": 0.525823503859355,
+      "avg_latency_ms": 4344.13025167305
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under development. The floor is concrete, and the walls are partially finished with wood paneling and sections of white drywall. Overhead, a complex framework of steel beams and ductwork is being installed, supported by a grid of ceiling tiles. \n\nSeveral workers are present, engaged in various tasks including installing the ceiling framework and handling materials. A scissor lift is positioned near the right wall, providing access to the upper portions of the space. Scattered around the floor are tools, materials, and debris, indicating ongoing construction activities. \n\nThe overall condition suggests a stage of interior build-out, with significant work still required to complete the walls and ceiling. \n\n**QUALITY ISSUES:**\n\nThe ceiling framework exhibits inconsistent spacing between the steel beams, particularly noticeable in the central section. The gaps between the steel beams and the ceiling tiles are uneven, creating an irregular appearance. Additionally, some of the ceiling tiles appear to be slightly misaligned with the framework, creating small gaps. \n\nThe wood paneling on the walls shows some variation in the alignment of the panels, with noticeable gaps between some of the boards. The edges of the drywall sections are not perfectly flush with the adjacent wood paneling, creating a slight visual discontinuity. \n\nThere is a small amount of dust and debris on the floor, particularly around the base of the steel framework, suggesting a need for improved housekeeping. \n\n**SAFETY ISSUES:**\n\nA yellow and white hard hat is lying on the floor near the center of the image, posing a potential trip hazard. The hard hat is located in the middle of the floor space, directly in the path of workers. \n\nA stack of wooden boards is leaning against the wall on the right side of the image, creating a potential tripping hazard. The boards are unstable and could easily topple over, particularly if someone walks nearby. \n\nWorkers are not wearing high-visibility vests, which could make them difficult to see in the busy construction environment. Several workers are present in the image, and they are not wearing high-visibility vests.",
+          "latency_ms": 5229.40946201561,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17132216014897575,
+          "bert_score_ref": 0.8608884215354919
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area, likely a commercial building under development. The floor is covered in concrete dust and debris, with ongoing work focused on the ceiling installation and wall finishing. Workers are present, operating a scissor lift and handling materials, including wooden panels and insulation. \n\n**QUALITY ISSUES:**\n\nThe ceiling features exposed metal framing, with some of the supports appearing to be misaligned, particularly near the central column. There is a noticeable gap between the wooden wall paneling and the ceiling framing on the right side of the image. Several insulation panels are not fully secured to the framing, leaving small exposed areas. \n\n**SAFETY ISSUES:**\n\nA yellow and white hard hat is lying on the floor near the center of the image, potentially creating a trip hazard. A scissor lift is positioned in a location where it could obstruct access to the work area, posing a potential fall risk for workers.  A worker is not wearing appropriate Personal Protective Equipment (PPE) \u2013 specifically, a safety harness \u2013 while operating the scissor lift.",
+          "latency_ms": 4052.803695027251,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17777777777777778,
+          "bert_score_ref": 0.8669857382774353
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\nThe space appears to be a large interior construction area, likely a commercial building, with extensive framing and ceiling work underway. The floor is covered in concrete dust and debris, indicating ongoing activity. Workers are present, operating a scissor lift and handling materials, with several rolls of insulation visible on the floor.\n\n**QUALITY ISSUES:**\nThe ceiling framing exhibits inconsistent spacing between the metal support beams, particularly noticeable near the center of the image.  There is a section of exposed insulation on the ceiling, with gaps between the insulation and the framing, approximately 10 feet from the right wall.  Several of the wooden wall panels appear to have uneven edges, particularly along the lower portion of the wall on the left side.\n\n**SAFETY ISSUES:**\nA yellow and white hard hat is lying on the floor near the center of the image, potentially creating a trip hazard.  A scissor lift is positioned in a location where it could obstruct access to the ceiling work area, posing a potential fall risk to workers.  Several workers are not wearing high-visibility vests, making them less visible in the overall construction environment.",
+          "latency_ms": 4096.342058037408,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1827956989247312,
+          "bert_score_ref": 0.8664981722831726
+        }
+      ],
+      "avg_rouge_l_ref": 0.17729854561716157,
+      "avg_bert_score_ref": 0.8647907773653666,
+      "avg_consistency": 0.4465122943433908,
+      "avg_latency_ms": 4459.518405026756
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site appears to be in the final stages of interior build-out for a large room.  Workers are actively installing wooden wall panels, with several panels already affixed to the walls and others in the process of being attached.  The floor is covered in a layer of fine, light-colored dust and debris, and various pieces of construction equipment, including a dolly and a small generator, are present in the space. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the lower portion of one of the wooden wall panels and the floor, approximately 15cm, near the doorway.  The ceiling features exposed ductwork and wiring, with some wiring appearing loosely routed and not secured to the ceiling structure.  Additionally, there is a small amount of exposed concrete on the ceiling near the right-hand wall, suggesting incomplete finishing. \n\n**SAFETY ISSUES:**\n\nA worker wearing a yellow and green high-visibility vest is observed near a pile of debris, potentially creating a trip hazard.  A loose electrical cable is visible on the floor near the doorway, posing a potential electrical hazard to anyone walking through the area.  A worker is wearing a hard hat, indicating a potential fall hazard from the ceiling.",
+          "latency_ms": 4338.629015022889,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19024390243902436,
+          "bert_score_ref": 0.867264986038208
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site appears to be in the final stages of interior build-out for a large room.  Workers are actively installing wooden wall panels, with several panels already affixed to the walls and others in the process of being attached.  The floor is covered in loose construction debris, and exposed ductwork is visible in the ceiling, alongside a suspended ceiling grid. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the lower portion of the wooden wall panel and the floor, approximately 15cm, near the door on the left side of the image.  The exposed ceiling grid has several disconnected sections, particularly in the central area, with exposed wiring.  Additionally, the ceiling tiles are not fully flush with the grid, creating a small, uneven gap along the ceiling line. \n\n**SAFETY ISSUES:**\n\nA worker wearing a yellow and green high-visibility vest is standing on a pile of construction debris near the door, posing a potential trip hazard.  A large bundle of exposed electrical wiring is lying on the floor near the center of the image, presenting an electrical hazard.  A worker wearing a white hard hat is present in the image, and is not wearing appropriate safety footwear.",
+          "latency_ms": 4208.799034997355,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18673218673218675,
+          "bert_score_ref": 0.8664078116416931
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site appears to be in the final stages of interior build-out for a large room.  Workers are actively installing wooden wall panels, with several panels already affixed to the walls.  The floor is covered in a light-colored, fine dust, and various pieces of construction equipment, including a dolly and a metal storage container, are present in the space. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable gap between the lower portion of the wooden wall paneling and the floor, approximately 15cm, along the left wall.  The ceiling features exposed ductwork and wiring, with some wiring appearing loosely routed and not secured to the ceiling grid.  Additionally, a section of the ceiling grid appears to be slightly misaligned, creating a small gap between the grid and the adjacent wall. \n\n**SAFETY ISSUES:**\n\nA worker wearing a yellow and green high-visibility vest is standing near a pile of debris, posing a potential trip hazard.  A large, exposed electrical cable is running across the floor, approximately 2 meters from the worker, presenting an electrical hazard.  A worker is wearing a hard hat, but is not wearing safety glasses, which could pose a risk to their eyes from dust or debris.",
+          "latency_ms": 4220.331391028594,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18627450980392157,
+          "bert_score_ref": 0.864952564239502
+        }
+      ],
+      "avg_rouge_l_ref": 0.18775019965837755,
+      "avg_bert_score_ref": 0.8662084539731344,
+      "avg_consistency": 0.6573156299436936,
+      "avg_latency_ms": 4255.919813682946
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site is in the early stages of interior build-out, with significant framing work underway. Workers are actively constructing the floor and walls using rebar and steel framing, indicating the foundation and structural support are largely complete. The space is dominated by grey concrete flooring, white drywall, and a suspended ceiling system with recessed lighting fixtures. \n\n**QUALITY ISSUES:**\n\nThere is a noticeable lack of consistent drywall joint compound applied to the walls, particularly along the right-hand wall near the center of the image. The rebar cages appear to have some loose ties, with several ties not fully secured, visible near the center of the image. Additionally, the exposed concrete floor shows signs of unevenness and staining, particularly in the foreground. \n\n**SAFETY ISSUES:**\n\nOne worker is wearing a high-visibility vest, indicating a potential risk of trip hazards due to the exposed concrete floor. Multiple workers are wearing hard hats, which is standard PPE for this environment, but there is no visible eye protection. A power cord is lying on the floor near the center of the image, presenting a potential electrical hazard to workers.",
+          "latency_ms": 4404.008474957664,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1964735516372796,
+          "bert_score_ref": 0.8626266717910767
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site is in an interior space, likely a large room, with walls and ceiling under construction. Workers are actively engaged in installing rebar cages along the perimeter of the room, indicating the framework for the floor is nearing completion. The ceiling features a suspended grid system with light fixtures, and the walls are covered in partially applied white drywall. \n\n**QUALITY ISSUES:**\n\nThere is a significant amount of exposed concrete on the floor, particularly near the center of the room, which appears unfinished. The rebar cages are not uniformly spaced along the walls, with some gaps visible between the cages and the wall structure.  The drywall on the walls shows uneven application, with some areas appearing slightly recessed compared to others. \n\n**SAFETY ISSUES:**\n\nA worker is wearing a high-visibility vest, indicating a potential risk of trip hazards due to the exposed concrete and scattered debris.  Several workers are wearing hard hats, which is standard PPE for construction sites, but their positioning suggests a potential fall hazard if they move too close to the exposed edges.  A power cord is visible on the floor near the center of the room, presenting a potential electrical hazard if someone trips over it.",
+          "latency_ms": 4296.126167988405,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20924574209245742,
+          "bert_score_ref": 0.8658967614173889
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site is in an interior space, likely a large room, where the floor is currently being prepared for concrete pouring. Workers are actively constructing a reinforced concrete structure, evident from the extensive steel rebar cages placed on the floor. The walls are partially finished with white drywall, and the ceiling features a suspended grid system with exposed lighting fixtures. \n\n**QUALITY ISSUES:**\n\nThere is a significant amount of loose rebar on the floor near the center of the image, potentially creating a tripping hazard. The drywall on the right wall appears to have uneven joints and a lack of proper taping, suggesting a need for rework. The ceiling grid system shows some exposed wiring, which requires further inspection to ensure proper connections and adherence to electrical codes. \n\n**SAFETY ISSUES:**\n\nOne worker is wearing a high-visibility vest, indicating a potential fall hazard from the elevated work area. Multiple workers are present in the immediate vicinity, posing a potential trip hazard due to the loose rebar and debris on the floor.  A worker is not wearing eye protection, which is a general PPE deficiency and could lead to eye injury.",
+          "latency_ms": 4146.465498022735,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19500000000000003,
+          "bert_score_ref": 0.8725170493125916
+        }
+      ],
+      "avg_rouge_l_ref": 0.20023976457657902,
+      "avg_bert_score_ref": 0.8670134941736857,
+      "avg_consistency": 0.43134143268813024,
+      "avg_latency_ms": 4282.200046989601
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or gymnasium, in the early stages of completion.  Workers are actively installing metal decking and associated ductwork across the floor, with several large rolls of metal decking visible.  A scaffolding structure is present in the foreground, supporting workers and providing access to the elevated work area, and a yellow hard hat is visible on the ground. \n\n**QUALITY ISSUES:**\n\nSeveral sections of the metal decking appear to have gaps between the individual planks, particularly along the edges of the floor.  The edges of the metal decking are not fully flush with the surrounding walls, creating a small, uneven gap.  Some of the installed ductwork is not aligned with the decking, creating a slight misalignment between the two materials. \n\n**SAFETY ISSUES:**\n\nA worker is observed without eye protection, posing a potential risk of eye injury from dust or debris.  A traffic cone is positioned in the center of the floor, creating a potential trip hazard for workers.  A worker is wearing a yellow hard hat, providing head protection against falling objects.",
+          "latency_ms": 4288.0485719651915,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2,
+          "bert_score_ref": 0.8655617237091064
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe construction site is a large, open space currently undergoing interior finishing work.  A series of metal floor decking panels are laid out across the floor, with a significant portion of the ceiling already covered in white drywall. Several workers are present, engaged in applying drywall to the ceiling and floor panels, and one worker is operating a power tool near the right side of the image. The overall condition appears to be in the early stages of interior construction.\n\n**QUALITY ISSUES:**\n\nThere is evidence of uneven drywall application on the ceiling, particularly in the upper right quadrant, where the drywall is not flush with the ceiling joists.  Some of the metal floor decking panels show slight gaps between them, particularly along the left side of the image.  Additionally, there appears to be a small amount of loose drywall compound on the floor near the center of the image.\n\n**SAFETY ISSUES:**\n\nA worker is wearing a fluorescent yellow hard hat, indicating a potential risk of head injury if struck by falling objects.  A stack of metal floor decking panels is positioned close to the edge of the scaffolding, presenting a potential trip hazard.  A power tool is visible near a worker, suggesting a potential electrical hazard if not properly grounded and used with caution.",
+          "latency_ms": 4335.340330027975,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19811320754716982,
+          "bert_score_ref": 0.8629242777824402
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, in the early stages of completion.  Workers are actively installing metal decking and associated ductwork across the floor, with a significant portion of the ceiling already covered in white drywall. Several scaffolding structures are present, supporting workers and providing access to the elevated areas where the work is being conducted. \n\n**QUALITY ISSUES:**\n\nA noticeable gap is present between the metal decking panels near the right edge of the image, exposing a section of the floor.  Some drywall seams on the ceiling are visible, with a slight misalignment between adjacent panels in the upper-right quadrant.  The metal decking appears to have some minor gaps between the individual panels, particularly along the left side of the image. \n\n**SAFETY ISSUES:**\n\nA worker is wearing a fluorescent yellow hard hat, indicating a potential risk of head injury.  A traffic cone is positioned in the center of the floor, presenting a potential trip hazard for workers.  A power tool, a cordless drill, is lying on the floor near the scaffolding, posing a potential electrical hazard if accidentally activated.",
+          "latency_ms": 4142.551580967847,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2015113350125945,
+          "bert_score_ref": 0.8661659359931946
+        }
+      ],
+      "avg_rouge_l_ref": 0.19987484751992143,
+      "avg_bert_score_ref": 0.8648839791615804,
+      "avg_consistency": 0.4510774907574593,
+      "avg_latency_ms": 4255.313494320338
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under development.  Workers are actively engaged in installing a suspended ceiling system, with multiple individuals working on different sections of the ceiling framework. The floor is covered in debris and protective sheeting, indicating ongoing work and material storage. \n\nThe visible materials include wooden panels, metal ceiling grid, and various electrical conduits. Several scaffolding structures are present, supporting the workers and providing access to the ceiling installation.  Three workers are positioned on the scaffolding, actively working on the ceiling installation. \n\n**QUALITY ISSUES:**\n\nThere appears to be a slight misalignment between the ceiling grid and the wooden panels on the left side of the image. The panels are not perfectly aligned with the grid, creating a small gap.  Additionally, some of the ceiling grid sections appear to be slightly askew, with a noticeable offset from the adjacent sections. \n\nThe exposed wiring along the ceiling is not neatly bundled or secured, presenting a potential for tangling and difficulty in future maintenance.  The protective sheeting on the floor is unevenly distributed, with some areas exposed and others covered, suggesting an incomplete floor covering process. \n\n**SAFETY ISSUES:**\n\nA worker is using a ladder on the scaffolding, posing a potential fall hazard if the ladder is not properly secured or if the worker loses balance.  The worker wearing a yellow hard hat is positioned near the scaffolding, representing a potential risk of contact with the structure.  The exposed wiring presents an electrical hazard if touched while the power is on, potentially endangering anyone working near it.",
+          "latency_ms": 4752.905128989369,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19955654101995565,
+          "bert_score_ref": 0.870871901512146
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be an interior construction area, likely a large hall or warehouse.  Workers are actively installing wooden paneling on the walls, with the panels extending upwards to meet the ceiling structure.  The floor is covered in debris and materials, indicating ongoing work and the stage of construction. \n\n**QUALITY ISSUES:**\n\nThe wooden paneling exhibits uneven gaps between the panels along the left side of the image.  There is a noticeable misalignment of the paneling at the center of the image, with the top edge of the paneling appearing higher than the bottom edge.  Several exposed electrical conduits are visible on the ceiling, with some appearing to be loosely attached to the supporting structure. \n\n**SAFETY ISSUES:**\n\nA worker is using a ladder to access the upper portion of the structure, presenting a potential fall hazard.  A worker is wearing a hard hat, providing protection against head injuries.  The debris on the floor presents a potential trip hazard for workers and equipment.",
+          "latency_ms": 3967.449037998449,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2057142857142857,
+          "bert_score_ref": 0.8696005940437317
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area within a building under development.  The floor is covered in a white, dusty material, likely concrete or cement, and several wooden panels are erected along the walls. Workers are actively engaged in installing the ceiling structure, which consists of a grid of metal beams and conduits. \n\nThe overall construction stage is advanced, with significant progress made on the ceiling installation and the framing of the walls.  Equipment includes scaffolding, ladders, and various tools are scattered throughout the space, indicating ongoing work.  Three workers are visible, wearing high-visibility vests and hard hats, and are focused on the ceiling installation. \n\n**QUALITY ISSUES:**\n\nA noticeable gap is present between the lower metal beams and the wooden wall panels on the right side of the image.  The metal conduit appears to be slightly misaligned with the wooden framing on the left side of the image.  There is a small amount of debris, including loose screws and metal fragments, visible on the floor near the center of the image. \n\n**SAFETY ISSUES:**\n\nA worker is using a ladder to access the ceiling, posing a potential fall hazard. The worker is located near the center of the image, and the ladder is positioned on the floor.  A worker is wearing a hard hat, but there is no visible safety footwear. The worker is located near the right side of the image. \n\nThere is a potential trip hazard presented by the scattered tools and debris on the floor. The hazard is located throughout the central area of the image.  Workers are at risk of tripping and falling if they are not careful.",
+          "latency_ms": 4631.870961049572,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20302375809935203,
+          "bert_score_ref": 0.8701847791671753
+        }
+      ],
+      "avg_rouge_l_ref": 0.2027648616111978,
+      "avg_bert_score_ref": 0.870219091574351,
+      "avg_consistency": 0.3750724737241105,
+      "avg_latency_ms": 4450.741709345796
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe scene depicts an interior construction space in the early stages of completion. Workers are actively engaged in installing ceiling fixtures and wiring within the large, open room. The floor is covered in debris and construction materials, including wooden planks and metal supports, indicating ongoing work. \n\nThe walls are constructed of light-colored panels, and several large pipes are visible running along the walls.  A significant amount of cabling is present on the ceiling, suggesting electrical work is in progress.  Several workers are operating ladders to access the ceiling for installation tasks. \n\nThe overall impression is one of a busy construction site with a focus on the installation of the ceiling system. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the ceiling fixtures along the upper portion of the ceiling. The wiring is not neatly bundled or secured, with exposed wires visible in several areas, particularly near the center of the ceiling.  Some of the wooden planks on the floor appear to be unevenly placed, creating slight gaps between them. \n\nThe edges of the wall panels show some minor misalignment, with a small gap visible between the panels near the floor.  The exposed pipes are not fully concealed, with some portions protruding from the wall panels. \n\n**SAFETY ISSUES:**\n\nFall Hazard: Several workers are using ladders to access the ceiling, posing a potential fall risk. The workers near the center of the ceiling are at risk of falling if the ladders are not properly secured. \n\nTrip Hazard: Debris and construction materials scattered across the floor, including wooden planks and metal supports, present a trip hazard for workers.  Workers near the center of the room are at risk of tripping over the debris. \n\nPPE:  Several workers are wearing hard hats, but some are not wearing safety glasses, which is a potential eye protection hazard. Workers near the electrical equipment are at risk of eye injury.",
+          "latency_ms": 5144.88638099283,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18640776699029124,
+          "bert_score_ref": 0.8682799339294434
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe scene depicts an interior construction space in the early stages of completion. Workers are actively engaged in installing ceiling fixtures and wiring within the large, open room. The floor is covered in debris and construction materials, including wooden planks and metal supports, indicating ongoing work. \n\nThe walls are primarily constructed of light-colored panels, with exposed structural elements visible throughout the space. Several large metal support beams span across the room, supporting the ceiling structure. Workers are positioned around the perimeter, focused on the installation of electrical components and wiring. \n\nThe overall impression is one of a busy construction site with significant work still remaining to be completed. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the ceiling fixtures along the upper portion of the ceiling, particularly in the central area. The wiring is not neatly bundled or secured, with exposed wires visible in several locations near the ceiling supports.  The wooden planks on the floor exhibit uneven gaps between them, suggesting a need for further leveling or adjustment. \n\n**SAFETY ISSUES:**\n\nA red ladder is positioned precariously close to the edge of the floor, posing a potential trip hazard for workers.  Several workers are not wearing appropriate Personal Protective Equipment (PPE), specifically, some are missing safety glasses.  The open debris on the floor presents a potential trip hazard for workers moving around the construction site.",
+          "latency_ms": 4443.807215022389,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19626168224299068,
+          "bert_score_ref": 0.8747786283493042
+        },
+        {
+          "text": "**Construction Site Inspection Report**\n\n**SCENE:**\n\nThe scene depicts an interior construction space in the early stages of completion. Workers are actively engaged in installing ceiling fixtures and wiring within the large, open room. The floor is covered in debris and construction materials, including wooden planks and metal supports, indicating ongoing work. \n\nThe walls are primarily constructed of light-colored panels, with exposed structural elements visible throughout the space. Several large metal support beams span across the room, supporting the ceiling structure. Workers are positioned around the perimeter, focused on the installation of electrical conduits and lighting. \n\nThe overall condition suggests a project in the final stages of interior build-out, with significant work still remaining. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the ceiling fixtures along the upper portion of the ceiling, particularly in the central area. The wiring is not neatly bundled or secured, with exposed wires visible in several locations along the ceiling.  The wooden planks on the floor exhibit uneven gaps between them, suggesting a need for further leveling or adjustment. \n\n**SAFETY ISSUES:**\n\nA red ladder is positioned precariously close to the edge of the floor, posing a potential trip hazard for workers.  Several workers are not wearing appropriate Personal Protective Equipment (PPE), specifically, some are missing safety glasses.  The open debris on the floor presents a potential trip hazard for workers moving around the construction site.",
+          "latency_ms": 4409.202543029096,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19626168224299068,
+          "bert_score_ref": 0.8748635649681091
+        }
+      ],
+      "avg_rouge_l_ref": 0.1929770438254242,
+      "avg_bert_score_ref": 0.8726407090822855,
+      "avg_consistency": 0.6701451905626135,
+      "avg_latency_ms": 4665.965379681438
+    }
+  ]
+}

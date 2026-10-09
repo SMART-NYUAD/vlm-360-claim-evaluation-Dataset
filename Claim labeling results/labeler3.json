@@ -1,0 +1,1132 @@
+{
+ "o1r1c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The interior space features straight walls and ceilings within a large construction zone focused on mechanical, electrical, and plumbing system installations.",
+  "run": 1,
+  "ts": "2026-07-15T12:15:58Z"
+ },
+ "o1r1c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Multiple workers in high-visibility vests and hard hats are positioned around scaffolding and material storage areas, actively handling metal frameworks and electrical conduits.",
+  "run": 1,
+  "ts": "2026-07-15T12:16:22Z"
+ },
+ "o1r1c3": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The floor is cluttered with construction debris, tools, and temporary barriers, reflecting active progress in the building interior fit-out.",
+  "run": 1,
+  "ts": "2026-07-15T12:16:34Z"
+ },
+ "o1r1c4": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Ceiling metal frameworks exhibit inconsistent alignment, with several arches visibly offset from the intended plane, risking structural instability.",
+  "run": 1,
+  "ts": "2026-07-15T12:16:56Z",
+  "flag": "distortion"
+ },
+ "o1r1c5": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Electrical conduits are inadequately secured in multiple sections, potentially leading to future disconnections or damage during operation.",
+  "run": 1,
+  "ts": "2026-07-15T12:17:44Z",
+  "flag": "distortion"
+ },
+ "o1r1c6": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Wall surfaces show uneven patching where drywall meets wood paneling, indicating improper finishing techniques that may compromise aesthetics and durability.",
+  "run": 1,
+  "ts": "2026-07-15T12:18:13Z",
+  "flag": "distortion"
+ },
+ "o1r1c7": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scaffolding adjacent to the central wall lacks sufficient bracing, creating a significant risk of collapse under worker or material load.",
+  "run": 1,
+  "ts": "2026-07-15T12:19:45Z",
+  "flag": "distortion"
+ },
+ "o1r1c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Exposed electrical cables suspended near the ceiling present a shock hazard, especially with workers operating in close proximity.",
+  "run": 1,
+  "ts": "2026-07-15T12:19:54Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r1c9": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Loose metal scraps and other debris scattered across the floor create tripping hazards throughout the workspace.",
+  "run": 1,
+  "ts": "2026-07-15T12:20:35Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r2c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The space is a large indoor construction zone with straight walls, concrete floors, and a ceiling featuring exposed structural framing.",
+  "run": 2,
+  "ts": "2026-07-15T12:20:59Z"
+ },
+ "o1r2c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Workers in high-visibility vests and hard hats are engaged in installing metal framing, managing electrical conduits, and working on scaffolding.",
+  "run": 2,
+  "ts": "2026-07-15T12:21:10Z"
+ },
+ "o1r2c3": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Various materials including metal beams, cables, and construction tools are scattered across the floor, indicating active mechanical and electrical work.",
+  "run": 2,
+  "ts": "2026-07-15T12:21:19Z"
+ },
+ "o1r2c4": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Metal framing on the ceiling exhibits inconsistent spacing between supports, which may compromise structural stability.",
+  "run": 2,
+  "ts": "2026-07-15T12:21:33Z",
+  "flag": "distortion"
+ },
+ "o1r2c5": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Drywall seams on the walls are visibly misaligned and uneven, suggesting improper installation techniques.",
+  "run": 2,
+  "ts": "2026-07-15T12:21:47Z",
+  "flag": "distortion"
+ },
+ "o1r2c6": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Electrical conduits are loosely attached to the ceiling structure, risking future disconnection or damage.",
+  "run": 2,
+  "ts": "2026-07-15T12:21:58Z",
+  "flag": "distortion",
+  "tags": []
+ },
+ "o1r2c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scaffolding lacks proper guardrails, creating a fall hazard for workers elevated on the structure.",
+  "run": 2,
+  "ts": "2026-07-15T12:22:23Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r2c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Loose cables and materials on the floor present significant tripping risks, particularly near the scaffolding area.",
+  "run": 2,
+  "ts": "2026-07-15T12:22:35Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r2c9": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Exposed electrical wiring in the ceiling poses a shock hazard if contacted during construction activities.",
+  "run": 2,
+  "ts": "2026-07-15T12:22:54Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r3c1": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The space is an indoor construction zone with straight walls and ceilings, where workers in high-visibility vests and hard hats are installing metal framing, electrical conduits, and wooden wall panels.",
+  "run": 3,
+  "ts": "2026-07-15T12:23:40Z",
+  "flag": "misidentification"
+ },
+ "o1r3c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Materials like cables, scaffolding, and tools are scattered across the concrete floor, with partially finished walls and ceilings visible.",
+  "run": 3,
+  "ts": "2026-07-15T12:24:44Z"
+ },
+ "o1r3c3": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The overall condition reflects active construction with ongoing work on structural and finishing elements.",
+  "run": 3,
+  "ts": "2026-07-15T12:24:53Z",
+  "flag": "misidentification"
+ },
+ "o1r3c4": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Metal framing on the ceiling shows inconsistent spacing between structural elements, indicating improper alignment that could compromise structural integrity.",
+  "run": 3,
+  "ts": "2026-07-15T12:25:28Z",
+  "flag": "distortion"
+ },
+ "o1r3c5": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Wooden wall panels exhibit visible gaps between panels, suggesting inadequate sealing or installation techniques.",
+  "run": 3,
+  "ts": "2026-07-15T12:26:13Z",
+  "flag": "distortion"
+ },
+ "o1r3c6": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Electrical conduits are loosely secured to the ceiling structure, risking future disconnection or damage.",
+  "run": 3,
+  "ts": "2026-07-15T12:26:51Z",
+  "flag": "distortion",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r3c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Exposed electrical cables on the floor create tripping hazards near the scaffolding and material storage areas.",
+  "run": 3,
+  "ts": "2026-07-15T12:26:55Z"
+ },
+ "o1r3c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scaffolding lacks proper fall protection systems, with workers positioned at heights without harnesses or guardrails.",
+  "run": 3,
+  "ts": "2026-07-15T12:27:21Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "o1r3c9": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Construction debris and tools are scattered without designated storage, increasing slip and trip risks throughout the workspace.",
+  "run": 3,
+  "ts": "2026-07-15T12:27:32Z",
+  "tags": []
+ },
+ "go1r1c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "The image depicts a large interior space undergoing significant construction, likely a commercial or institutional building.",
+  "run": 1,
+  "ts": "2026-07-15T12:27:51Z",
+  "tags": [
+   "Subjective"
+  ]
+ },
+ "go1r1c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Work appears to be focused on mechanical, electrical, and plumbing (MEP) installations, with extensive ductwork visible in the ceiling and exposed wall framing.",
+  "run": 1,
+  "ts": "2026-07-15T12:28:02Z"
+ },
+ "go1r1c3": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Materials present include metal ductwork, electrical conduit, lumber, and various construction debris scattered across the floor.",
+  "run": 1,
+  "ts": "2026-07-15T12:28:11Z"
+ },
+ "go1r1c4": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "The exposed wall framing lacks consistent bracing, particularly in the area to the right of the image, potentially leading to instability before wall coverings are applied.",
+  "run": 1,
+  "ts": "2026-07-15T12:29:15Z",
+  "tags": [
+   "Subjective"
+  ],
+  "flag": "distortion"
+ },
+ "go1r1c5": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "There is a noticeable amount of construction debris and scrap material accumulating on the floor, indicating a lack of consistent site cleanup.",
+  "run": 1,
+  "ts": "2026-07-15T12:29:26Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r1c6": {
+  "verdict": "TP",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "The exposed electrical wiring and conduit connections appear disorganized and lack proper labeling.",
+  "run": 1,
+  "ts": "2026-07-15T12:30:06Z",
+  "flag": null,
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r1c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "The large pile of metal grating on the floor presents a tripping hazard, especially in a high-traffic construction zone.",
+  "run": 1,
+  "ts": "2026-07-15T12:30:14Z"
+ },
+ "go1r1c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Several workers are not wearing appropriate eye protection while working below exposed ductwork and wiring, increasing the risk of injury from falling objects.",
+  "run": 1,
+  "ts": "2026-07-15T12:30:22Z"
+ },
+ "go1r1c9": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "The lack of complete floor covering or designated walkways contributes to a generally unsafe walking surface.",
+  "run": 1,
+  "ts": "2026-07-15T12:30:39Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r2c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "The image depicts a large interior space undergoing significant construction, likely a commercial or institutional building.",
+  "run": 2,
+  "ts": "2026-07-15T12:30:48Z",
+  "tags": [
+   "Subjective"
+  ]
+ },
+ "go1r2c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Exposed ceiling infrastructure including ductwork, conduit, and structural steel is visible, indicating work in progress on mechanical and electrical systems.",
+  "run": 2,
+  "ts": "2026-07-15T12:30:59Z"
+ },
+ "go1r2c3": {
+  "verdict": "FP",
+  "flag": "misidentification",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Several workers are present, engaged in various tasks including material handling and installation, with materials like metal framing, wall panels, and plastic sheeting scattered throughout the space.",
+  "run": 2,
+  "ts": "2026-07-15T12:31:26Z"
+ },
+ "go1r2c4": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "The wall paneling on the right side appears to have inconsistent alignment and gaps between sections, suggesting a lack of precision during installation.",
+  "run": 2,
+  "ts": "2026-07-15T12:31:35Z",
+  "flag": "distortion"
+ },
+ "go1r2c5": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "There is visible debris and dust accumulation on the unfinished floor, indicating inadequate site cleanup.",
+  "run": 2,
+  "ts": "2026-07-15T12:31:51Z",
+  "flag": "misidentification"
+ },
+ "go1r2c6": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "The exposed wiring and conduit in the ceiling lack neat organization, potentially hindering future access and maintenance.",
+  "run": 2,
+  "ts": "2026-07-15T12:32:00Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r2c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "The large pile of metal framing on the floor presents a tripping hazard, particularly in the main walkway.",
+  "run": 2,
+  "ts": "2026-07-15T12:32:04Z"
+ },
+ "go1r2c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "The scaffolding erected near the wall lacks full guardrails on the open side, creating a fall risk for workers accessing the upper levels.",
+  "run": 2,
+  "ts": "2026-07-15T12:32:11Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r2c9": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Additionally, the presence of loose materials and debris on the floor contributes to a generally cluttered and unsafe working environment.",
+  "run": 2,
+  "ts": "2026-07-15T12:32:19Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r3c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "The image depicts a large, open interior space undergoing significant construction, likely a commercial or institutional building.",
+  "run": 3,
+  "ts": "2026-07-15T12:32:40Z",
+  "tags": [
+   "Subjective"
+  ]
+ },
+ "go1r3c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Exposed ceiling infrastructure including ductwork, conduit, and structural steel is visible, indicating work in progress on mechanical, electrical, and plumbing systems.",
+  "run": 3,
+  "ts": "2026-07-15T12:32:56Z"
+ },
+ "go1r3c3": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Several workers are present, engaged in various tasks, and materials like metal grating, plastic sheeting, and construction debris are scattered across the floor.",
+  "run": 3,
+  "ts": "2026-07-15T12:33:35Z",
+  "flag": "misidentification"
+ },
+ "go1r3c4": {
+  "verdict": "FP",
+  "flag": "distortion",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "The wall paneling on the right side appears to have inconsistent alignment and gaps between sections, suggesting a lack of precision during installation.",
+  "run": 3,
+  "ts": "2026-07-15T12:33:42Z"
+ },
+ "go1r3c5": {
+  "verdict": "FP",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "There is visible dust and debris accumulation on the installed wall panels, indicating a lack of protection or cleaning during construction.",
+  "run": 3,
+  "ts": "2026-07-15T12:33:48Z",
+  "flag": "misidentification"
+ },
+ "go1r3c6": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "The unfinished floor surface shows unevenness and potential for future cracking if not properly leveled and prepared.",
+  "run": 3,
+  "ts": "2026-07-15T12:34:17Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "go1r3c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "The large pile of metal grating near the center of the room presents a tripping hazard, and is not adequately secured or organized.",
+  "run": 3,
+  "ts": "2026-07-15T12:34:26Z"
+ },
+ "go1r3c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "The exposed electrical wiring and conduit in the ceiling create a risk of electrical shock if not properly insulated and grounded.",
+  "run": 3,
+  "ts": "2026-07-15T12:35:04Z",
+  "tags": []
+ },
+ "go1r3c9": {
+  "verdict": "FP",
+  "flag": "misidentification",
+  "image": "20241009/room06.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Additionally, the lack of complete floor covering and the presence of debris contribute to a generally unsafe walking surface.",
+  "run": 3,
+  "ts": "2026-07-15T12:35:17Z"
+ },
+ "n3r1c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The space is a large indoor room with an open layout, currently in interior fit-out stage.",
+  "run": 1,
+  "ts": "2026-07-15T12:35:45Z"
+ },
+ "n3r1c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Equipment includes scaffolding, ladders, traffic cones, and power tools, with multiple workers wearing high-visibility vests and hard hats.",
+  "run": 1,
+  "ts": "2026-07-15T12:36:06Z"
+ },
+ "n3r1c3": {
+  "verdict": "FP",
+  "flag": "distortion",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Drywall seams on the central wall are uneven and not flush.",
+  "run": 1,
+  "ts": "2026-07-15T12:36:16Z"
+ },
+ "n3r1c4": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Metal sheets are scattered across the floor without proper stacking or alignment.",
+  "run": 1,
+  "ts": "2026-07-15T12:36:19Z"
+ },
+ "n3r1c5": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Some drywall panels show visible gaps between seams.",
+  "run": 1,
+  "ts": "2026-07-15T12:36:29Z",
+  "flag": "distortion"
+ },
+ "n3r1c6": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scattered metal sheets on the floor create a trip hazard for workers.",
+  "run": 1,
+  "ts": "2026-07-15T12:36:31Z"
+ },
+ "n3r1c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Exposed wiring on the ceiling poses an electrical hazard.",
+  "run": 1,
+  "ts": "2026-07-15T12:40:43Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "n3r1c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Loose cables on the floor also present a trip hazard.",
+  "run": 1,
+  "ts": "2026-07-15T12:36:39Z"
+ },
+ "n3r2c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The space is a large indoor room with straight walls, a concrete floor, and an exposed ceiling with metal framing and ductwork at interior fit-out stage.",
+  "run": 2,
+  "ts": "2026-07-15T12:36:45Z"
+ },
+ "n3r2c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Workers are present in high-visibility vests and hard hats.",
+  "run": 2,
+  "ts": "2026-07-15T12:36:47Z"
+ },
+ "n3r2c3": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Drywall seams on the main wall are visibly misaligned and uneven.",
+  "run": 2,
+  "ts": "2026-07-15T12:36:56Z",
+  "flag": "distortion"
+ },
+ "n3r2c4": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Metal sheets on the floor are not stacked or secured, appearing haphazardly placed.",
+  "run": 2,
+  "ts": "2026-07-15T12:36:58Z"
+ },
+ "n3r2c5": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Some drywall panels show inconsistent edge alignment along the wall.",
+  "run": 2,
+  "ts": "2026-07-15T12:37:04Z",
+  "flag": "distortion"
+ },
+ "n3r2c6": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scattered metal sheets on the floor create a trip hazard for workers.",
+  "run": 2,
+  "ts": "2026-07-15T12:37:06Z"
+ },
+ "n3r2c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Exposed electrical cables on the floor pose an electrical hazard for workers.",
+  "run": 2,
+  "ts": "2026-07-15T12:41:37Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "n3r2c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Loose cables on the floor also present a trip hazard for workers.",
+  "run": 2,
+  "ts": "2026-07-15T12:37:30Z"
+ },
+ "n3r3c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "The space is a large indoor area with high ceilings and exposed structural framing in interior fit-out stage with drywall installation underway.",
+  "run": 3,
+  "ts": "2026-07-15T12:37:37Z"
+ },
+ "n3r3c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SCENE",
+  "text": "Workers are present wearing high-visibility vests and hard hats.",
+  "run": 3,
+  "ts": "2026-07-15T12:37:39Z"
+ },
+ "n3r3c3": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Drywall seams on the central wall are uneven, visible near the ceiling.",
+  "run": 3,
+  "ts": "2026-07-15T12:37:43Z",
+  "flag": "distortion"
+ },
+ "n3r3c4": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Metal sheets are scattered on the floor without proper stacking or alignment.",
+  "run": 3,
+  "ts": "2026-07-15T12:37:46Z"
+ },
+ "n3r3c5": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "QUALITY ISSUES",
+  "text": "Exposed wiring on the ceiling is not secured to the structural framework.",
+  "run": 3,
+  "ts": "2026-07-15T12:38:03Z",
+  "flag": "distortion"
+ },
+ "n3r3c6": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scattered metal sheets on the floor create trip hazards for workers.",
+  "run": 3,
+  "ts": "2026-07-15T12:38:05Z"
+ },
+ "n3r3c7": {
+  "verdict": "TP",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Exposed wiring on the ceiling poses electrical hazards.",
+  "run": 3,
+  "ts": "2026-07-15T12:38:14Z",
+  "flag": null,
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "n3r3c8": {
+  "verdict": "FP",
+  "flag": "misidentification",
+  "image": "20241014/room03.jpg",
+  "model": "qwen3-vl",
+  "section": "SAFETY ISSUES",
+  "text": "Scaffolding lacks guardrails, creating fall hazards for workers on the platform.",
+  "run": 3,
+  "ts": "2026-07-15T12:42:22Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "gn3r1c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "The space appears to be a large, open auditorium or assembly hall in the late stages of construction.",
+  "run": 1,
+  "ts": "2026-07-15T12:45:54Z",
+  "tags": []
+ },
+ "gn3r1c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Visible materials include metal decking for seating, drywall on walls, exposed metal ceiling grid, and concrete flooring.",
+  "run": 1,
+  "ts": "2026-07-15T12:43:05Z"
+ },
+ "gn3r1c3": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Construction equipment includes scaffolding, ladders, and various tools and debris scattered across the floor.",
+  "run": 1,
+  "ts": "2026-07-15T12:43:11Z"
+ },
+ "gn3r1c4": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Drywall seams are visible along the walls, indicating the need for taping and finishing.",
+  "run": 1,
+  "ts": "2026-07-15T12:43:19Z"
+ },
+ "gn3r1c5": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Multiple sections of metal decking appear to be misaligned, particularly on the left side of the image.",
+  "run": 1,
+  "ts": "2026-07-15T12:43:31Z",
+  "flag": "distortion"
+ },
+ "gn3r1c6": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Debris and construction waste are present on the floor throughout the space.",
+  "run": 1,
+  "ts": "2026-07-15T12:44:46Z",
+  "flag": "misidentification"
+ },
+ "gn3r1c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Trip hazard exists due to debris and materials scattered across the floor, affecting all personnel.",
+  "run": 1,
+  "ts": "2026-07-15T12:44:52Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "gn3r1c8": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Fall hazard is present from the scaffolding without visible guardrails, affecting workers on the scaffolding.",
+  "run": 1,
+  "ts": "2026-07-15T12:44:56Z",
+  "flag": "misidentification"
+ },
+ "gn3r1c9": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Lack of head protection is visible for one worker near the center of the image, affecting that individual.",
+  "run": 1,
+  "ts": "2026-07-15T12:45:25Z",
+  "flag": "misidentification"
+ },
+ "gn3r2c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "The space appears to be a large, open auditorium or assembly hall in the late stages of construction.",
+  "run": 2,
+  "ts": "2026-07-15T12:45:43Z"
+ },
+ "gn3r2c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Visible materials include metal decking for seating, drywall on walls, exposed metal ceiling grid, and concrete flooring.",
+  "run": 2,
+  "ts": "2026-07-15T12:46:42Z"
+ },
+ "gn3r2c3": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Construction equipment includes scaffolding, ladders, and various tools and debris scattered across the floor.",
+  "run": 2,
+  "ts": "2026-07-15T12:47:23Z"
+ },
+ "gn3r2c4": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Drywall seams are visible on the walls, indicating the need for taping and finishing.",
+  "run": 2,
+  "ts": "2026-07-15T12:47:34Z",
+  "tags": []
+ },
+ "gn3r2c5": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Metal decking appears to have some surface rust in multiple locations.",
+  "run": 2,
+  "ts": "2026-07-15T12:48:28Z",
+  "flag": "misidentification"
+ },
+ "gn3r2c6": {
+  "verdict": "FP",
+  "flag": "distortion",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "There are gaps between some of the metal decking pieces.",
+  "run": 2,
+  "ts": "2026-07-15T12:48:35Z"
+ },
+ "gn3r2c7": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Trip hazard: Debris and tools are scattered across the floor throughout the space, affecting all workers.",
+  "run": 2,
+  "ts": "2026-07-15T12:48:42Z",
+  "flag": "misidentification"
+ },
+ "gn3r2c8": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Fall hazard: Scaffolding is erected without visible guardrails, affecting workers on the scaffolding.",
+  "run": 2,
+  "ts": "2026-07-15T12:48:46Z",
+  "flag": "misidentification"
+ },
+ "gn3r2c9": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "PPE hazard: One worker is not wearing a high-visibility vest, affecting that individual.",
+  "run": 2,
+  "ts": "2026-07-15T12:49:10Z",
+  "flag": "misidentification"
+ },
+ "gn3r3c1": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "The space appears to be a large, open auditorium or assembly hall in the late stages of construction.",
+  "run": 3,
+  "ts": "2026-07-15T12:49:16Z"
+ },
+ "gn3r3c2": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Visible materials include metal decking for seating, drywall on walls, exposed metal ceiling grid, and concrete flooring.",
+  "run": 3,
+  "ts": "2026-07-15T12:49:18Z"
+ },
+ "gn3r3c3": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SCENE",
+  "text": "Multiple workers and various tools and equipment are present throughout the space.",
+  "run": 3,
+  "ts": "2026-07-15T12:49:23Z"
+ },
+ "gn3r3c4": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Uneven drywall finishing is visible on the walls, particularly around the doorway and in the upper sections.",
+  "run": 3,
+  "ts": "2026-07-15T12:49:50Z",
+  "flag": "distortion"
+ },
+ "gn3r3c5": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Gaps are present between some of the metal decking sections forming the seating tiers.",
+  "run": 3,
+  "ts": "2026-07-15T12:49:54Z",
+  "flag": "distortion"
+ },
+ "gn3r3c6": {
+  "verdict": "TP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "QUALITY ISSUES",
+  "text": "Debris and construction waste are scattered across the concrete floor.",
+  "run": 3,
+  "ts": "2026-07-15T12:50:05Z",
+  "flag": null
+ },
+ "gn3r3c7": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "A fall hazard exists due to the open edges of the unfinished seating tiers, affecting all workers in the area.",
+  "run": 3,
+  "ts": "2026-07-15T12:50:36Z",
+  "tags": [
+   "Exaggerated"
+  ]
+ },
+ "gn3r3c8": {
+  "verdict": "TP",
+  "flag": null,
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Trip hazards are present from loose cables and debris on the floor, affecting all workers.",
+  "run": 3,
+  "ts": "2026-07-15T12:50:45Z",
+  "tags": [
+   "Overgeneralized"
+  ]
+ },
+ "gn3r3c9": {
+  "verdict": "FP",
+  "image": "20241014/room03.jpg",
+  "model": "gemma3",
+  "section": "SAFETY ISSUES",
+  "text": "Lack of head protection is visible for one worker near the center of the space.",
+  "run": 3,
+  "ts": "2026-07-15T12:50:49Z",
+  "flag": "misidentification"
+ }
+}

@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "gemma3:12b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.22438285294244817,
+    "bert_score_ref_mean": 0.8727985196643405,
+    "consistency_mean": 0.6881307756174371,
+    "latency_p50_ms": 4915.150357002858,
+    "latency_p95_ms": 5308.165962982457
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in the drywall stage. Workers are present, engaged in what appears to be framing or installation work, with scaffolding and materials visible throughout the space. There are visible fire extinguishers and caution tape indicating ongoing work.\n\n**QUALITY ISSUES:** There are visible inconsistencies in the drywall finish on the wall to the left of the image. The framing appears misaligned near the center of the image, creating a visible gap. The surface of the floor appears uneven in the foreground.\n\n**SAFETY ISSUES:** A fall hazard is present due to the exposed scaffolding in the center of the image. A trip hazard exists from the loose cables and debris on the floor near the left side of the image. A worker is not wearing appropriate head protection near the entrance on the left side of the image.",
+          "latency_ms": 2461.9803199893795,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23952095808383234,
+          "bert_score_ref": 0.8809236288070679
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in the drywall stage. Workers are present, engaged in what appears to be framing or installation work. Visible materials include drywall sheets, lumber, and a fire extinguisher.\n\n**QUALITY ISSUES:**\nThere are visible gaps between drywall sheets on the wall to the right of the image. The framing lumber appears misaligned in the center of the image. A section of drywall is damaged near the base of the scaffolding in the foreground.\n\n**SAFETY ISSUES:**\nA fall hazard exists on the scaffolding in the center of the image, with no visible guardrails. A trip hazard is present due to loose materials and debris on the floor throughout the space. An electrical hazard is present due to exposed wiring visible on the ceiling.",
+          "latency_ms": 2181.8961040116847,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23197492163009403,
+          "bert_score_ref": 0.8820333480834961
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in the drywall stage. Workers are present, engaged in what appears to be framing or installation work, and materials such as drywall sheets and lumber are visible. Scaffolding and caution tape are present throughout the space, indicating ongoing construction activities.\n\n**QUALITY ISSUES:** There are visible inconsistencies in the drywall installation on the wall to the left of the image, with some areas appearing uneven or misaligned. The framing on the wall in the center of the image shows gaps between the studs. There is a visible gap between the drywall and the floor near the entrance on the left side of the image.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding in the center of the image, as workers are present without visible fall protection. A trip hazard is present due to scattered materials and debris on the floor throughout the space. An electrical hazard is present due to exposed wiring visible on the ceiling.",
+          "latency_ms": 2555.5277969688177,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24788732394366197,
+          "bert_score_ref": 0.8821922540664673
+        }
+      ],
+      "avg_rouge_l_ref": 0.23979440121919612,
+      "avg_bert_score_ref": 0.8817164103190104,
+      "avg_consistency": 0.6514539929377766,
+      "avg_latency_ms": 2399.8014069899605
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, with drywall installation in progress. Workers are actively engaged in applying drywall to the walls, and materials such as drywall sheets, buckets, and tools are scattered throughout the area. A scaffolding structure is visible on the left side of the image, supporting work at a higher elevation.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the wall near the center of the image, indicating potential inconsistencies in sheet alignment. There is visible patching on the wall near the right side of the image, suggesting previous repairs or imperfections. A section of drywall is leaning against the wall near the front of the image, which may indicate improper storage or handling.\n\n**SAFETY ISSUES:**\nA trip hazard is present with loose materials and debris on the floor throughout the workspace, potentially affecting all workers. A fall hazard exists on the scaffolding on the left side of the image, with no visible guardrails or fall protection. An electrical hazard is present with exposed wiring near the doorway on the right side of the image, posing a risk to workers in the immediate vicinity.",
+          "latency_ms": 3115.59878999833,
+          "structure_valid": true,
+          "rouge_l_ref": 0.26463104325699743,
+          "bert_score_ref": 0.8821107149124146
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in the drywall stage. Workers are actively engaged in drywall installation and finishing, with materials like drywall sheets, joint compound, and tools visible. Scaffolding is erected along the left wall, and a partially installed window is visible on the back wall.\n\n**QUALITY ISSUES:**\nDrywall joint compound appears uneven on the back wall, near the center of the image. There is visible debris and dust accumulation on the floor near the workers. A section of drywall is leaning against the wall on the left side of the image.\n\n**SAFETY ISSUES:**\nA trip hazard exists due to loose materials and debris scattered across the floor throughout the image. A fall hazard is present due to the open edge of the scaffolding on the left side of the image. Workers are at risk from potential electrical hazards near the exposed wiring on the right side of the image.",
+          "latency_ms": 2562.2130690026097,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2506963788300835,
+          "bert_score_ref": 0.8781517744064331
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, with drywall installation in progress. Workers are actively engaged in applying drywall to the walls, and materials like drywall sheets, buckets, and tools are scattered throughout the area. A scaffolding structure is visible on the left side of the image, and a door is visible on the right.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the wall near the center of the image, indicating potential finishing work required. There is a visible gap between the drywall and the floor near the center of the image. A section of drywall is leaning against the wall near the left side of the image.\n\n**SAFETY ISSUES:**\nA trip hazard is present due to loose materials and debris on the floor throughout the workspace, potentially affecting all workers. A fall hazard exists on the scaffolding on the left side of the image, with no visible guardrails. An electrical hazard is present near the door on the right side of the image, with exposed wiring.",
+          "latency_ms": 2717.382066999562,
+          "structure_valid": true,
+          "rouge_l_ref": 0.25668449197860965,
+          "bert_score_ref": 0.88059401512146
+        }
+      ],
+      "avg_rouge_l_ref": 0.25733730468856353,
+      "avg_bert_score_ref": 0.8802855014801025,
+      "avg_consistency": 0.6841697773805203,
+      "avg_latency_ms": 2798.3979753335007
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall and ceiling installation phase, with exposed framing and wiring visible. Several workers are present, some observing and others engaged in construction activities.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the left wall, indicating potential finishing work required. There are exposed fasteners on the drywall near the center of the image. The scaffolding near the right wall appears to be positioned directly against the drywall.\n\n**SAFETY ISSUES:**\nA trip hazard is present from debris scattered across the floor throughout the space, posing a risk to all workers. A fall hazard exists around the scaffolding on the right side of the image, potentially endangering workers near the structure. Workers in the center of the image are not wearing appropriate high-visibility vests.",
+          "latency_ms": 4955.391654977575,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21108179419525064,
+          "bert_score_ref": 0.8776451349258423
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall and ceiling installation phase, with exposed framing and wiring visible. Multiple workers are present, some observing and others engaged in construction activities.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the left wall, and may require additional finishing. Some exposed electrical wiring is not neatly bundled or secured on the ceiling. The scaffolding on the right appears to be positioned directly on the finished floor.\n\n**SAFETY ISSUES:**\nA trip hazard is present from debris scattered across the floor throughout the space, potentially affecting all workers. A fall hazard exists around the scaffolding on the right, with no visible guardrails or fall protection. Workers near the front of the image are not wearing high-visibility vests.",
+          "latency_ms": 4726.971632044297,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21447721179624665,
+          "bert_score_ref": 0.8805460333824158
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall and ceiling installation phase, with exposed framing and wiring visible. Multiple workers are present, some observing and others engaged in construction activities.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the left wall, indicating a potential need for additional taping and finishing. Some exposed wiring is not neatly bundled or secured on the ceiling. A stack of materials is precariously balanced on a wheeled cart in the center of the room.\n\n**SAFETY ISSUES:**\nA fall hazard exists around the scaffolding in the center of the room, potentially affecting workers and passersby. Trip hazards are present due to debris and materials scattered across the floor, posing a risk to all personnel. An electrical hazard is present due to exposed wiring on the ceiling, potentially affecting workers in the area.",
+          "latency_ms": 4875.944530009292,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22797927461139897,
+          "bert_score_ref": 0.8779592514038086
+        }
+      ],
+      "avg_rouge_l_ref": 0.21784609353429876,
+      "avg_bert_score_ref": 0.8787168065706888,
+      "avg_consistency": 0.6664256153802534,
+      "avg_latency_ms": 4852.769272343721
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall installation phase, with partially completed walls and a suspended ceiling grid visible. Workers are present, actively engaged in installing drywall panels and scaffolding is erected to facilitate the work.\n\n**QUALITY ISSUES:** Several drywall panels appear misaligned with the surrounding surfaces, visible on the left wall. There is visible damage to a stack of drywall sheets near the center of the image. A section of the ceiling grid appears to be loosely attached, located near the right side of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open height and lack of guardrails around the scaffolding, located in the center of the image, posing a risk to workers on the scaffolding. A trip hazard is present from loose materials and debris scattered across the floor, affecting all workers in the space. An electrical hazard is present from exposed wiring visible on the ceiling, potentially impacting workers throughout the area.",
+          "latency_ms": 5148.394653981086,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21971830985915491,
+          "bert_score_ref": 0.8744276165962219
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall installation phase, with framing and partially installed drywall visible on walls and ceilings. Workers are present, actively engaged in installing drywall and scaffolding is erected to facilitate the work.\n\n**QUALITY ISSUES:** There is visible damage to drywall sheets near the center of the image, with a large crack running vertically. Some drywall sheets are leaning against the walls and have not been properly secured, visible on the left side of the image. A stack of drywall sheets is precariously balanced near the exit door on the right side of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open height and lack of guardrails around the scaffolding in the center of the image, potentially endangering workers on the scaffolding. A trip hazard is present due to scattered materials and debris across the floor throughout the entire space, posing a risk to all personnel. Workers are observed without head protection in the center of the image, creating a potential head injury hazard.",
+          "latency_ms": 5070.247136987746,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2016348773841962,
+          "bert_score_ref": 0.8712389469146729
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall installation phase, with framing and drywall sheets visible. Workers are present, actively engaged in installing drywall and scaffolding is erected to facilitate the work.\n\n**QUALITY ISSUES:** There is visible damage to a drywall sheet located on the left wall. Some drywall sheets are stacked precariously near the exit door on the right side of the image. A section of exposed wiring is visible on the ceiling.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open height and lack of guardrails around the scaffolding in the center of the image, potentially impacting workers. A trip hazard is present from stacked materials near the exit door on the right side of the image, posing a risk to all personnel. Workers are not consistently wearing appropriate head protection, visible throughout the image.",
+          "latency_ms": 4648.82951695472,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18562874251497005,
+          "bert_score_ref": 0.8707281947135925
+        }
+      ],
+      "avg_rouge_l_ref": 0.2023273099194404,
+      "avg_bert_score_ref": 0.8721315860748291,
+      "avg_consistency": 0.6527173157761477,
+      "avg_latency_ms": 4955.823769307851
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, at an advanced stage of drywall installation. Numerous workers are present, engaged in various tasks including drywall hanging, painting, and material handling. Visible materials include drywall sheets, paint buckets, lumber, and various tools and equipment.\n\n**QUALITY ISSUES:** There are visible gaps between drywall sheets on the left wall, approximately 1/3 of the way from the bottom of the image. A section of drywall is partially installed and misaligned on the right wall, near the center of the image. There is visible debris and dust accumulation on the floor throughout the space.\n\n**SAFETY ISSUES:** A fall hazard exists due to exposed elevated work areas with no guardrails, visible throughout the space. A trip hazard is present due to scattered materials and debris on the floor, posing a risk to all workers and visitors. An electrical hazard is present due to exposed wiring and conduit on the ceiling, potentially affecting workers in the central area.",
+          "latency_ms": 5283.124635985587,
+          "structure_valid": true,
+          "rouge_l_ref": 0.224,
+          "bert_score_ref": 0.8690698742866516
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in an advanced stage of drywall installation. Numerous workers are present, engaged in various tasks including drywall hanging and painting. Visible materials include drywall sheets, paint buckets, lumber, and various construction tools and equipment.\n\n**QUALITY ISSUES:** There is visible damage to drywall sheets on the left wall, near the center of the image. Some drywall seams appear uneven on the right wall, near the window. A stack of lumber is leaning precariously against a wall in the center of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to exposed floor areas with debris and materials scattered throughout the space, posing a risk to all workers. A trip hazard is present from the loose cables and hoses on the floor, potentially affecting all personnel. An electrical hazard is visible from the exposed wiring on the ceiling, posing a risk to workers in the immediate area.",
+          "latency_ms": 4887.715976976324,
+          "structure_valid": true,
+          "rouge_l_ref": 0.209366391184573,
+          "bert_score_ref": 0.8715529441833496
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in an advanced stage of drywall installation. Workers are present, engaged in what appears to be finishing work on the drywall and ceiling. Visible materials include drywall sheets, paint buckets, lumber, and various construction tools.\n\n**QUALITY ISSUES:** There are visible gaps between drywall sheets on the left wall, approximately 1/3 of the way from the bottom of the image. Some drywall sheets appear misaligned with the framing on the right wall, near the center of the image. A section of drywall is damaged near the floor on the right side of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to exposed elevated framing and unfinished flooring throughout the entire space, posing a risk to all workers and visitors. A trip hazard is present due to scattered materials, including lumber and paint buckets, across the floor. An electrical hazard is visible with exposed wiring near the ceiling in the center of the image, potentially endangering workers.",
+          "latency_ms": 5070.980627031531,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20799999999999996,
+          "bert_score_ref": 0.8668649792671204
+        }
+      ],
+      "avg_rouge_l_ref": 0.21378879706152432,
+      "avg_bert_score_ref": 0.8691625992457072,
+      "avg_consistency": 0.654495456719273,
+      "avg_latency_ms": 5080.607079997814
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in an advanced framing stage. Exposed structural steel and extensive electrical conduit and wiring are visible on the ceiling. Lumber and construction materials are stacked throughout the space, with a partially completed wall section visible on the right side of the image.\n\n**QUALITY ISSUES:**\nThere is exposed rebar protruding from the wall on the left side of the image. The wall paneling on the right side appears misaligned. A section of the floor is covered with a white sheet, obscuring the surface.\n\n**SAFETY ISSUES:**\nA fall hazard exists due to the open edge of the scaffolding in the center of the image, potentially endangering workers. A trip hazard is present from the loose lumber and materials scattered across the floor. An electrical hazard is present from the exposed wiring on the ceiling, posing a risk to anyone working overhead.",
+          "latency_ms": 5089.127576968167,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20821917808219176,
+          "bert_score_ref": 0.8717820644378662
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in an advanced framing stage. Exposed structural framing, electrical conduit, and HVAC ductwork are visible on the ceiling. Lumber and construction materials are stacked throughout the space, with a partially installed wood paneling system on one wall.\n\n**QUALITY ISSUES:**\nThere is exposed rebar protruding from the concrete wall on the left side of the image. The wood paneling on the right wall appears misaligned in several locations. A section of drywall is visibly damaged near the center of the image.\n\n**SAFETY ISSUES:**\nA fall hazard exists due to the open edge of the scaffolding located in the center of the image. A trip hazard is present from loose materials and debris scattered across the floor. An electrical hazard is visible from exposed wiring and conduit on the ceiling, posing a risk to workers throughout the space.",
+          "latency_ms": 4915.150357002858,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2099447513812155,
+          "bert_score_ref": 0.873760998249054
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, at an advanced stage of build-out. Exposed structural elements and extensive electrical conduit and wiring are visible on the ceiling. Lumber and construction materials are stacked throughout the space, and a scaffolding structure is present in the foreground.\n\n**QUALITY ISSUES:**\nThere is exposed drywall tape visible on the wall in the upper right quadrant of the image. Some of the electrical conduit appears to be loosely secured to the ceiling structure. A section of wall paneling is misaligned in the center of the image.\n\n**SAFETY ISSUES:**\nA fall hazard exists on the scaffolding in the foreground, with no visible guardrails. A trip hazard is present due to scattered lumber and debris across the floor. An electrical hazard is present due to exposed wiring on the ceiling, posing a risk to workers in the area.",
+          "latency_ms": 4879.723107034806,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21052631578947367,
+          "bert_score_ref": 0.8728294372558594
+        }
+      ],
+      "avg_rouge_l_ref": 0.20956341508429363,
+      "avg_bert_score_ref": 0.8727908333142599,
+      "avg_consistency": 0.6701200263990962,
+      "avg_latency_ms": 4961.333680335277
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, at an advanced stage of build. Exposed ductwork and wiring are visible on the ceiling, while wall paneling is partially installed. Workers are present, engaged in what appears to be ongoing mechanical and electrical installation work.\n\n**QUALITY ISSUES:** There is visible debris and material scattered across the floor throughout the space. Some wall paneling appears misaligned near the center of the image. A section of exposed conduit is visible on the left wall, without proper covering.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open floor space and exposed elevated work areas in the center of the image, potentially impacting all workers. A trip hazard is present from the scattered materials and orange cones on the floor, posing a risk to all personnel. An electrical hazard is visible from the exposed wiring and conduit on the left wall, potentially affecting workers in that area.",
+          "latency_ms": 5107.090605015401,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23428571428571426,
+          "bert_score_ref": 0.871641218662262
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, at an advanced stage of build. Exposed ductwork and wiring are visible on the ceiling, while wall paneling is partially installed. Workers are present, engaged in what appears to be ongoing mechanical and electrical installation work.\n\n**QUALITY ISSUES:** There is exposed drywall with visible patching on the left wall. The floor surface appears uneven with debris and material scattered throughout the space. Some conduit appears to be loosely secured to the ceiling.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open ceiling and exposed ductwork, potentially affecting workers in the central area. A trip hazard is present due to the scattered materials and uneven floor surface, posing a risk to all personnel on site. An electrical hazard is present due to exposed wiring on the ceiling, potentially affecting workers in the central area.",
+          "latency_ms": 4773.703367973212,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21828908554572274,
+          "bert_score_ref": 0.8699057698249817
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, at an advanced stage of build. Exposed ductwork and wiring are visible on the ceiling, while wall paneling is partially installed. Workers are present, engaged in what appears to be ongoing mechanical and electrical installation work.\n\n**QUALITY ISSUES:** There is exposed drywall with visible patching on the left wall. The surface of the concrete floor appears uneven in the central area of the image. Some of the installed wall paneling has gaps between the panels.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open ceiling and exposed ductwork, potentially affecting workers throughout the space. A trip hazard is present due to the loose metal bars and debris on the floor, posing a risk to all personnel. An electrical hazard is present due to exposed wiring on the ceiling, potentially affecting workers in the central area.",
+          "latency_ms": 4852.148259000387,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22873900293255134,
+          "bert_score_ref": 0.8702235817909241
+        }
+      ],
+      "avg_rouge_l_ref": 0.22710460092132945,
+      "avg_bert_score_ref": 0.8705901900927225,
+      "avg_consistency": 0.7410106908318048,
+      "avg_latency_ms": 4910.980743996333
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial building. Drywall sheeting is being installed on the walls and suspended ceiling gridwork is in place. Workers are present, engaged in drywall installation and material handling.\n\n**QUALITY ISSUES:**\nThere is visible debris and material scattered across the floor in the center of the image. A section of drywall sheeting appears misaligned with the wall framing on the left side of the image. A visible crack is present in the concrete floor near the center of the image.\n\n**SAFETY ISSUES:**\nA trip hazard is present due to loose materials and debris on the floor throughout the space. A fall hazard exists around the scaffolding on the right side of the image. Workers near the scaffolding on the right side of the image are at risk of being struck by falling objects.",
+          "latency_ms": 4954.86403995892,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2005899705014749,
+          "bert_score_ref": 0.8699618577957153
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large interior space under construction, likely a commercial building. Drywall sheeting is being installed on the walls and suspended ceiling gridwork is in place. Workers are present, engaged in drywall installation and material handling.\n\n**QUALITY ISSUES:** There is visible debris and material scattered on the floor throughout the space. A section of drywall sheeting appears misaligned with the wall framing on the left side of the image. A crack is visible in the concrete floor near the center of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open edge of the elevated platform on the right side of the image, potentially endangering workers. Trip hazards are present due to scattered materials and debris across the entire floor, posing a risk to all personnel. An electrical hazard is present due to exposed wiring on the ceiling, potentially endangering workers.",
+          "latency_ms": 4845.986028958578,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2105263157894737,
+          "bert_score_ref": 0.869864284992218
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large interior space under construction, likely a commercial building. Drywall sheeting is being installed on the walls and suspended ceiling gridwork is in place. Workers are present, engaged in drywall installation and material handling.\n\n**QUALITY ISSUES:** There is visible debris and material scattered across the floor in the foreground. A section of drywall sheeting appears misaligned with the wall framing on the left side of the image. A crack is visible in the concrete floor near the center of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open edge of the elevated platform on the right side of the image, potentially endangering workers. A trip hazard is present from the scattered materials across the floor, posing a risk to all personnel. An electrical hazard is present from exposed wiring near the ceiling, potentially affecting workers and anyone accessing the area.",
+          "latency_ms": 4846.785563975573,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20348837209302326,
+          "bert_score_ref": 0.8708574175834656
+        }
+      ],
+      "avg_rouge_l_ref": 0.20486821946132394,
+      "avg_bert_score_ref": 0.8702278534571329,
+      "avg_consistency": 0.772111314720653,
+      "avg_latency_ms": 4882.545210964357
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in the drywall finishing stage. Workers are present, engaged in what appears to be ductwork installation and drywall work. Visible materials include drywall sheets, metal ductwork, insulation, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:** The drywall joint compound application on the wall to the left of the image appears uneven. There is visible debris on the floor near the center of the image. The ductwork installation appears incomplete, with exposed metal edges visible.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding in the center of the image, with a worker positioned at height. A trip hazard is present due to the scattered debris across the floor. There is an electrical hazard visible with exposed wiring near the right side of the image.",
+          "latency_ms": 4704.5598609838635,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24999999999999994,
+          "bert_score_ref": 0.8699243068695068
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in the drywall finishing stage. Workers are present, engaged in what appears to be ductwork installation and drywall work. Visible materials include drywall sheets, metal ductwork, insulation, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:** The drywall seams on the left wall appear uneven and may require additional attention. There is visible patching on the wall near the entrance, suggesting previous repairs or inconsistencies. The ductwork installation appears incomplete, with exposed sections and potential alignment issues.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding in the center of the image, with a worker positioned at height without visible fall protection. A trip hazard is present due to debris and loose materials scattered across the floor throughout the space. Electrical hazard is present with exposed wiring visible near the right wall.",
+          "latency_ms": 4701.534095045645,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2507836990595611,
+          "bert_score_ref": 0.8740302920341492
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in the drywall finishing stage. Workers are present, engaged in what appears to be ductwork installation and drywall work. Visible materials include drywall sheets, metal ductwork, insulation, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:** The drywall seams on the left wall appear uneven and may require additional attention. There is visible patching on the wall near the entrance, suggesting previous repairs or inconsistencies. The ductwork installation appears incomplete, with exposed sections and potential alignment issues.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding in the center of the image, with a worker positioned at height without visible fall protection. A trip hazard is present due to debris and loose materials scattered across the floor throughout the space. Electrical hazard is present with exposed wiring visible near the right wall.",
+          "latency_ms": 4649.493884993717,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2507836990595611,
+          "bert_score_ref": 0.874030351638794
+        }
+      ],
+      "avg_rouge_l_ref": 0.2505224660397074,
+      "avg_bert_score_ref": 0.8726616501808167,
+      "avg_consistency": 0.8515901060070671,
+      "avg_latency_ms": 4685.195947007742
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in an advanced stage of development.  Electrical conduit and wiring are installed across the ceiling, and drywall is partially installed on the walls.  Construction materials, including lumber, drywall sheets, and a hard hat, are scattered throughout the space, along with traffic cones and a scissor lift.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the wall near the center of the image, indicating a need for taping and finishing.  There are gaps between the drywall and the ceiling in the upper-left quadrant of the image.  A section of the wall near the right side of the image appears to have a different texture than the surrounding drywall.\n\n**SAFETY ISSUES:**\nA fall hazard exists due to the open edge of the floor near the left side of the image, potentially endangering workers and passersby.  Trip hazards are present throughout the site from scattered materials and traffic cones, posing a risk to all personnel.  An electrical hazard is present due to exposed wiring on the ceiling, potentially affecting workers in the area.",
+          "latency_ms": 5653.42884400161,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24043715846994534,
+          "bert_score_ref": 0.8708439469337463
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in an advanced stage of build-out.  Electrical conduit and wiring are visible on the ceiling, and drywall is installed on some walls.  Construction materials, including lumber, drywall sheets, and a hard hat, are scattered throughout the space, along with orange traffic cones and a scissor lift.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the wall in the center of the image, indicating a need for finishing work.  There are gaps between the drywall and the floor in several locations.  Some electrical conduit appears to be loosely secured to the ceiling.\n\n**SAFETY ISSUES:**\nA fall hazard exists due to the open floor space and scattered materials, potentially affecting all workers.  Trip hazards are present from the orange traffic cones and loose materials throughout the area.  An electrical hazard is present due to exposed wiring on the ceiling, posing a risk to anyone working overhead.",
+          "latency_ms": 5142.92748196749,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24705882352941178,
+          "bert_score_ref": 0.8765174150466919
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in an advanced stage of build-out.  Electrical conduit and wiring are extensively installed on the ceiling, and drywall is partially installed on the walls.  Construction materials, including lumber, drywall sheets, and orange traffic cones, are scattered throughout the space.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the left wall, indicating a potential need for finishing work.  Some electrical conduit appears to be loosely secured to the ceiling structure.  There is a visible gap between the drywall and the floor on the right wall.\n\n**SAFETY ISSUES:**\nA fall hazard exists near the scaffolding on the left side of the image, with no visible guardrails.  Trip hazards are present throughout the site due to scattered materials and traffic cones.  An electrical hazard is present due to exposed wiring on the ceiling, posing a risk to all workers in the area.",
+          "latency_ms": 5134.319506993052,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2447761194029851,
+          "bert_score_ref": 0.8753181099891663
+        }
+      ],
+      "avg_rouge_l_ref": 0.2440907004674474,
+      "avg_bert_score_ref": 0.8742264906565348,
+      "avg_consistency": 0.6743549611347487,
+      "avg_latency_ms": 5310.225277654051
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, at an advanced stage of build-out. Exposed structural elements, including ductwork and wiring, are visible on the ceiling, while wall paneling is installed in sections. Workers are present, engaged in what appears to be installation or finishing work.\n\n**QUALITY ISSUES:**\nThere is visible debris, including polystyrene and cable remnants, scattered across the floor in the foreground. A section of wall paneling appears misaligned with the adjacent panel, visible on the left side of the image. Exposed electrical wiring is visible and unsecured near the right side of the image.\n\n**SAFETY ISSUES:**\nA trip hazard exists due to the loose cables and debris on the floor throughout the scene, potentially affecting all workers and visitors. There is a fall hazard present due to the open edge of the raised floor near the right side of the image, posing a risk to workers in that area. Workers are observed without toe protection on their footwear, creating a potential foot injury hazard.",
+          "latency_ms": 5426.1217509629205,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20689655172413793,
+          "bert_score_ref": 0.8664494752883911
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in an intermediate stage of development. Exposed structural elements, including metal decking and ductwork, are visible on the ceiling, while walls are partially finished with wood paneling and drywall. Workers are present, engaged in what appears to be installation or maintenance activities.\n\n**QUALITY ISSUES:** There is visible debris, including insulation and plastic sheeting, scattered across the floor in the foreground. A section of drywall appears misaligned on the wall to the left of the image. Exposed electrical conduit is visible on the wall to the right of the image.\n\n**SAFETY ISSUES:** A trip hazard exists due to loose cables and debris on the floor throughout the scene. A fall hazard is present due to the open metal decking on the ceiling. Workers are at risk from potential falling objects from the ceiling.",
+          "latency_ms": 4863.132347993087,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20630372492836677,
+          "bert_score_ref": 0.8642140626907349
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, at an advanced stage of build-out. Exposed structural elements, including ductwork and framing, are visible on the ceiling, while walls are partially finished with wood paneling and drywall. Workers are present, engaged in what appears to be installation or finishing work.\n\n**QUALITY ISSUES:**\nThere is a pile of debris, including drywall scraps, located near the center of the image. Exposed electrical conduit is visible on the left wall, without proper covering or protection. A section of wood paneling on the right wall appears misaligned.\n\n**SAFETY ISSUES:**\nA trip hazard exists due to loose cables and debris scattered across the floor throughout the entire space. A fall hazard is present due to the open ceiling with exposed structural elements, posing a risk to workers and anyone accessing the area. Workers are visible without fall protection while working at height.",
+          "latency_ms": 4999.617930967361,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19662921348314605,
+          "bert_score_ref": 0.8701099157333374
+        }
+      ],
+      "avg_rouge_l_ref": 0.20327649671188358,
+      "avg_bert_score_ref": 0.8669244845708212,
+      "avg_consistency": 0.6388843115887142,
+      "avg_latency_ms": 5096.290676641122
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in the drywall stage. Workers are actively engaged in installing rebar and preparing for concrete flooring. Visible materials include rebar, drywall sheets, electrical conduit, and various hand tools.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the left wall, indicating a potential need for finishing work. Rebar placement appears uneven in the foreground, requiring verification of spacing and alignment. There is debris scattered across the floor, which may impact the quality of the finished surface.\n\n**SAFETY ISSUES:**\nA trip hazard exists due to debris scattered across the floor, potentially affecting all workers in the area. Workers are present without adequate foot protection, posing a risk of foot injury. There is a fall hazard due to the exposed rebar, which could injure anyone walking through the area.",
+          "latency_ms": 5207.864107040223,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23121387283236997,
+          "bert_score_ref": 0.8744220733642578
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, in the drywall stage. Workers are actively engaged in installing rebar and preparing for a concrete pour. Visible materials include rebar, drywall sheets, electrical conduit, and concrete debris.\n\n**QUALITY ISSUES:**\nDrywall seams are visible on the left wall, indicating potential finishing work required. Rebar placement appears uneven in the foreground, suggesting a need for verification. There are visible gaps between the drywall sheets on the back wall.\n\n**SAFETY ISSUES:**\nA trip hazard exists due to scattered debris across the floor, potentially affecting all workers. A fall hazard is present due to the open edge of the concrete slab, posing a risk to workers in the immediate area. Workers are at risk of electrical hazards due to exposed conduit and wiring.",
+          "latency_ms": 4879.570270015392,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23460410557184752,
+          "bert_score_ref": 0.8706640601158142
+        },
+        {
+          "text": "**CONSTRUCTION SITE INSPECTION REPORT**\n\n**SCENE:**\nThe image depicts an interior construction site, likely a commercial space, with drywall framing and mechanical systems installed. Workers are actively engaged in what appears to be the installation of rebar for a concrete slab. Visible materials include drywall sheets, rebar, electrical conduit, and various hand tools.\n\n**QUALITY ISSUES:**\nThe drywall seams on the left wall appear misaligned, creating an uneven surface. There is visible debris scattered across the floor, including small pieces of drywall and rebar scraps. The rebar placement on the right wall shows inconsistencies in spacing and alignment.\n\n**SAFETY ISSUES:**\nA trip hazard exists due to debris scattered across the floor, potentially affecting all workers in the area. There is a fall hazard present due to the open floor area without adequate protection, posing a risk to workers. Electrical hazard is present due to exposed wiring and conduit, potentially affecting workers near the mechanical systems.",
+          "latency_ms": 5074.165348021779,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2122905027932961,
+          "bert_score_ref": 0.8702802658081055
+        }
+      ],
+      "avg_rouge_l_ref": 0.22603616039917118,
+      "avg_bert_score_ref": 0.8717887997627258,
+      "avg_consistency": 0.6216585027158736,
+      "avg_latency_ms": 5053.866575025798
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large, unfinished interior space, likely a commercial or institutional building. Construction appears to be in the drywall and mechanical rough-in stage, with suspended ceiling grids and ductwork visible. Workers are present, engaged in drywall installation and other construction activities, utilizing scaffolding and power tools.\n\n**QUALITY ISSUES:** The drywall seams on the wall near the center of the image appear uneven. There is exposed insulation visible on the wall near the left side of the image. The drywall cutouts around the window on the right side of the image appear rough.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding near the center of the image, with no visible guardrails. A trip hazard is present due to scattered materials and debris across the floor throughout the entire space. An electrical hazard is present due to exposed wiring near the ceiling in the center of the image.",
+          "latency_ms": 5190.071181976236,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22408963585434172,
+          "bert_score_ref": 0.8726202845573425
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large, unfinished interior space, likely a commercial building. Construction appears to be in the drywall and mechanical rough-in stage, with suspended ceiling grids and ductwork visible. Workers are present, engaged in drywall installation and other construction activities.\n\n**QUALITY ISSUES:** There is exposed drywall tape and joint compound visible on the wall near the center of the image. The drywall seams on the wall to the left of the image appear uneven. A section of drywall is damaged near the window on the right side of the image.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open edge of the ceiling grid in the center of the image, posing a risk to workers below. A trip hazard is present from loose materials and debris scattered across the floor throughout the space, potentially affecting all personnel. An electrical hazard is visible from exposed wiring near the ceiling in the left portion of the image, posing a risk to workers in the area.",
+          "latency_ms": 5177.137258986477,
+          "structure_valid": true,
+          "rouge_l_ref": 0.225201072386059,
+          "bert_score_ref": 0.8702227473258972
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large interior space under construction, likely a commercial or institutional building. Work appears to be in the drywall and ceiling installation phase, with extensive metal stud framing visible on walls and a suspended ceiling grid being erected. Workers are present, actively engaged in installing drywall and ceiling components, and various construction materials and equipment are scattered throughout the area.\n\n**QUALITY ISSUES:** The drywall seams on the wall, visible in the center of the image, appear uneven. There is a gap between the drywall and the metal stud framing on the wall, visible in the center of the image. The metal stud framing on the left wall appears misaligned.\n\n**SAFETY ISSUES:** A fall hazard exists due to the unsecured scaffolding on the right side of the image, potentially endangering workers on the platform. A trip hazard is present due to scattered materials and debris across the floor, posing a risk to all personnel in the area. An electrical hazard is present due to exposed wiring on the ceiling, potentially affecting workers and anyone near the ceiling.",
+          "latency_ms": 5308.165962982457,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24352331606217617,
+          "bert_score_ref": 0.8725928068161011
+        }
+      ],
+      "avg_rouge_l_ref": 0.23093800810085896,
+      "avg_bert_score_ref": 0.8718119462331136,
+      "avg_consistency": 0.6174444143283685,
+      "avg_latency_ms": 5225.124801315057
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, in an advanced stage of build-out. Framing and drywall are installed on the walls, and a complex suspended ceiling system is in place. Workers are present, engaged in what appears to be finishing work and material handling.\n\n**QUALITY ISSUES:** There is exposed insulation visible on the floor near the center of the image. The drywall seams on the wall to the left of the image appear uneven. Some of the framing appears to be misaligned on the wall to the right of the image.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding located on the left side of the image, potentially affecting workers on the scaffolding. A trip hazard is present due to debris scattered across the floor throughout the entire space, posing a risk to all workers. An electrical hazard is present due to exposed wiring in the ceiling, potentially affecting anyone working in the area.",
+          "latency_ms": 5183.420690998901,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22028985507246376,
+          "bert_score_ref": 0.8683227300643921
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, at an advanced stage of build-out. Framing and drywall are installed on the walls, and a suspended ceiling system with exposed ductwork and wiring is in place. Workers are present, engaged in what appears to be finishing or inspection activities.\n\n**QUALITY ISSUES:** There is exposed insulation visible on the floor near the center of the image. A section of drywall appears misaligned with the framing on the wall to the right of the image. There is debris scattered across the floor throughout the space.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding located on the left side of the image, potentially impacting workers on the scaffolding. A trip hazard is present due to debris scattered across the floor, posing a risk to all workers in the area. An electrical hazard is present due to exposed wiring within the ceiling, potentially affecting anyone working in the area.",
+          "latency_ms": 5037.610166997183,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21511627906976744,
+          "bert_score_ref": 0.8701261281967163
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a commercial space, at an advanced stage of build-out. Framing and drywall are installed on some walls, and a complex suspended ceiling system is in place. Workers are present, engaged in what appears to be finishing or inspection activities.\n\n**QUALITY ISSUES:** There is exposed insulation visible on the floor near the center of the image. Some drywall seams appear unprimed on the wall section to the right of the image. A section of framing appears misaligned on the wall section to the left of the image.\n\n**SAFETY ISSUES:** A fall hazard exists on the scaffolding located on the left side of the image, potentially affecting workers on the scaffolding. A trip hazard is present due to debris scattered across the floor throughout the entire space, posing a risk to all workers. An electrical hazard is present due to exposed wiring within the ceiling system, potentially affecting anyone working in the area.",
+          "latency_ms": 4986.435738974251,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20869565217391306,
+          "bert_score_ref": 0.8664435148239136
+        }
+      ],
+      "avg_rouge_l_ref": 0.21470059543871475,
+      "avg_bert_score_ref": 0.8682974576950073,
+      "avg_consistency": 0.8535590974531463,
+      "avg_latency_ms": 5069.155532323445
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts an interior construction site, likely a large commercial space, at an advanced stage of build-out. Workers are actively engaged in installing electrical conduit and fixtures on the walls and ceiling. Visible materials include drywall, electrical conduit, lumber, and various construction tools and equipment.\n\n**QUALITY ISSUES:** There is exposed drywall with visible seams and tape on the left wall. Some conduit runs appear disorganized and lack consistent support near the center of the image. A section of installed drywall appears misaligned with the surrounding wall on the right side.\n\n**SAFETY ISSUES:** A fall hazard exists around the base of the ladder on the left side of the image. A trip hazard is present due to scattered debris and materials across the floor. An electrical hazard is visible with exposed wiring near the center of the image.",
+          "latency_ms": 5006.717556971125,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22551928783382788,
+          "bert_score_ref": 0.8729501366615295
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large interior space under construction, likely a commercial or institutional building. Work appears to be in the electrical rough-in stage, with extensive conduit and wiring visible on the ceiling. Multiple workers are present, engaged in various tasks involving electrical installation and drywall work.\n\n**QUALITY ISSUES:** There is visible debris and material scattered across the floor in the lower left quadrant. Some drywall panels appear misaligned near the center of the image. A section of exposed conduit is visible in the upper right quadrant.\n\n**SAFETY ISSUES:** A fall hazard exists due to the open edge of the scaffolding in the upper right quadrant. A trip hazard is present from the scattered debris across the floor in the lower left quadrant. An electrical hazard is present from the exposed wiring and conduit throughout the space.",
+          "latency_ms": 4862.652994983364,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2261904761904762,
+          "bert_score_ref": 0.863685667514801
+        },
+        {
+          "text": "**REPORT**\n\n**SCENE:** The image depicts a large interior space under construction, likely a commercial or institutional building. Work appears to be in the electrical rough-in stage, with extensive conduit and wiring visible on the ceiling. Multiple workers are present, engaged in installing electrical components and using ladders and scaffolding.\n\n**QUALITY ISSUES:** There is exposed drywall with visible seams and tape on the left wall. Some conduit appears to be loosely secured to the ceiling structure. A section of installed paneling on the right wall has a visible gap.\n\n**SAFETY ISSUES:** A fall hazard exists around the base of the ladder located in the center of the image. A trip hazard is present due to scattered debris and materials across the floor. An electrical hazard is present due to exposed wiring on the ceiling, posing a risk to workers in the area.",
+          "latency_ms": 4818.99403402349,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21893491124260356,
+          "bert_score_ref": 0.8752997517585754
+        }
+      ],
+      "avg_rouge_l_ref": 0.2235482250889692,
+      "avg_bert_score_ref": 0.8706451853116354,
+      "avg_consistency": 0.571966050888113,
+      "avg_latency_ms": 4896.121528659326
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "gemma3:4b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.19498206844149746,
+    "bert_score_ref_mean": 0.8657660484313965,
+    "consistency_mean": 0.5618237948399152,
+    "latency_p50_ms": 4221.601101977285,
+    "latency_p95_ms": 4578.309676027857
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing drywall finishing.  Workers are actively installing drywall sheets on the walls and ceiling, with several large sheets stacked near the doorway.  The floor is covered in a light grey dust, likely from the drywall installation, and there are several tools and materials, including a yellow safety ladder and a blue plastic storage container, scattered around the work area. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall application; some areas have a smooth finish while others show significant gaps and uneven seams.  The edges of the drywall sheets are not properly butted against each other, creating noticeable overlaps and potential air gaps.  Additionally, the ceiling gridwork is not perfectly aligned, with some of the metal supports appearing slightly out of level. \n\n**SAFETY ISSUES:**\n\nThe yellow safety ladder is positioned precariously close to the scaffolding, creating a potential tripping hazard for workers.  The scaffolding itself appears to be constructed with overlapping supports, which could create instability if not properly secured.  There is a lack of clear demarcation around the work area, potentially leading to pedestrian traffic entering the construction zone without proper awareness.",
+          "latency_ms": 1801.7878349637613,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18925831202046034,
+          "bert_score_ref": 0.8706570267677307
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing drywall finishing.  Workers are actively installing drywall sheets on the walls and ceiling, with several large sheets stacked near the doorway.  The floor is covered in a light grey dust, likely from the drywall work, and there are several tools and equipment, including a bucket and a small hand truck, scattered around the perimeter. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall application; some areas have a smooth finish while others show significant gaps and unevenness. The framing around the central support structure is not perfectly aligned, creating a slight misalignment between the wall and the ceiling.  Additionally, the exposed ceiling grid has several gaps between the metal supports, suggesting a need for further securing or patching. \n\n**SAFETY ISSUES:**\n\nThe scaffolding appears to be unstable, with the support poles not being adequately braced, posing a risk of collapse.  The yellow safety cones are positioned around the scaffolding, indicating a potential hazard zone for personnel.  The workers are close to the scaffolding, increasing the risk of accidental contact and potential falls. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 1694.6994389872998,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19240506329113927,
+          "bert_score_ref": 0.8711506128311157
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing drywall finishing.  Workers are actively installing drywall sheets on the walls and ceiling, with several large sheets stacked near the doorway.  The floor is covered in a light grey dust, likely from the drywall installation, and there are several tools and equipment, including a bucket and a small hand truck, scattered around the perimeter. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall application; some areas have a smooth finish while others show significant gaps and uneven seams. The installation of the metal support structure is also not aligned with the walls, creating a noticeable offset.  Additionally, the ceiling grid appears to be installed with a significant amount of slack, requiring further adjustment for a level finish. \n\n**SAFETY ISSUES:**\n\nThe metal support structure is positioned precariously close to the doorway, creating a potential trip hazard for workers and anyone entering the space.  The stacked drywall sheets near the doorway pose a risk of falling and causing injury, especially if the base is unstable.  The lack of proper floor markings or barriers around the work area contributes to a general lack of spatial awareness and increases the risk of accidental collisions. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 1789.752607990522,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19323671497584538,
+          "bert_score_ref": 0.8662717342376709
+        }
+      ],
+      "avg_rouge_l_ref": 0.19163336342914833,
+      "avg_bert_score_ref": 0.8693597912788391,
+      "avg_consistency": 0.6270261679122218,
+      "avg_latency_ms": 1762.0799606471944
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work.  Several workers are present, engaged in tasks such as installing flooring and applying a white coating to the walls and ceiling. The floor is covered in a light grey, polished concrete, and the ceiling features exposed ductwork and a suspended ceiling grid. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the white coating on the walls; some areas are noticeably thicker than others, suggesting a lack of uniform technique.  The flooring installation shows some unevenness in the concrete slab, particularly near the base of the wall, requiring further leveling.  Additionally, the edges of the tiled section near the base of the wall are not neatly aligned with the surrounding concrete, indicating a need for trimming and adjustment. \n\n**SAFETY ISSUES:**\n\nThe scaffolding structure is positioned close to the tiled section, creating a potential tripping hazard for workers and anyone passing through the space.  The workers are wearing high-visibility vests, but there is no visible hard hat use, which is a mandatory requirement on all construction sites.  The exposed ductwork in the ceiling presents a potential hazard if workers are not maintaining a safe distance while working near it. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 1995.2920410432853,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18561484918793503,
+          "bert_score_ref": 0.8652230501174927
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work.  Several workers are present, engaged in tasks such as applying plaster to the walls and installing flooring. The floor is covered in a light grey, polished concrete, and the walls are largely unfinished with a white plaster coating.  A large window dominates one side of the room, and a scaffolding structure is positioned near the ceiling, likely for access during the finishing stages.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent plaster application on the walls, with some areas showing a rough texture and others appearing smoother.  The flooring shows some minor unevenness, particularly near the base of the window, which needs to be addressed for a consistent finish.  Additionally, the support structure for the window appears to be slightly misaligned, creating a small gap between the window frame and the wall.\n\n**SAFETY ISSUES:**\n\nThe scaffolding presents a potential fall hazard due to its height and the lack of visible guardrails. Workers should be wearing appropriate fall protection equipment, and the scaffolding should be properly secured.  There is also a potential tripping hazard with the exposed concrete floor, particularly around the scaffolding and the window base, and workers should be wearing appropriate footwear.",
+          "latency_ms": 1762.886057025753,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19570405727923626,
+          "bert_score_ref": 0.8662455081939697
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior room undergoing final finishing work.  Several workers are present, engaged in tasks such as installing flooring and applying a white coating to the walls and ceiling. The floor is covered in a light grey, polished concrete, and the ceiling features exposed ductwork and a suspended ceiling grid. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the white coating on the walls; some areas are noticeably thicker than others, suggesting a lack of uniform spreading.  The flooring installation is incomplete, with a large section of the floor still exposed and awaiting tile installation.  Additionally, the support structure for the suspended ceiling seems to be slightly misaligned, creating a small gap between the ceiling grid and the wall.\n\n**SAFETY ISSUES:**\n\nThe scaffolding is positioned close to the exposed flooring, creating a potential trip hazard for workers and anyone entering the space.  The workers are wearing high-visibility vests, but there is no visible hard hat or safety footwear, which is a critical omission.  The exposed ductwork presents a potential hazard if workers are not aware of its location while moving around the space. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 1776.065792015288,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1909307875894988,
+          "bert_score_ref": 0.8663589358329773
+        }
+      ],
+      "avg_rouge_l_ref": 0.19074989801889003,
+      "avg_bert_score_ref": 0.8659424980481466,
+      "avg_consistency": 0.5815974644686746,
+      "avg_latency_ms": 1844.747963361442
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing significant finishing work. Workers are actively engaged in installing a suspended ceiling system, which consists of metal grid panels and associated wiring. The floor is covered with plywood sheeting, and the walls are largely unfinished, with sections covered in a light beige plasterboard. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the plasterboard on the walls, with some areas showing gaps and uneven coverage. Several of the metal grid ceiling panels are not fully secured to the supporting framework, creating potential instability. Additionally, the plywood flooring exhibits some warping and unevenness, suggesting a need for better substrate preparation before final flooring installation. \n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of scaffolding without proper guardrails, particularly near the edge of the room. This creates a fall hazard for workers accessing the ceiling installation, and should be immediately addressed with appropriate safety barriers.  Furthermore, several workers are not wearing high-visibility vests, reducing their visibility to other personnel and potentially increasing the risk of collision.",
+          "latency_ms": 4200.239762023557,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17674418604651165,
+          "bert_score_ref": 0.8708544373512268
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing significant finishing work.  Workers are actively engaged in installing a suspended ceiling system, which consists of metal grid panels and associated wiring.  The floor is covered with a large sheet of plywood, and the walls are largely unfinished, with sections covered in a light beige plasterboard.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the metal grid panels of the suspended ceiling, with some gaps wider than others.  Several of the plywood sheets covering the floor show signs of uneven cutting and rough edges, requiring further trimming and smoothing.  Additionally, the wiring within the ceiling grid seems to be running in a somewhat disorganized manner, potentially requiring a more structured cable management system.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of scaffolding in the foreground, with workers accessing the ceiling.  The scaffolding appears to be positioned close to the edge of the room, creating a potential trip hazard for those working below.  Furthermore, the exposed wiring within the ceiling grid presents a risk of electrical shock if not properly insulated and protected.",
+          "latency_ms": 4077.169239986688,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19954648526077098,
+          "bert_score_ref": 0.8719187378883362
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room within a building under renovation. Workers are actively engaged in the finishing stages of construction, with several individuals present in the foreground wearing high-visibility vests. The floor is covered with plywood sheeting, and the walls are largely finished with a smooth, off-white plaster finish, indicating the project is nearing completion.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the plaster finish on the ceiling, with some areas showing a rougher texture than others. Several exposed electrical conduits are visible running across the ceiling, and some appear to be loosely attached to the ceiling grid. Additionally, the plywood flooring exhibits some unevenness and gaps between the sheets, suggesting a need for further leveling or patching.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of scaffolding in the foreground, with workers accessing the ceiling. This creates a potential fall hazard, and workers should be wearing appropriate fall protection equipment. The exposed electrical conduits also pose a risk of electrical shock if not properly insulated and secured, requiring immediate attention to ensure safe operation.",
+          "latency_ms": 4044.2596009816043,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20137299771167044,
+          "bert_score_ref": 0.8730476498603821
+        }
+      ],
+      "avg_rouge_l_ref": 0.19255455633965102,
+      "avg_bert_score_ref": 0.8719402750333151,
+      "avg_consistency": 0.5324699951443399,
+      "avg_latency_ms": 4107.22286766395
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, open interior area undergoing significant construction. Workers are actively engaged in installing a suspended ceiling system, with several individuals working on the framework and attaching ceiling tiles. The floor is covered in a layer of dust and debris, and there are several large sheets of drywall stacked against the walls, indicating the ongoing plastering work. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the ceiling joists, with some gaps wider than others, which could compromise the structural integrity of the ceiling. The drywall sheets are not perfectly aligned with the edges of the ceiling, creating slight gaps and unevenness along the perimeter. Additionally, the exposed ceiling framework shows some minor corrosion on the metal supports, suggesting a need for preventative maintenance.\n\n**SAFETY ISSUES:**\n\nA worker is positioned precariously close to a large scaffold, with limited space for safe movement around the framework. The open space and the presence of numerous workers and equipment create a potential tripping hazard due to the debris on the floor.  The lighting fixtures mounted on the ceiling are close to the workers, potentially posing a risk of accidental contact or damage. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4225.989223981742,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1764705882352941,
+          "bert_score_ref": 0.8656734228134155
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, open interior area undergoing significant construction. Workers are actively engaged in installing a suspended ceiling system, with several individuals working on the framework and attaching ceiling tiles. The floor is covered in a layer of dust and debris, indicating recent activity and the presence of large sheets of gypsum board stacked against the walls. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the gypsum board on the walls, with some areas showing significant gaps between the boards and the framing.  The ceiling framework is largely complete, but the installation of the ceiling tiles seems somewhat haphazard, with some tiles appearing slightly misaligned.  Additionally, the lighting fixtures are not yet fully installed, leaving exposed wiring and conduit within the ceiling space.\n\n**SAFETY ISSUES:**\n\nThere is a potential trip hazard presented by the numerous lengths of scaffolding and support beams scattered across the floor, particularly near the central framework.  Workers are close to the exposed ceiling framework, which could pose a risk of falls if not properly secured.  The presence of loose debris and dust on the floor contributes to a slippery surface, increasing the risk of slips and falls for personnel. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4158.465282001998,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18446601941747576,
+          "bert_score_ref": 0.8655475974082947
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, open interior area undergoing significant construction. Workers are actively engaged in installing a suspended ceiling system, utilizing scaffolding and lifts to access the upper levels. The floor is covered in a layer of dust and debris, with large sheets of drywall stacked against the walls, indicating the ongoing process of wall construction. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the drywall mud on the walls, particularly along the edges and corners. Some areas show significant gaps between the drywall sheets and the framing, suggesting inadequate fastening or poor alignment. The suspended ceiling grid itself seems slightly misaligned in several sections, creating a noticeable unevenness in the ceiling layout. \n\n**SAFETY ISSUES:**\n\nA worker is positioned precariously close to the scaffolding, with limited space for safe movement. This creates a potential tripping hazard and increases the risk of accidental contact with the scaffolding structure. The open space and the presence of numerous workers and equipment necessitate a heightened awareness of potential collisions and falls.",
+          "latency_ms": 3874.2605760344304,
+          "structure_valid": true,
+          "rouge_l_ref": 0.16756756756756758,
+          "bert_score_ref": 0.8627434372901917
+        }
+      ],
+      "avg_rouge_l_ref": 0.17616805840677915,
+      "avg_bert_score_ref": 0.8646548191706339,
+      "avg_consistency": 0.5362577300876561,
+      "avg_latency_ms": 4086.2383606727235
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, open area within a building undergoing interior construction. Several large, light-colored panels are installed along the walls, likely part of the finished interior design. Workers are actively engaged in installing drywall, with several individuals focused on taping and mudding seams on the walls. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall application, with some panels exhibiting uneven edges and gaps. Several pieces of drywall are not properly aligned with the adjacent panels, creating visible seams. Additionally, the taping and mudding work is incomplete in several areas, with exposed drywall seams and a lack of smooth finishes. \n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of several orange and white traffic cones scattered across the floor, creating a tripping hazard for workers and potentially anyone entering the space. The exposed electrical conduits and wiring running across the ceiling pose a risk of accidental contact and potential electrical hazards.  There is a lack of clear demarcation of a safe working zone around the electrical equipment. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4250.466937024612,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20098039215686275,
+          "bert_score_ref": 0.866470456123352
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, open area within a building undergoing interior construction. Several large, light-colored panels are installed along the walls, likely part of the finished interior design. Workers are actively engaged in installing drywall, with several individuals focused on taping and mudding seams on the walls. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall application; some panels are perfectly aligned, while others show slight gaps between the panels. Several exposed studs are visible, and the taping and mudding work on the walls is not uniform, with some areas appearing rough and unfinished. The exposed electrical conduit and ductwork are not neatly integrated with the drywall, creating a cluttered appearance. \n\n**SAFETY ISSUES:**\n\nThere is a significant tripping hazard posed by the numerous tools, materials, and debris scattered across the floor, particularly near the central area. The exposed electrical conduit and ductwork present a potential shock hazard if personnel are not maintaining a safe distance.  The lack of clear demarcation of a restricted work zone around the active construction area is a concern for overall safety. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4159.314899996389,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19759036144578315,
+          "bert_score_ref": 0.8706669807434082
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, open area within a building undergoing interior construction. Several large, flat wall panels, predominantly finished in a light wood tone, are installed along the perimeter, suggesting a finished room.  Workers are actively engaged in installing additional wall panels and running electrical conduit throughout the space, with several stacked lumber and drywall materials visible. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent drywall application along the right-hand side of the image. The edges of several panels are not flush with the floor, creating a noticeable gap. Additionally, the electrical conduit installation seems somewhat haphazard, with some runs appearing to be slightly misaligned and not fully secured to the framing. \n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of several orange and white cones scattered across the floor, indicating a potential tripping hazard.  The exposed electrical conduit running across the center of the image presents a risk of accidental contact and potential electrical shock if not properly covered or shielded.  There is also a lack of clear signage regarding electrical safety protocols in this area. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4112.166414037347,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19184652278177458,
+          "bert_score_ref": 0.8669824600219727
+        }
+      ],
+      "avg_rouge_l_ref": 0.19680575879480683,
+      "avg_bert_score_ref": 0.8680399656295776,
+      "avg_consistency": 0.5973924685580047,
+      "avg_latency_ms": 4173.982750352782
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a commercial building, currently undergoing final finishing work.  Workers are actively installing wooden wall panels along the perimeter of the room, with several panels partially installed and awaiting attachment.  A significant amount of exposed ceiling framing, primarily steel, is present, alongside a dense network of electrical conduits and wiring running throughout the space. \n\n**QUALITY ISSUES:**\n\nThe installation of the wooden wall panels appears somewhat uneven, with variations in the spacing between the panels and the floor.  There is a noticeable gap between the bottom of the wall panels and the floor, suggesting a potential issue with leveling or substrate preparation.  Furthermore, the exposed ceiling framing shows some minor misalignment of the steel beams, requiring attention to ensure structural integrity.\n\n**SAFETY ISSUES:**\n\nThere is a significant risk of trip hazards due to the numerous exposed cables and wiring running across the floor, particularly in the central area.  The scaffolding is positioned close to the work area, potentially creating a restricted access zone and increasing the risk of accidental contact with the framework.  The presence of a partially obscured fire extinguisher on the wall suggests a potential lack of readily accessible emergency equipment. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4486.001647019293,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20767494356659144,
+          "bert_score_ref": 0.8636744022369385
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a commercial building, currently undergoing final finishing work.  A significant amount of electrical conduit and wiring is installed across the ceiling, supported by a framework of steel beams and studs. Workers are actively installing wooden wall panels, primarily in the right-hand section of the room, alongside a large stack of lumber. \n\n**QUALITY ISSUES:**\n\nThe installation of the wooden wall panels appears uneven, with some panels slightly misaligned with the adjacent studs. There is a noticeable gap between the bottom of the wall panels and the floor, suggesting inadequate leveling during installation.  Additionally, the exposed ceiling framework shows some minor gaps between the beams, indicating a need for further tightening or adjustment. \n\n**SAFETY ISSUES:**\n\nThere is a significant risk of trip hazards due to the exposed electrical conduit and wiring scattered across the floor.  The scaffolding in the foreground presents a potential fall hazard if not properly secured or if workers are not adhering to safe access procedures.  The presence of a single fire extinguisher does not appear sufficient for the size of the space and the ongoing construction activities.",
+          "latency_ms": 4115.062377997674,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21103117505995206,
+          "bert_score_ref": 0.8680548071861267
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large room within a building undergoing final finishing work.  Workers are actively installing wooden wall panels, primarily on the right side of the image, and laying down flooring material, appearing to be grey tiles, across the floor.  Scaffolding is present throughout the space, supporting the installation of the wall panels and providing access to the ceiling, which is heavily laden with electrical conduit and wiring.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the wooden wall panels, with some gaps wider than others, suggesting a lack of precision in the installation process.  The grey tile flooring is not fully adhered to the subfloor, with noticeable gaps between individual tiles, indicating a potential issue with the adhesive or subfloor preparation.  Additionally, the electrical conduit installation seems somewhat haphazard, with some runs appearing to be slightly misaligned, requiring further attention to ensure proper functionality and aesthetics.\n\n**SAFETY ISSUES:**\n\nThe scaffolding presents a significant fall hazard due to its elevated position and potential for instability, particularly given the ongoing work around it.  The large number of exposed electrical conduits and wiring creates a risk of electrical shock if not properly insulated and protected, and workers should be exercising extreme caution.  The presence of scattered tools and materials on the floor contributes to a trip hazard, demanding immediate attention to maintain a clear and safe working environment. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4508.250677958131,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18867924528301885,
+          "bert_score_ref": 0.8648136854171753
+        }
+      ],
+      "avg_rouge_l_ref": 0.20246178796985412,
+      "avg_bert_score_ref": 0.8655142982800802,
+      "avg_consistency": 0.4519532219022881,
+      "avg_latency_ms": 4369.771567658366
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "Here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room within a building under development.  Workers are actively engaged in installing ceiling panels, with several individuals focused on attaching and securing the panels to the structural framework. The floor is covered in a layer of dust and debris, and there is a significant amount of exposed structural steel visible throughout the space. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent panel alignment along the ceiling, with some panels slightly misaligned relative to their neighbors.  The exposed structural steel framing shows some gaps between the panels and the steel, suggesting a need for further tightening or adjustment.  Additionally, the exposed concrete floor shows signs of unevenness, requiring further leveling before the final flooring is installed. \n\n**SAFETY ISSUES:**\n\nThe presence of a large, unfolded metal ladder in the foreground poses a trip hazard for workers and anyone entering the area.  The lack of adequate barriers around the exposed structural steel creates a risk of accidental contact and potential injury.  The scattered debris on the floor contributes to the hazard of slips and falls, particularly given the presence of workers in the vicinity. \n\n---\n\nDo you want me to analyze another image?",
+          "latency_ms": 4272.439867025241,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17777777777777778,
+          "bert_score_ref": 0.8605607151985168
+        },
+        {
+          "text": "Here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room within a building under development.  Workers are actively engaged in installing ceiling panels, with several individuals focused on attaching the wood-grain panels to the framework.  The floor is covered in a layer of dust and debris, and there is a significant amount of exposed structural steel and ductwork visible throughout the space. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent panel alignment along the ceiling, with some panels slightly offset from their neighbors.  The exposed ductwork seems to be installed without proper support, creating potential stress points within the ceiling structure.  Additionally, the floor is not uniformly covered with a protective layer, leaving exposed concrete in several areas. \n\n**SAFETY ISSUES:**\n\nThe presence of a large, unfolded metal ladder in the foreground poses a trip hazard for workers and anyone entering the area.  The exposed structural steel, particularly the beams and supports, presents a risk of accidental contact and potential injury if not properly guarded.  The lack of full floor coverage with a protective material exposes the concrete floor, creating a slip hazard. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4171.815045992844,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17777777777777778,
+          "bert_score_ref": 0.8615021705627441
+        },
+        {
+          "text": "Here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing significant finishing work.  Workers are actively engaged in installing wooden paneling along the perimeter and installing ceiling components, including ductwork and lighting fixtures.  The floor is covered in a layer of dust and debris, indicating recent activity and ongoing material handling. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the wooden paneling; some sections are neatly aligned while others show a slight misalignment, suggesting a lack of precision during installation. The ceiling gridwork is partially complete, but the spacing between the horizontal members seems uneven, potentially impacting the final fit and finish.  Additionally, there\u2019s a noticeable gap between the ceiling grid and the ceiling surface, requiring further attention to ensure a flush and professional appearance.\n\n**SAFETY ISSUES:**\n\nThe presence of a large, unfolded metal ladder in the center of the room poses a significant trip hazard for workers and anyone entering the space.  The scattered debris on the floor, including wood scraps and dust, creates a slipping risk and could lead to falls.  The workers are not wearing high-visibility vests, making them less visible within the busy construction environment, increasing the risk of collision.",
+          "latency_ms": 4160.406281007454,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18673218673218672,
+          "bert_score_ref": 0.8639883399009705
+        }
+      ],
+      "avg_rouge_l_ref": 0.18076258076258075,
+      "avg_bert_score_ref": 0.8620170752207438,
+      "avg_consistency": 0.5353502113407339,
+      "avg_latency_ms": 4201.553731341846
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "Here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing final finishing work. Workers are actively installing ceiling tiles and running cable conduits across the ceiling, with several individuals positioned on scaffolding for access. The floor is concrete and appears to be largely covered with protective sheeting, and there are several bags of cement and other construction materials scattered around the perimeter. \n\n**QUALITY ISSUES:**\n\nThere appears to be a significant gap between the ceiling tiles and the structural ceiling grid, particularly along the right-hand side of the image.  Additionally, the cable conduits are not neatly aligned and are running at an angle, suggesting a lack of precision during installation. The exposed concrete floor shows signs of staining and debris, indicating a need for thorough cleaning and potentially sealing before final completion. \n\n**SAFETY ISSUES:**\n\nThe scaffolding is positioned in a manner that presents a potential trip hazard due to the exposed cables and uneven flooring.  A worker is standing on the scaffolding with no apparent fall protection, increasing the risk of a serious fall. The presence of loose debris and materials on the floor creates a slipping hazard for personnel working in the area.",
+          "latency_ms": 4319.71875904128,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2113022113022113,
+          "bert_score_ref": 0.8741498589515686
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing final finishing work. Workers are actively installing suspended ceiling tiles, with several individuals focused on securing the tiles to the framework.  The floor is concrete, and the walls are largely covered in newly installed drywall, awaiting final painting or treatment. \n\n**QUALITY ISSUES:**\n\nThere appears to be a significant gap between the suspended ceiling tiles and the ceiling structure, particularly in the central area.  The tile installation seems uneven, with some tiles appearing slightly misaligned, suggesting a lack of precision during installation.  Additionally, the exposed concrete floor shows signs of staining and dust, indicating it needs thorough cleaning and potentially sealing before final completion.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of a leaning scaffolding structure near the right-hand wall. The scaffolding appears unstable and unsupported, posing a risk of collapse and potential injury to workers.  Furthermore, the orange cones are placed around the scaffolding, likely intended to restrict access, but their placement doesn\u2019t fully delineate the hazard zone.",
+          "latency_ms": 4074.93505399907,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17098445595854925,
+          "bert_score_ref": 0.8653959631919861
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing final finishing work. Workers are actively installing suspended ceiling tiles, with several individuals focused on securing the tiles to the framework.  The floor is concrete, and the walls are largely covered in newly installed drywall, awaiting final painting or treatment. \n\n**QUALITY ISSUES:**\n\nThere appears to be a significant gap between the suspended ceiling tiles and the ceiling structure, particularly along the right-hand side of the image.  The tile installation seems uneven, with some tiles appearing slightly misaligned, suggesting a lack of precision during installation.  Additionally, the exposed concrete floor shows signs of staining and debris, indicating a need for thorough cleaning and potentially sealing before final completion.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of a scaffolding structure in the foreground, with a worker standing on it.  The scaffolding appears to be positioned close to the exposed concrete floor, creating a potential tripping hazard.  Furthermore, the orange cones are placed around the scaffolding, indicating a restricted access area, but their placement doesn\u2019t fully prevent pedestrian traffic.",
+          "latency_ms": 4085.448245983571,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17766497461928935,
+          "bert_score_ref": 0.8653544187545776
+        }
+      ],
+      "avg_rouge_l_ref": 0.18665054729334996,
+      "avg_bert_score_ref": 0.8683000802993774,
+      "avg_consistency": 0.6502210710828559,
+      "avg_latency_ms": 4160.03401967464
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing drywall finishing. Workers are actively engaged in applying drywall compound to the walls and ceiling, with several individuals positioned on a scaffolding structure for access. The floor is a light grey concrete, and the ceiling is a complex grid of exposed ductwork and a suspended ceiling system, predominantly white in color. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the drywall compound, with some areas showing significant unevenness and ridges. The ceiling gridwork shows some gaps between the metal framing members, which will require additional attention during the final ceiling installation.  Additionally, the exposed ductwork is not uniformly painted, with some sections showing a lack of finish.\n\n**SAFETY ISSUES:**\n\nThe scaffolding structure appears to be elevated without adequate guardrails, presenting a potential fall hazard for workers.  The presence of exposed ductwork and wiring creates a risk of electrical shock if not properly covered and secured.  There is a lack of clear signage regarding emergency exits, which could impede evacuation in the event of an incident.",
+          "latency_ms": 4046.2414770154282,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20054200542005418,
+          "bert_score_ref": 0.871690034866333
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large room within a building undergoing significant finishing work. Workers are actively engaged in installing a suspended ceiling system, with several individuals positioned on a scaffolding platform. The floor is a light grey, and the walls are painted a pale beige, suggesting a stage of interior decoration. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent installation of the ceiling grid. Some sections of the grid are neatly aligned and secured, while others show gaps and misalignment between the horizontal and vertical members. Additionally, the ceiling tiles are not uniformly spaced, with some tiles appearing further apart than others, indicating a lack of precision in the grid layout. \n\n**SAFETY ISSUES:**\n\nThe scaffolding platform presents a potential fall hazard due to its elevated position and the presence of workers.  There is no visible guardrail or safety net in place, increasing the risk of an accidental fall.  Furthermore, the workers are wearing high-visibility vests, but the lighting is somewhat dim, potentially reducing their visibility to others and surrounding traffic.",
+          "latency_ms": 3870.7898480352014,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18082191780821916,
+          "bert_score_ref": 0.8635246753692627
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large room within a building undergoing significant finishing work. Workers are actively engaged in installing a suspended ceiling system, with several individuals positioned on a scaffolding platform. The floor is a light grey, and the walls are painted a pale beige, suggesting a stage of interior decoration. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent installation of the ceiling grid, with some sections of the metal framework appearing slightly misaligned and not perfectly square. Several ceiling tiles are partially installed, with gaps visible between the tiles and the supporting framework, indicating a need for better alignment and fitting. The overall appearance of the ceiling grid suggests a lack of precision in the initial layout and installation. \n\n**SAFETY ISSUES:**\n\nThe scaffolding platform presents a potential fall hazard due to its height and the apparent lack of guardrails or safety netting. Workers are operating near the edge of the platform, increasing the risk of accidental slips or falls. Additionally, the presence of exposed electrical conduits and ductwork in the ceiling raises concerns about potential electrical hazards if not properly covered or secured.",
+          "latency_ms": 3950.6331409793347,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19047619047619047,
+          "bert_score_ref": 0.8707796335220337
+        }
+      ],
+      "avg_rouge_l_ref": 0.19061337123482128,
+      "avg_bert_score_ref": 0.8686647812525431,
+      "avg_consistency": 0.5388513149032044,
+      "avg_latency_ms": 3955.8881553433216
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing significant finishing work.  The floor is covered in a layer of dust and debris, with scattered construction materials including wooden panels, insulation, and metal framing components. Several workers are present, engaged in tasks such as installing the wooden paneling and managing the extensive electrical ductwork visible on the ceiling. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the wooden paneling, with some sections exhibiting gaps and uneven joints between the panels. The insulation material, likely rockwool, is not uniformly applied to the ceiling, leaving some areas exposed and potentially creating thermal inconsistencies.  Additionally, the metal ductwork seems to be installed without proper support, with several sections sagging noticeably. \n\n**SAFETY ISSUES:**\n\nA scissor lift is positioned close to the edge of the construction area, potentially creating a trip hazard for workers and those passing by.  The accumulation of dust and debris on the floor presents a slip and fall risk, particularly in areas around the scissor lift and the work zones.  The sagging ductwork could pose a risk of falling debris if not properly secured, and should be inspected for stability. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4527.462934027426,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20638820638820637,
+          "bert_score_ref": 0.8688629865646362
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing significant finishing work.  The primary construction focus appears to be the ceiling, which is largely covered in white gypsum board, with exposed metal framing and ductwork visible throughout. Several workers are present, engaged in tasks such as installing ceiling tiles, running wiring, and preparing for final wall coverings. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the gypsum board on the ceiling, with some areas showing gaps and uneven edges.  The exposed metal framing is not uniformly painted, with some sections showing bare metal and others with a patchy paint finish.  Additionally, the installation of the wood paneling on the walls seems incomplete, with several sections still exposed and awaiting final attachment. \n\n**SAFETY ISSUES:**\n\nA scissor lift is positioned close to the edge of the room, potentially creating a hazard for workers on the floor.  The presence of loose debris and construction materials scattered across the floor presents a trip hazard for personnel.  The exposed wiring and ductwork, combined with the ongoing work, creates a risk of electrical shock if not properly secured and covered. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4321.764709020499,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18407960199004972,
+          "bert_score_ref": 0.8695063591003418
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing significant finishing work.  The floor is covered in a layer of dust and debris, with exposed concrete and scattered materials suggesting recent construction activities. Workers are actively installing wooden paneling along one wall and working on the ceiling, which is primarily covered in white gypsum board.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the gypsum board on the ceiling, with some areas showing gaps and uneven joints. The wooden paneling installation also seems somewhat haphazard, with noticeable misalignment between panels along the wall.  Additionally, the exposed concrete floor lacks a protective coating or sealant, which could be susceptible to damage during ongoing work.\n\n**SAFETY ISSUES:**\n\nA scissor lift is positioned close to the edge of the construction area, presenting a potential hazard to workers and anyone passing by.  The loose debris and materials scattered across the floor create a trip hazard for personnel.  The lack of proper barriers or signage around the scissor lift and exposed construction areas raises concerns about unauthorized access and potential accidents. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4228.414479992352,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18274111675126906,
+          "bert_score_ref": 0.8653157949447632
+        }
+      ],
+      "avg_rouge_l_ref": 0.19106964170984173,
+      "avg_bert_score_ref": 0.8678950468699137,
+      "avg_consistency": 0.573011624297867,
+      "avg_latency_ms": 4359.214041013426
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing significant finishing work.  The floor is covered in a layer of sand, indicating recent construction or demolition activities.  Workers are actively installing wooden paneling along one side of the room, while others are focused on the installation of a suspended ceiling system with ductwork and lighting fixtures.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the wooden paneling, with some sections showing a noticeable gap between the panels and the adjacent wall.  The suspended ceiling system exhibits a lack of uniform spacing between the ceiling tiles and the supporting framework, creating an uneven appearance.  Additionally, the exposed concrete floor in the foreground shows signs of uneven settling, requiring further attention to ensure a level surface for subsequent flooring installation.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of loose cables and wiring exposed on the floor, posing a trip hazard to workers and anyone entering the space.  The open sand on the floor also presents a risk of workers slipping and falling, particularly with the presence of tools and equipment.  The worker wearing a high-visibility vest is positioned close to the exposed wiring, increasing the potential for accidental contact and injury. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4505.974908999633,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20720720720720723,
+          "bert_score_ref": 0.8640710115432739
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing significant finishing work.  The floor is covered in a layer of sand, indicating recent construction or demolition activity.  Workers are actively installing wooden paneling along one side of the room, while others are focused on the installation of a suspended ceiling system with ductwork. \n\n**QUALITY ISSUES:**\n\nThere appears to be a significant amount of loose sand on the floor, particularly in the foreground, which could pose a hazard for foot traffic and potentially damage flooring materials. The wooden paneling installation shows some uneven gaps between the panels, suggesting a need for tighter alignment and potentially shimming.  Additionally, the exposed ceiling structure shows some minor misalignment of the ductwork, requiring adjustment for a cleaner aesthetic.\n\n**SAFETY ISSUES:**\n\nThe presence of loose sand on the floor represents a trip hazard for workers and anyone entering the space.  The exposed ceiling structure, with its numerous metal components, presents a potential hazard for falling debris or accidental contact.  The worker wearing a high-visibility vest and hard hat is working in close proximity to the exposed ceiling, and should ensure they are aware of any falling objects. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4375.59060001513,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18013856812933027,
+          "bert_score_ref": 0.8609681129455566
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or room, currently undergoing significant finishing work.  The floor is covered in a layer of fine, light-colored dust and debris, indicating recent activity and material handling. Workers are actively installing wooden paneling along one side of the room, while others are focused on the installation of a suspended ceiling system with exposed ductwork. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the wooden paneling, with gaps and uneven spacing between the boards along the wall.  The exposed ceiling structure shows some variation in the spacing of the ceiling tiles, suggesting a lack of precision during installation.  Additionally, the exposed ductwork seems to be mounted without adequate support, potentially leading to future instability.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of loose debris and dust on the floor, creating a potential trip hazard for workers and anyone entering the space.  The exposed ductwork, without proper bracing, presents a risk of falling components if disturbed.  The worker wearing a high-visibility vest is close to a pile of materials, which could create a collision hazard. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4317.064660019241,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18439716312056736,
+          "bert_score_ref": 0.8641612529754639
+        }
+      ],
+      "avg_rouge_l_ref": 0.19058097948570163,
+      "avg_bert_score_ref": 0.8630667924880981,
+      "avg_consistency": 0.6482704261914827,
+      "avg_latency_ms": 4399.543389678001
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** (Unknown \u2013 Based on Image)\n**Inspector:** AI Construction Inspector\n\n---\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large room, with significant progress being made on the installation of the ceiling. Workers are actively engaged in installing a suspended ceiling system, utilizing a grid of metal channels and suspension wires. The floor is covered in a grey, unfinished concrete slab, and the walls are largely covered in freshly applied, white drywall. \n\n---\n\n**QUALITY ISSUES:**\n\nThere appears to be a significant inconsistency in the installation of the ceiling grid. Some of the metal channels are not perfectly aligned, creating slight gaps and uneven spacing between the channels. Additionally, the suspension wires are not uniformly spaced, which could compromise the structural integrity of the ceiling system. \n\n---\n\n**SAFETY ISSUES:**\n\nThere is a potential trip hazard presented by the loose rebar and wire mesh scattered across the concrete floor. This debris could cause workers to lose their footing and fall, particularly in the areas around the installation work.  It is imperative that the site supervisor ensures this material is properly contained and cleaned up immediately.",
+          "latency_ms": 4568.88895801967,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18581907090464547,
+          "bert_score_ref": 0.8503196835517883
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** (Unknown \u2013 Based on Image)\n**Inspector:** AI Construction Inspector\n\n---\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large room, with significant progress being made on the installation of the ceiling. Workers are actively engaged in installing a suspended ceiling system, utilizing a grid of metal channels and suspension cables. The floor is covered in a dark grey, unfinished concrete slab, and the walls are largely covered in freshly applied, white gypsum board. \n\n---\n\n**QUALITY ISSUES:**\n\nThere appears to be a significant inconsistency in the installation of the ceiling grid. The channels are not uniformly spaced, with noticeable gaps between some of the metal supports, suggesting a lack of precision during layout. Additionally, the suspension cables are not neatly aligned, creating an uneven and potentially unstable support system for the ceiling tiles. \n\n---\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of exposed rebar on the concrete floor, posing a trip hazard to workers and anyone entering the space. The lack of perimeter guardrails around the exposed concrete slab also presents a risk of falls, particularly for workers accessing the floor for installation.  The presence of electrical wiring exposed on the ceiling also warrants a review of electrical safety protocols and potential for accidental contact. \n\n---\n\n**End of Report**\n\n**Note:** *This report is based solely on the visual information provided in the image. A full on-site inspection would be required to confirm these observations and identify any additional issues.*",
+          "latency_ms": 4727.583428029902,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21413276231263384,
+          "bert_score_ref": 0.8473150134086609
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**Construction Site Inspection Report**\n\n**Date:** October 26, 2023\n**Project:** (Unknown \u2013 Based on Image)\n**Inspector:** AI Construction Inspector\n\n---\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large room, with significant progress on the installation of the ceiling and floor systems. Workers are actively engaged in installing reinforcing steel within a concrete slab, while others are applying drywall to the walls. The floor is currently a grey concrete slab, and the walls are covered in white drywall, indicating the building is in the late stages of interior finishing. \n\n---\n\n**QUALITY ISSUES:**\n\nThere appears to be a lack of consistent spacing between the reinforcing steel mesh within the concrete slab, particularly along the right-hand wall. Additionally, the drywall seams on the left-hand wall are not properly taped and mudded, presenting a potential aesthetic and structural weakness. The ceiling gridwork shows some minor misalignment, suggesting a need for further adjustments to ensure a level and uniform finish. \n\n---\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of exposed reinforcing steel within the concrete slab, posing a risk of puncture wounds to workers. There is also a potential trip hazard created by the loose steel mesh and debris scattered across the concrete floor, particularly near the work area. The workers are wearing high-visibility vests, but the proximity of the steel mesh and the overall cluttered environment suggests a need for improved housekeeping and a heightened awareness of potential hazards. \n\n---\n\n**End of Report**\n\n**Note:** *This report is based solely on the visual information provided in the image. A full on-site inspection would be required to confirm these observations and identify any additional concerns.*",
+          "latency_ms": 4914.296669012401,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21138211382113822,
+          "bert_score_ref": 0.8515284061431885
+        }
+      ],
+      "avg_rouge_l_ref": 0.20377798234613917,
+      "avg_bert_score_ref": 0.8497210343678793,
+      "avg_consistency": 0.5489406607276811,
+      "avg_latency_ms": 4736.923018353991
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing final finishing work. Several metal deck panels are laid out across the floor, forming the base for the flooring system, and a significant portion of the ceiling has been finished with white gypsum board. Two workers are visible, one operating a handheld tool and the other assisting with the application of the gypsum board, indicating the project is nearing completion.\n\n**QUALITY ISSUES:**\n\nThere are several areas of concern regarding the gypsum board application. The ceiling panels appear uneven in several locations, with noticeable gaps and inconsistent joint widths, particularly around the central ductwork.  Additionally, the edges of some of the gypsum board panels are not properly finished, with exposed paper facings and a lack of neat taping and mudding.  The overall finish quality needs improvement to meet standard construction specifications.\n\n**SAFETY ISSUES:**\n\nA significant safety hazard is the presence of the scaffolding surrounding the work area. The scaffolding appears to be unstable and not properly secured, presenting a risk of collapse if someone were to lean on it or if it were to be disturbed.  Furthermore, the worker operating the handheld tool is working close to the scaffolding, increasing the risk of accidental contact and potential injury.",
+          "latency_ms": 4523.3370999922045,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21247113163972287,
+          "bert_score_ref": 0.859187126159668
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing final finishing work. Several metal deck panels are laid out across the floor, forming the base for the flooring system, and a significant portion of the ceiling has been finished with white gypsum board. Two workers are visible, one operating a handheld tool and the other assisting with the application of the gypsum board, with a scaffolding structure present in the foreground. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the gypsum board on the ceiling, with some areas showing a noticeably uneven surface and gaps between the boards. The edges of the gypsum board are not neatly aligned, and there are several areas where the boards are not fully adhered to the metal deck, creating potential weak points. Furthermore, the metal deck panels themselves show signs of some dirt and debris, suggesting a need for cleaning before final flooring installation. \n\n**SAFETY ISSUES:**\n\nThe scaffolding structure in the foreground appears to be positioned precariously close to the work area, creating a potential tripping hazard for workers. The presence of loose tools and materials scattered across the floor, including a handheld tool, also contributes to a cluttered and unsafe environment.  It is crucial to ensure adequate clearance around the scaffolding and to maintain a clean and organized workspace to minimize the risk of accidents. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4567.161031998694,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21935483870967742,
+          "bert_score_ref": 0.8622576594352722
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, likely a large hall or auditorium, currently undergoing final finishing work.  Several metal deck panels are laid out across the floor, forming the base for the flooring system, and a significant portion of the ceiling has been finished with white gypsum board. Two workers are visible, one operating a handheld tool and the other assisting with the application of the gypsum board, suggesting the project is nearing completion.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the gypsum board on the ceiling, with some areas showing a noticeably uneven surface and gaps between the boards.  The edges of the gypsum board panels are not cleanly cut and are protruding slightly beyond the adjacent panels, creating a rough and unfinished appearance.  Additionally, the metal deck panels are not fully covered with the flooring material, leaving exposed metal edges along the perimeter.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of a tall, leaning scaffolding structure in the foreground, which appears to be unstable and poses a risk of collapse.  The worker operating the handheld tool is working in close proximity to the scaffolding, increasing the potential for accidental contact and injury.  The lack of proper barriers or warning signs around the scaffolding further exacerbates this hazard, demanding immediate attention. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4482.808737026062,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2075055187637969,
+          "bert_score_ref": 0.8580752611160278
+        }
+      ],
+      "avg_rouge_l_ref": 0.21311049637106572,
+      "avg_bert_score_ref": 0.8598400155703226,
+      "avg_consistency": 0.61779892026515,
+      "avg_latency_ms": 4524.435623005654
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area, likely a commercial building, with a predominantly wooden structure. Workers are actively engaged in installing ceiling panels and running electrical conduits across the space, suggesting a stage of interior fit-out. The floor is unfinished concrete, and the walls are being clad with light-colored wood paneling, creating a relatively open and expansive feel. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the ceiling support beams, with some gaps wider than others, potentially indicating a lack of precision during installation. The wood paneling is not perfectly aligned with the edges of the supporting framework, resulting in slight gaps and unevenness along several sections. Additionally, the exposed electrical conduits are not neatly routed and appear to be loosely attached to the ceiling structure.\n\n**SAFETY ISSUES:**\n\nA worker is positioned on a tall ladder near the scaffolding, presenting a potential fall hazard due to the height and the lack of a visible safety harness. The exposed electrical conduits pose a risk of electrical shock if not properly insulated and secured, particularly given the proximity of workers. The unfinished concrete floor presents a trip hazard, and the scattered tools and materials contribute to a cluttered and potentially unsafe work environment. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4504.7357300063595,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2227488151658768,
+          "bert_score_ref": 0.8704708218574524
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area, likely a commercial building under development.  Workers are actively engaged in installing a complex, multi-tiered ceiling system constructed of metal framing and acoustic panels.  The floor is unfinished concrete, and several wooden wall panels are partially installed, suggesting the building is in the later stages of interior construction. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent spacing between the metal framing members of the ceiling, with some gaps wider than others.  Additionally, the acoustic panels seem to be installed with uneven gaps between them and the framing, creating a visually disjointed appearance.  The wooden wall panels are not perfectly aligned with the floor, exhibiting a slight offset that needs to be addressed for a professional finish.\n\n**SAFETY ISSUES:**\n\nA worker is positioned on a tall ladder near the ceiling, presenting a potential fall hazard if the ladder is not properly secured or if the worker loses their balance.  The presence of numerous electrical cables and wiring running across the floor and ceiling creates a trip hazard and requires careful management to prevent accidental damage or electrical shock.  The scaffolding is not fully enclosed, exposing workers to potential falling debris or tools.",
+          "latency_ms": 4254.93032799568,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18999999999999997,
+          "bert_score_ref": 0.8663329482078552
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided 360-degree panoramic image:\n\n**SCENE:**\n\nThe space appears to be a large, interior construction area, likely a commercial building under development.  Workers are actively engaged in installing a complex, metallic ceiling structure, which is supported by a framework of vertical beams and horizontal supports.  The floor is covered in a light-colored, dusty material, and there are several wooden panels being installed along the perimeter, suggesting the construction of walls.\n\n**QUALITY ISSUES:**\n\nThe ceiling installation appears somewhat uneven, with variations in the spacing between the metallic supports.  Some of the horizontal supports seem to be slightly misaligned, creating a non-uniform appearance.  Additionally, the wooden panels along the walls show some gaps between the boards, indicating a need for better alignment and tighter fitting.\n\n**SAFETY ISSUES:**\n\nThere is a significant safety concern regarding the scaffolding used by the workers. The ladder extending from the scaffolding appears to be unstable and not properly secured to the support structure, posing a risk of a fall.  Furthermore, the presence of exposed electrical wiring and cables scattered across the floor presents a potential trip hazard and electrical shock risk.",
+          "latency_ms": 4129.27093001781,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21635883905013195,
+          "bert_score_ref": 0.8685758709907532
+        }
+      ],
+      "avg_rouge_l_ref": 0.20970255140533625,
+      "avg_bert_score_ref": 0.8684598803520203,
+      "avg_consistency": 0.44667051907969807,
+      "avg_latency_ms": 4296.31232933995
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, seemingly within a large, domed room. Workers are actively engaged in installing electrical wiring and conduit along the ceiling, which is primarily constructed of large, light-colored panels. Several wooden pallets and boxes containing building materials are scattered around the floor, indicating ongoing material delivery and storage. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent application of the wall paneling; some sections have been fully installed, while others are still partially exposed, suggesting a potential lack of coordination between installation teams. The exposed areas of the ceiling show a significant amount of exposed conduit and wiring, which is not neatly organized and appears to be running across the ceiling surface without proper support. Furthermore, the floor is covered in loose debris and dust, indicating a need for thorough cleaning and potentially a lack of proper floor protection during construction.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of several ladders positioned close to the exposed ceiling work area, creating a potential trip hazard for workers and anyone passing through the space. The exposed wiring and conduit running across the ceiling surface pose a risk of electrical shock if not properly insulated and protected.  The accumulation of debris and dust on the floor presents a slip and fall hazard for personnel working in the area.",
+          "latency_ms": 4578.309676027857,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20881670533642688,
+          "bert_score_ref": 0.87477046251297
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, appearing to be a large room with a pronounced, upward-arching ceiling. Workers are actively engaged in installing electrical wiring and conduit along the ceiling structure, which is primarily constructed of steel beams and supports.  Several wooden panels are partially installed on the walls, and there is a significant amount of debris and materials scattered across the floor, indicating ongoing work.\n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent installation of the wooden wall panels, with some sections showing gaps between the panels and the ceiling structure.  The electrical conduit installation seems somewhat haphazard, with some runs appearing to be poorly aligned and lacking proper support.  Additionally, the floor is covered in debris, suggesting a lack of housekeeping and potentially impacting the quality of the finished floor surface.\n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of several ladders positioned close to the work area, potentially creating a tripping hazard for workers.  The debris scattered across the floor represents a slip and fall risk, and should be cleared immediately.  The exposed electrical wiring and conduit, combined with the presence of workers, creates a potential electrocution hazard if proper safety protocols are not being followed.",
+          "latency_ms": 4361.108957964461,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21897810218978103,
+          "bert_score_ref": 0.8744714856147766
+        },
+        {
+          "text": "Okay, here\u2019s a detailed inspection report based on the provided panoramic image:\n\n**SCENE:**\n\nThe scene depicts an interior construction space, seemingly within a large, domed building. Workers are actively engaged in installing electrical wiring and conduit along the ceiling, which is primarily constructed of large, light-colored panels. Several wooden pallets and boxes containing building materials are scattered around the floor, indicating ongoing material delivery and storage. \n\n**QUALITY ISSUES:**\n\nThere appears to be inconsistent installation of the electrical conduit along the ceiling. Some conduits are neatly aligned and secured, while others are noticeably offset and not fully flush with the paneling. Additionally, the gaps between the ceiling panels are inconsistent, with some areas showing a larger space than others, suggesting uneven installation. \n\n**SAFETY ISSUES:**\n\nA significant safety concern is the presence of several ladders positioned close to the work area, potentially creating a tripping hazard for workers.  Furthermore, the exposed electrical wiring and conduit pose a risk of electrical shock if not properly insulated and secured.  The lack of clear delineation of a safe work zone around the active construction area is also a concern. \n\n---\n\nDo you want me to analyze another image or provide a different type of report?",
+          "latency_ms": 4221.601101977285,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1964735516372796,
+          "bert_score_ref": 0.8699811697006226
+        }
+      ],
+      "avg_rouge_l_ref": 0.20808945305449583,
+      "avg_bert_score_ref": 0.8730743726094564,
+      "avg_consistency": 0.5415451266368698,
+      "avg_latency_ms": 4387.006578656535
+    }
+  ]
+}

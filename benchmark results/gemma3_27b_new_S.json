@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "gemma3:27b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.20557385764764044,
+    "bert_score_ref_mean": 0.8707092973921035,
+    "consistency_mean": 0.6655186448920627,
+    "latency_p50_ms": 7321.431307005696,
+    "latency_p95_ms": 8040.237239038106
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space undergoing construction, likely a commercial or institutional building. Walls are covered with drywall, and the ceiling features exposed metal decking and unfinished mechanical systems. Visible materials include drywall, metal framing, wood, and construction debris scattered across the floor, with workers actively engaged in finishing work.\n\n**QUALITY ISSUES:**\n\nDrywall seams are visible and not yet taped or mudded along multiple wall sections throughout the space. Several areas of drywall appear to have inconsistent texture or surface imperfections. The drywall installation around the doorway on the left appears uneven and not flush with the door frame.\n\n**SAFETY ISSUES:**\n\nFall hazard: An extension ladder is extended but not secured at the top, located near the center of the image, posing a risk to anyone ascending or descending. Trip hazard: Construction debris and materials are scattered across the floor throughout the space, creating a tripping hazard for workers. PPE: One worker is not wearing a hard hat, visible on the left side of the image, putting them at risk of head injury.",
+          "latency_ms": 5276.904570986517,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19834710743801656,
+          "bert_score_ref": 0.8764861226081848
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space undergoing drywall finishing. Construction is in the interior finishing stage, with workers present and materials staged throughout the area. Visible materials include drywall sheets, metal framing, scaffolding, and various tools and equipment scattered on the floor.\n\n**QUALITY ISSUES:**\n\nDrywall seams are visible and not yet taped or mudded along multiple walls, particularly on the left side of the image. Several drywall sheets appear to be slightly misaligned where they meet the door frames. There are gaps visible between drywall sheets and the ceiling framing.\n\n**SAFETY ISSUES:**\n\nFall hazard: Scaffolding is erected without visible guardrails, posing a fall risk to workers accessing the upper levels. Trip hazard: Debris and materials are scattered across the floor throughout the space, creating a tripping hazard for all personnel. PPE: One worker is not wearing a hard hat, visible near the doorway on the left.",
+          "latency_ms": 4488.742351997644,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23880597014925373,
+          "bert_score_ref": 0.8796055316925049
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space undergoing drywall finishing. Construction is in the interior finishing stage, with workers present and materials staged throughout the area. Visible materials include drywall sheets, metal framing, scaffolding, and various tools and equipment scattered on the floor.\n\n**QUALITY ISSUES:**\n\nDrywall seams are visible and not yet taped or mudded along multiple walls, particularly on the left side of the image. Several drywall sheets appear to be slightly misaligned where they meet the door frames. There are gaps visible between drywall sheets and the ceiling framing.\n\n**SAFETY ISSUES:**\n\nFall hazard: Scaffolding is erected without visible guardrails, posing a fall risk to workers accessing the upper levels. Trip hazard: Debris and materials are scattered across the floor throughout the space, creating a tripping hazard for all personnel. PPE: One worker is not wearing a hard hat, visible near the doorway on the left.",
+          "latency_ms": 4489.48296403978,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23880597014925373,
+          "bert_score_ref": 0.8796055912971497
+        }
+      ],
+      "avg_rouge_l_ref": 0.22531968257884133,
+      "avg_bert_score_ref": 0.8785657485326132,
+      "avg_consistency": 0.6973415132924335,
+      "avg_latency_ms": 4751.709962341313
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. Work is focused on drywall installation and finishing, with visible materials including drywall sheets, metal studs, and joint compound. Several workers are present, along with scaffolding, ladders, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\nUneven application of joint compound is visible on the drywall seams along the wall to the right of the image. Gaps are present between some drywall sheets, particularly near the window on the left side of the image. Several drywall sheets appear to be leaning or unsupported, visible near the center of the image.\n\n**SAFETY ISSUES:**\nTrip hazard: Debris and materials are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding is erected without visible guardrails, potentially exposing workers to falls, visible on the left side of the image. PPE hazard: One worker is not wearing a high-visibility vest, visible near the doorway on the right side of the image.",
+          "latency_ms": 5247.857955982909,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2113821138211382,
+          "bert_score_ref": 0.8798192739486694
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. Work is focused on drywall installation and finishing, with visible materials including drywall sheets, metal studs, and joint compound. Several workers are present, along with scaffolding, a scissor lift, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\nUneven application of joint compound is visible on the drywall seams along the wall to the right of the image. Gaps are present between some drywall sheets, particularly near the window on the left side of the image. Several drywall sheets appear to be damaged or have visible dents, located near the center of the image.\n\n**SAFETY ISSUES:**\nFall hazard: Scaffolding lacks full guardrails on the left side, posing a risk to workers on that platform. Trip hazard: Construction debris and materials are scattered across the floor throughout the space, potentially causing trips for workers. PPE: One worker is not wearing a high-visibility vest, located near the doorway on the right side of the image.",
+          "latency_ms": 5015.855849953368,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1897018970189702,
+          "bert_score_ref": 0.8767291903495789
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. Work is focused on drywall installation and finishing, with sections of completed and unfinished walls visible. Materials present include drywall sheets, metal framing, scaffolding, and various tools, with three workers actively engaged in the work.\n\n**QUALITY ISSUES:**\nUneven drywall seams are visible on the wall to the right of the image, indicating potential issues with joint compound application. Several drywall sheets appear to be slightly misaligned where they meet the window frame on the left side. There are visible gaps between drywall sheets along the lower portion of the wall near the center of the image.\n\n**SAFETY ISSUES:**\nFall hazard exists due to the incomplete scaffolding on the left side, potentially affecting workers accessing higher areas. A trip hazard is present from the scattered lumber and drywall pieces on the floor in the foreground, posing a risk to all personnel. Workers are not consistently wearing appropriate PPE, specifically eye protection, potentially exposing them to dust and debris.",
+          "latency_ms": 4917.8652060218155,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1935483870967742,
+          "bert_score_ref": 0.8715031147003174
+        }
+      ],
+      "avg_rouge_l_ref": 0.19821079931229418,
+      "avg_bert_score_ref": 0.8760171929995219,
+      "avg_consistency": 0.591762013729977,
+      "avg_latency_ms": 5060.526337319364
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with drywall installed on walls and a suspended ceiling grid in place. Visible materials include drywall, metal ceiling grid, plywood subflooring, and various construction equipment and supplies.\n\n**QUALITY ISSUES:**\nSeveral drywall sheets appear to be unfinished or have visible seams near the window on the left side of the image. The drywall installation around the doorway on the right side shows gaps and uneven alignment. Some ceiling grid tiles are missing or misaligned throughout the ceiling.\n\n**SAFETY ISSUES:**\nFall hazard exists due to the scaffolding erected near the center of the image, posing a risk to workers on and around it. Trip hazard is present from materials and debris scattered across the plywood subfloor, affecting all personnel in the area. PPE hazard is visible as some workers are not wearing high-visibility vests.",
+          "latency_ms": 7260.778989002574,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2035623409669211,
+          "bert_score_ref": 0.8730254173278809
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with drywall installed on walls and a suspended ceiling grid in place. Visible materials include drywall, metal ceiling grid, plywood subflooring, and various construction equipment and supplies.\n\n**QUALITY ISSUES:**\nSeveral drywall sheets have visible gaps and uneven seams along the wall near the window. The drywall installation around the door frame appears incomplete, with exposed studs and unfinished edges. Some ceiling grid tiles are missing or misaligned throughout the ceiling.\n\n**SAFETY ISSUES:**\nFall hazard: Scaffolding is erected without visible guardrails near the center of the room, posing a risk to workers on the platform. Trip hazard: Debris and materials are scattered across the plywood subfloor, creating tripping hazards for workers. PPE: Some workers are not wearing high-visibility vests, potentially reducing their visibility to equipment operators.",
+          "latency_ms": 7068.4243309660815,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1917098445595855,
+          "bert_score_ref": 0.8742437958717346
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with drywall installed on walls and a suspended ceiling grid in place. Visible materials include drywall, metal ceiling grid, plywood subflooring, and various mechanical/electrical components running overhead, with multiple workers present throughout the space.\n\n**QUALITY ISSUES:**\nSeveral drywall sheets appear to be unfinished with visible seams and gaps along the walls. The drywall installation around the window opening is not flush with the window frame. Some ceiling grid tiles are missing or misaligned, visible throughout the ceiling.\n\n**SAFETY ISSUES:**\nFall hazard exists due to the scaffolding without visible guardrails, posing a risk to workers on the scaffolding. Trip hazard is present from materials and debris scattered across the plywood subfloor, affecting all workers in the area. PPE hazard exists as some workers are not wearing high-visibility vests, visible near the window.",
+          "latency_ms": 7128.708755015396,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20865139949109418,
+          "bert_score_ref": 0.8734657168388367
+        }
+      ],
+      "avg_rouge_l_ref": 0.2013078616725336,
+      "avg_bert_score_ref": 0.8735783100128174,
+      "avg_consistency": 0.7363961602010023,
+      "avg_latency_ms": 7152.637358328017
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or institutional building. The construction stage appears to be drywall installation and MEP rough-in, with exposed ceiling structures and unfinished walls. Visible materials include drywall sheets, metal framing, scaffolding, conduit, and various construction debris on the floor.\n\n**QUALITY ISSUES:**\nDrywall sheets are stacked directly on the floor without proper dunnage, visible near the center of the image. Several drywall seams appear uneven and lack proper taping or mudding, visible on the left wall. There are gaps between drywall sheets and the metal framing, visible on the right wall.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to construction debris and materials scattered across the floor, affecting all workers. Fall hazard exists from the incomplete scaffolding structure, affecting workers on and around it. Lack of head protection is visible for one worker near the center of the image.",
+          "latency_ms": 7049.285802000668,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2168674698795181,
+          "bert_score_ref": 0.8710071444511414
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or institutional building. The construction stage appears to be drywall installation and MEP rough-in, with exposed ceiling structures and unfinished walls. Visible materials include drywall sheets, metal framing, scaffolding, conduit, and various construction debris on the floor.\n\n**QUALITY ISSUES:**\nDrywall sheets are stacked directly on the floor without proper dunnage, visible throughout the space. Several drywall sheets appear to have edge damage, visible near the center of the image. Gaps are visible between some installed drywall sheets, particularly on the left wall.\n\n**SAFETY ISSUES:**\nTrip hazard: Construction debris and materials are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding is erected without visible guardrails, putting workers on the scaffolding at risk. PPE: One worker in the center of the image is not wearing a hard hat.",
+          "latency_ms": 6912.309088045731,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19939577039274925,
+          "bert_score_ref": 0.8741754293441772
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, appearing to be a commercial or institutional building. The construction stage is drywall installation and mechanical/electrical/plumbing (MEP) rough-in, with exposed ceiling structures and unfinished walls. Visible materials include drywall sheets, metal framing, MEP conduits, and construction debris on the floor.\n\n**QUALITY ISSUES:**\nDrywall sheets are stacked directly on the floor without proper dunnage, visible throughout the space. Several drywall seams appear uneven and lack proper taping/mudding, visible on the walls. Gaps are visible between drywall sheets and the metal framing, visible on the left wall.\n\n**SAFETY ISSUES:**\nTrip hazard: Construction debris and drywall scraps are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding lacks full guardrails on multiple levels, putting workers on the scaffolding at risk. PPE: One worker is not wearing a hard hat, visible near the center of the image.",
+          "latency_ms": 7176.545013964642,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19584569732937687,
+          "bert_score_ref": 0.8684992790222168
+        }
+      ],
+      "avg_rouge_l_ref": 0.2040363125338814,
+      "avg_bert_score_ref": 0.8712272842725118,
+      "avg_consistency": 0.7403558604572746,
+      "avg_latency_ms": 7046.046634670347
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with drywall installation, mechanical/electrical/plumbing (MEP) systems exposed overhead, and some finished wall paneling visible. Visible materials include drywall, metal framing, ductwork, insulation, wood paneling, concrete flooring, and various construction debris.\n\n**QUALITY ISSUES:**\nDrywall seams are visible and not yet taped or mudded along multiple walls, particularly on the left and right sides of the image. Several drywall sheets appear to be slightly misaligned, creating visible gaps and uneven surfaces. Paint cans are open and scattered on the floor, suggesting potential for spills and mess.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to debris and materials scattered across the concrete floor throughout the space, posing a risk to all workers. Fall hazard is present due to the lack of guardrails around the open edges of the elevated platform on the left side, endangering workers on the platform. PPE hazard exists as some workers are not wearing high-visibility vests, potentially reducing their visibility in the busy construction environment.",
+          "latency_ms": 8113.938345981296,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19121447028423771,
+          "bert_score_ref": 0.8640078902244568
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with drywall installed on most walls and mechanical/electrical systems exposed overhead. Visible materials include drywall, wood paneling, metal ductwork, and concrete flooring, with various tools, equipment, and paint containers scattered throughout the space.\n\n**QUALITY ISSUES:**\nDrywall seams are visible and not yet taped or mudded along multiple walls, particularly on the left and right sides of the image. Several sections of drywall appear to be chipped or damaged, notably near the bottom of the wall on the right. Paint cans are open and scattered, with some evidence of spillage on the floor near the center of the image.\n\n**SAFETY ISSUES:**\nTrip hazard: Debris and materials are scattered across the floor throughout the space, posing a trip risk to all workers. Fall hazard: Ladders are positioned against walls without visible extension beyond the landing height, potentially creating a fall risk for those ascending or descending. PPE hazard: One worker is not wearing a hard hat while working near the center of the image.",
+          "latency_ms": 7849.00705202017,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19897959183673472,
+          "bert_score_ref": 0.8664464354515076
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with drywall installation, mechanical/electrical/plumbing (MEP) systems exposed overhead, and some finished wall paneling visible. Visible materials include drywall, metal studs, ductwork, insulation, wood paneling, concrete flooring, and various construction debris.\n\n**QUALITY ISSUES:**\nDrywall seams are visible and not yet taped or mudded along the walls, particularly on the left and right sides of the image. Several drywall sheets appear to be slightly misaligned, creating visible gaps and uneven surfaces. Paint cans are open and scattered on the floor, suggesting potential for spills and mess.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to construction debris and materials scattered across the concrete floor throughout the space, posing a risk to all workers. Fall hazard is present due to the lack of guardrails around the open edges of the elevated platforms, potentially affecting workers on the platforms. PPE hazard exists as some workers are not wearing high-visibility vests, potentially affecting their visibility in the work area.",
+          "latency_ms": 7845.868291973602,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19791666666666669,
+          "bert_score_ref": 0.8652962446212769
+        }
+      ],
+      "avg_rouge_l_ref": 0.19603690959587972,
+      "avg_bert_score_ref": 0.8652501900990804,
+      "avg_consistency": 0.7112609147374188,
+      "avg_latency_ms": 7936.271229991689
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. The construction stage appears to be focused on mechanical, electrical, and plumbing (MEP) rough-in, with extensive ductwork and conduit visible overhead. Materials present include metal framing, wood paneling, drywall, and various construction debris scattered across the concrete floor.\n\n**QUALITY ISSUES:**\n\nSeveral sections of wood paneling on the walls exhibit gaps and misalignments, visible on the right side of the image. The drywall installation appears incomplete, with exposed edges and unfinished seams throughout the space. There are visible stains and discoloration on the concrete floor in multiple areas.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Debris and materials are scattered across the floor throughout the entire space, posing a risk to all workers. Fall hazard: A ladder is positioned on an uneven surface near the center of the image, potentially creating an unstable work platform for the worker on it. PPE hazard: The worker on the ladder is not wearing head protection.",
+          "latency_ms": 7725.68430902902,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19525065963060687,
+          "bert_score_ref": 0.8640837073326111
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space under construction, likely a commercial or institutional building. The construction stage appears to be focused on mechanical, electrical, and plumbing (MEP) rough-in, with extensive ductwork and conduit visible overhead. Materials present include metal framing, wood paneling, drywall, and various construction debris scattered across the concrete floor.\n\n**QUALITY ISSUES:**\n\nSeveral sections of wood paneling on the wall to the right of the central scaffolding appear misaligned and not flush with adjacent panels. The drywall installation on the far wall shows visible gaps and uneven seams between sheets. There is a noticeable accumulation of dust and debris on the installed wood paneling.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Construction debris and materials are scattered across the floor throughout the entire space, posing a risk to all workers. Fall hazard: The central scaffolding lacks full guardrails on the open sides, potentially exposing workers to a fall. PPE hazard: One worker on the scaffolding is not wearing a hard hat.",
+          "latency_ms": 7366.253165004309,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18037135278514588,
+          "bert_score_ref": 0.8636099100112915
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space undergoing mechanical, electrical, and plumbing (MEP) rough-in. Visible materials include exposed concrete walls, metal studs, conduit, ductwork, and stacked building panels. The construction stage appears to be between structural completion and drywall installation, with workers present and equipment scattered throughout the space.\n\n**QUALITY ISSUES:**\n\nSeveral sections of conduit appear to be loosely supported or sagging between supports, visible across the ceiling. Some of the stacked building panels show visible damage and scuff marks, located on the left side of the image. There are gaps between some of the installed wall panels, visible on the right side of the image.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Debris and materials are scattered across the floor throughout the entire space, posing a risk to all workers. Fall hazard: A ladder is positioned on an uneven surface, visible on the left side, potentially creating an unstable work platform for the worker. PPE hazard: The worker on the ladder is not wearing head protection, putting them at risk of head injury.",
+          "latency_ms": 7691.2902790354565,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1757105943152455,
+          "bert_score_ref": 0.8600088357925415
+        }
+      ],
+      "avg_rouge_l_ref": 0.1837775355769994,
+      "avg_bert_score_ref": 0.8625674843788147,
+      "avg_consistency": 0.5803102377763011,
+      "avg_latency_ms": 7594.409251022928
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\n\nThe image depicts an interior construction site, likely a commercial building, in the fit-out stage. Visible work includes mechanical, electrical, and plumbing (MEP) installations, as well as wall paneling. Materials present include metal ductwork, electrical conduit, wood paneling, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\n\nUnevenly installed wall paneling is visible on the right side of the image, with gaps and misalignments. Exposed wiring and conduit are present throughout the ceiling space, lacking neat organization. The unfinished wall surfaces show inconsistent patching and preparation.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Debris and materials are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding is erected without visible guardrails on the left side, potentially endangering workers on the platform. PPE hazard: One worker is not wearing a high-visibility vest, visible on the left side of the image.",
+          "latency_ms": 7428.270420001354,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1952662721893491,
+          "bert_score_ref": 0.8714340925216675
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts an interior construction site, likely a commercial space, in the fit-out stage. Visible work includes mechanical, electrical, and plumbing installations, as well as wall paneling. Materials present include metal ductwork, electrical conduit, wood paneling, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\n\nThe wall paneling on the right side appears to have inconsistent alignment and gaps between panels. Several sections of exposed electrical wiring and conduit are not neatly organized or secured to supports. There is visible dust and debris accumulation on the installed wall panels and ductwork.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Construction debris and metal ladder sections are scattered across the floor, posing a risk to all workers. Fall hazard: The scaffolding on the left side lacks full guardrails on the open side, potentially endangering workers on the platform. PPE: One worker is not wearing a high-visibility vest, increasing the risk of being unseen by equipment operators.",
+          "latency_ms": 7178.672661015298,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20172910662824206,
+          "bert_score_ref": 0.8731072545051575
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts an interior construction site, likely a commercial building, in the fit-out stage. Visible work includes mechanical, electrical, and plumbing (MEP) installations, as well as wall paneling. Materials present include metal ductwork, electrical conduit, wood paneling, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\n\nUnevenly installed wall paneling is visible on the right side of the image, with gaps and misalignments. Exposed wiring and conduit are present in multiple locations throughout the ceiling space. The unfinished drywall appears to have several blemishes and imperfections.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Debris and materials are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding is erected without visible guardrails on the left side, putting workers on the platform at risk. PPE hazard: One worker is not wearing a high-visibility vest, visible on the left side of the image.",
+          "latency_ms": 7234.626087010838,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20000000000000004,
+          "bert_score_ref": 0.8693597912788391
+        }
+      ],
+      "avg_rouge_l_ref": 0.19899845960586374,
+      "avg_bert_score_ref": 0.8713003794352213,
+      "avg_consistency": 0.7609028107366979,
+      "avg_latency_ms": 7280.523056009163
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large interior space under construction, likely a commercial or public building. The construction stage appears to be fit-out, with drywall installed on walls and a suspended ceiling grid in place. Visible materials include drywall, metal framing, concrete flooring, and various construction equipment and supplies.\n\n**QUALITY ISSUES:**\n\nDrywall seams are visible and not yet taped or finished along multiple wall sections throughout the space. Several drywall sheets appear to be slightly misaligned, particularly on the wall to the right of the image. Bags of material are stacked directly on the unfinished concrete floor, potentially causing damage or staining.\n\n**SAFETY ISSUES:**\n\nFall hazard: Scaffolding is erected without visible guardrails on the left side of the image, posing a risk to workers on the platform. Trip hazard: Electrical cables and hoses are running across the floor in the foreground, creating a tripping hazard for workers. PPE: One worker on the scaffolding is not wearing a hard hat, exposing them to head injury risk.",
+          "latency_ms": 7578.225835983176,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23268698060941828,
+          "bert_score_ref": 0.8709114789962769
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or public building. The construction stage appears to be fit-out, with drywall installed on walls and a suspended ceiling grid in place. Visible materials include drywall, metal framing, concrete flooring, and various construction equipment and supplies.\n\n**QUALITY ISSUES:**\nDrywall seams are visible and not yet taped or finished along multiple walls throughout the space. Several areas of drywall show visible imperfections, such as dents and uneven surfaces, particularly on the wall to the right of the image. Bags of material are stacked directly on the unfinished concrete floor, potentially causing damage or staining.\n\n**SAFETY ISSUES:**\nFall hazard exists due to the open stairwell without complete railings, posing a risk to workers in the area. Trip hazard is present from loose cables and materials scattered across the concrete floor, affecting all personnel. Lack of consistent PPE is observed, with some workers not wearing hard hats, posing a head injury risk.",
+          "latency_ms": 7174.904624000192,
+          "structure_valid": true,
+          "rouge_l_ref": 0.223463687150838,
+          "bert_score_ref": 0.8731819987297058
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, appearing to be a commercial or public building. The construction stage is focused on interior finishing, with drywall installed on the walls and a suspended ceiling grid in place. Visible materials include drywall, metal framing, concrete flooring, and various construction equipment and supplies.\n\n**QUALITY ISSUES:**\nDrywall seams are visible and not yet taped or finished throughout the walls. Several areas of drywall appear to have uneven surfaces or gaps, particularly on the wall to the right of the image. Bags of material are stacked directly on the unfinished concrete floor.\n\n**SAFETY ISSUES:**\nFall hazard exists from the open stairwell on the left side of the image, posing a risk to workers in the area. Trip hazard is present due to loose cables and materials scattered across the concrete floor, affecting all personnel. Lack of head protection is visible on one worker near the center of the image.",
+          "latency_ms": 6953.0120239942335,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21590909090909088,
+          "bert_score_ref": 0.871914267539978
+        }
+      ],
+      "avg_rouge_l_ref": 0.22401991955644907,
+      "avg_bert_score_ref": 0.8720025817553202,
+      "avg_consistency": 0.7283616386084109,
+      "avg_latency_ms": 7235.380827992533
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space, likely a gymnasium or auditorium, in the drywall finishing stage of construction. Workers are present, some on scaffolding, applying drywall to the walls and ceiling. Visible materials include drywall sheets, metal framing, electrical conduit, and various construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\nSeveral drywall seams are visible without tape or joint compound application on the ceiling, particularly near the center of the image. There are gaps between drywall sheets on the wall to the right of the doorway, visible as vertical lines. The drywall installation on the scaffolding appears uneven, with visible height differences between sheets.\n\n**SAFETY ISSUES:**\nFall hazard: Scaffolding lacks guardrails on the open sides, putting workers on the scaffolding at risk. Trip hazard: Construction debris and metal framing are scattered across the floor, posing a tripping risk to all workers. PPE: One worker is not wearing a high-visibility vest, visible near the center of the image.",
+          "latency_ms": 7253.806423977949,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22754491017964074,
+          "bert_score_ref": 0.873531699180603
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space, likely a gymnasium or auditorium, in the drywall finishing stage of construction. Workers are present, applying drywall and working on scaffolding near a large window. Visible materials include drywall sheets, metal framing, electrical conduit, and various construction debris scattered across the floor. \n\n**QUALITY ISSUES:**\nSeveral drywall seams are visible without tape or joint compound application on the wall to the left of the window. There are gaps between drywall sheets on the wall to the right of the window. The drywall installation appears incomplete in multiple areas throughout the space.\n\n**SAFETY ISSUES:**\nFall hazard: Scaffolding is erected without visible guardrails, putting workers on the scaffolding at risk. Trip hazard: Construction debris and metal framing are scattered across the floor, posing a trip risk to all workers. PPE hazard: One worker is not wearing a high-visibility vest, potentially reducing visibility to equipment operators.",
+          "latency_ms": 6808.014574984554,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2276923076923077,
+          "bert_score_ref": 0.8749645948410034
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space, likely a gymnasium or auditorium, in the drywall finishing stage of construction. Workers are present, applying drywall and preparing for painting, with scaffolding erected near the walls. Visible materials include drywall sheets, metal framing, electrical conduit, and various construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\nSeveral drywall seams are visible without tape or joint compound application on the wall to the left of the scaffolding. There are gaps between drywall sheets on the wall near the doorway on the right side of the image. The drywall installation appears incomplete in multiple areas, with exposed framing visible.\n\n**SAFETY ISSUES:**\nTrip hazard: Debris and metal framing are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding lacks guardrails on the open sides, potentially endangering workers on the platform. PPE hazard: One worker is not wearing a high-visibility vest, potentially reducing visibility to equipment operators.",
+          "latency_ms": 7047.923827019986,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21021021021021025,
+          "bert_score_ref": 0.8728277087211609
+        }
+      ],
+      "avg_rouge_l_ref": 0.22181580936071957,
+      "avg_bert_score_ref": 0.8737746675809225,
+      "avg_consistency": 0.7580130227952567,
+      "avg_latency_ms": 7036.581608660829
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space under construction, likely a gymnasium or auditorium. Exposed metal framing, ductwork, and insulation are visible across the ceiling, indicating work on mechanical systems. Materials such as lumber, drywall, and various tools are scattered across the concrete floor, and a scissor lift is positioned near a partially constructed wall.\n\n**QUALITY ISSUES:**\n\nSeveral sections of drywall appear to be unfinished or have visible seams near the center of the image. The wall near the doorway has uneven patching and a rough texture. There is debris and material waste scattered across the floor throughout the space.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Loose cables and materials are present on the floor throughout the space, posing a risk to all workers. Fall hazard: The scissor lift is in use without visible guardrails, potentially endangering the operator. PPE hazard: One worker is not wearing a hard hat near the center of the image, putting them at risk of head injury.",
+          "latency_ms": 7528.501400956884,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19883040935672514,
+          "bert_score_ref": 0.8720924854278564
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space under construction, likely a gymnasium or auditorium. Exposed metal framing, ductwork, and insulation are visible across the ceiling, indicating work on mechanical systems. Materials such as lumber, drywall, and various construction supplies are scattered throughout the concrete floor, and a scissor lift is positioned near a partially constructed wall.\n\n**QUALITY ISSUES:**\n\nSeveral sections of drywall appear to be unfinished or have gaps along the seams, visible on the wall to the right of the doorway. The application of insulation on the ceiling appears uneven in multiple areas, particularly near the center of the image. There are visible stains and debris on the finished wood paneling on the right side of the image.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Loose cables and materials are scattered across the floor throughout the entire space, posing a risk to all workers. Fall hazard: The scissor lift is in use without visible guardrails, potentially endangering the operator. PPE hazard: One worker is not wearing a hard hat, visible near the doorway on the right side of the image.",
+          "latency_ms": 7692.470345995389,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18888888888888888,
+          "bert_score_ref": 0.8701035380363464
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large, open interior space under construction, likely a gymnasium or auditorium. Exposed metal framing, ductwork, and insulation are visible in the ceiling, indicating mechanical and HVAC systems are being installed. Materials such as lumber, drywall, and various construction supplies are scattered across the concrete floor, and a scissor lift is positioned near a partially constructed wall.\n\n**QUALITY ISSUES:**\n\nSeveral sections of drywall appear to be unfinished or have visible seams near the center of the image. The drywall installation on the wall to the right of the doorway appears uneven and not flush with adjacent panels. There is visible debris and scrap material accumulating on the floor throughout the space.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Loose cables and materials are scattered across the floor throughout the entire space, posing a risk to all workers. Fall hazard: The scissor lift is in use without visible guardrails, potentially endangering the operator. PPE hazard: One worker is not wearing a hard hat in the background near the doorway.",
+          "latency_ms": 7321.431307005696,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20057306590257878,
+          "bert_score_ref": 0.8704072833061218
+        }
+      ],
+      "avg_rouge_l_ref": 0.19609745471606427,
+      "avg_bert_score_ref": 0.8708677689234415,
+      "avg_consistency": 0.7813097486794364,
+      "avg_latency_ms": 7514.134351319323
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts an interior construction site, likely a commercial or institutional building, in the fit-out stage. Exposed structural elements, ductwork, and unfinished walls are visible, along with installed wall panels and partial flooring. Construction debris, including drywall and packaging materials, is scattered across the floor, and several workers are present performing tasks.\n\n**QUALITY ISSUES:**\nUnevenly applied drywall patching is visible on the wall to the left of the image. The wall paneling on the central wall appears to have inconsistent alignment between sections. Exposed wiring and conduit are visible without covers in the ceiling area.\n\n**SAFETY ISSUES:**\nTrip hazard: Construction debris is scattered across the floor throughout the entire space, posing a risk to all workers. Fall hazard: Uncovered floor openings are present in the right side of the image, posing a risk to workers in that area. PPE hazard: One worker is not wearing eye protection while operating a power tool on the right side of the image.",
+          "latency_ms": 7471.681191003881,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20765027322404372,
+          "bert_score_ref": 0.8658576011657715
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts an interior construction site, likely a commercial or institutional building, in the fit-out stage. Exposed structural elements, ductwork, and unfinished walls indicate ongoing mechanical, electrical, and plumbing work. Visible materials include drywall, metal framing, concrete floors, and various construction debris, with two workers present on the right side of the image.\n\n**QUALITY ISSUES:**\n\nDrywall sheets are stacked haphazardly on the left side, lacking proper bracing or storage. Several areas of exposed wall framing show inconsistent spacing and alignment. The unfinished wall paneling on the central wall has visible gaps and uneven seams.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Construction debris and loose materials are scattered across the concrete floor throughout the space, posing a risk to all workers. Fall hazard: Uncovered floor openings are present on the right side, near the workers, without adequate guarding. PPE hazard: One worker is not wearing high-visibility clothing, despite the presence of moving equipment.",
+          "latency_ms": 7196.135098987725,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18994413407821228,
+          "bert_score_ref": 0.8633780479431152
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts an interior construction site, likely a commercial or institutional building, in the fit-out stage. Visible work includes drywall installation, mechanical/electrical/plumbing (MEP) rough-in, and flooring preparation. Materials present include drywall, wood paneling, metal ductwork, electrical cabling, and construction debris scattered across the floor.\n\n**QUALITY ISSUES:**\nDrywall sheets are stacked unevenly and without proper support on the left side of the image. Several sections of wood paneling appear to be misaligned or not fully secured to the wall. Exposed wiring and conduit are visible without covers in the ceiling area.\n\n**SAFETY ISSUES:**\nTrip hazard: Construction debris and cabling are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Uncovered floor openings are present on the right side of the image, potentially endangering workers in that area. PPE hazard: One worker is not wearing a high-visibility vest, potentially reducing visibility to equipment operators.",
+          "latency_ms": 7391.031524981372,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17827298050139279,
+          "bert_score_ref": 0.8608083724975586
+        }
+      ],
+      "avg_rouge_l_ref": 0.1919557959345496,
+      "avg_bert_score_ref": 0.8633480072021484,
+      "avg_consistency": 0.58592760904319,
+      "avg_latency_ms": 7352.94927165766
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large interior space undergoing construction, likely a floor slab being prepared for concrete pouring. Reinforcing steel (rebar) is densely arranged along one wall, and workers are actively installing it. Visible materials include rebar, concrete flooring, metal decking overhead, and drywall on some walls, with electrical conduit and piping also present.\n\n**QUALITY ISSUES:**\n\nSeveral sections of rebar appear to be bent or misaligned, visible along the wall where rebar is being installed. There are gaps between rebar sections and inconsistent spacing, particularly noticeable in the lower-right quadrant of the image. Some rebar appears to be dirty or have debris attached, visible throughout the rebar installation area.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Loose rebar and wire cuttings are scattered across the floor throughout the work area, posing a risk to all workers. Fall hazard: The metal decking overhead lacks complete guardrails in several areas, potentially exposing workers to a fall risk. PPE hazard: One worker is not wearing a high-visibility vest, visible near the center of the image, putting them at risk of not being seen.",
+          "latency_ms": 8287.123181973584,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1922077922077922,
+          "bert_score_ref": 0.869583249092102
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large interior space under construction, likely a commercial or industrial building. Reinforcing steel is erected against one wall, indicating concrete work is in progress. Visible materials include metal rebar, concrete flooring, drywall, and exposed ceiling infrastructure with extensive mechanical, electrical, and plumbing (MEP) systems.\n\n**QUALITY ISSUES:**\n\nThere are gaps and inconsistencies in the drywall finishing along the wall on the right side of the image. The rebar installation appears uneven in height and spacing along the wall, particularly visible in the center and right portions. Scattered debris and construction waste are present across the concrete floor.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Rebar and wire mesh are lying on the floor in multiple locations, posing a risk to all workers in the area. Fall hazard: The exposed ceiling structure lacks complete guardrails or safety netting, potentially endangering workers accessing the ceiling space. PPE: One worker in the center of the image is not wearing a high-visibility vest.",
+          "latency_ms": 7495.778784970753,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2349726775956284,
+          "bert_score_ref": 0.865142822265625
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large interior space under construction, likely a commercial or institutional building. Reinforcing steel is erected against one wall, indicating concrete work is in progress. Visible materials include metal rebar, concrete flooring, drywall, and exposed mechanical/electrical systems in the ceiling, with multiple workers actively engaged in rebar installation.\n\n**QUALITY ISSUES:**\n\nRebar appears to be unevenly spaced in some areas along the wall, visible throughout the right side of the image. Some rebar is bent or damaged, visible in the lower right corner. There are gaps between rebar and the wall, visible along the entire length of the rebar installation.\n\n**SAFETY ISSUES:**\n\nTrip hazard: Loose rebar and wire mesh are scattered on the floor throughout the space, posing a risk to all workers. Fall hazard: The open ceiling with exposed mechanical systems and lack of guardrails around the perimeter presents a fall risk to workers on the floor. PPE: One worker is not wearing a high-visibility vest, visible in the far left of the image.",
+          "latency_ms": 7725.955237983726,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21333333333333335,
+          "bert_score_ref": 0.8679316639900208
+        }
+      ],
+      "avg_rouge_l_ref": 0.21350460104558464,
+      "avg_bert_score_ref": 0.8675525784492493,
+      "avg_consistency": 0.5154290169434893,
+      "avg_latency_ms": 7836.285734976021
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts an auditorium or large hall under construction, appearing to be in the fit-out stage with seating platforms installed. Visible materials include metal seating supports, drywall on walls, exposed ceiling grid with mechanical and electrical services, and concrete flooring. Several workers are present, engaged in installing or inspecting the seating, and various tools and equipment are scattered throughout the space.\n\n**QUALITY ISSUES:**\nUneven drywall finishing is visible on the wall to the right of the image, with noticeable texture variations and potential seams. Gaps are present between some of the installed seating platforms and the floor, visible along the front rows. The drywall appears to be unfinished in areas, with visible screw heads and patching compounds.\n\n**SAFETY ISSUES:**\nTrip hazard: Cables and debris are scattered across the floor throughout the space, posing a risk to all workers. Fall hazard: Scaffolding is erected without visible guardrails on the right side of the image, potentially endangering workers on the platform. PPE hazard: One worker is not wearing a high-visibility vest, visible on the left side of the image.",
+          "latency_ms": 8040.237239038106,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23316062176165803,
+          "bert_score_ref": 0.872365415096283
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts an auditorium or large hall under construction, appearing to be in the fit-out stage with seating platforms installed. Visible materials include metal seating supports, drywall on walls, exposed ceiling grid with mechanical and electrical services, and concrete flooring. Several workers are present, engaged in installing the seating and associated components, with equipment like ladders and a small forklift visible.\n\n**QUALITY ISSUES:**\nUneven spacing is visible between some of the installed seating platforms on the left side of the image. The drywall appears to have some surface imperfections and unfinished joints in multiple areas. There are gaps visible between the drywall and the structural elements in the upper right corner.\n\n**SAFETY ISSUES:**\nFall hazard: A worker is on a ladder without visible fall protection, located on the right side of the image. Trip hazard: Debris and materials are scattered across the concrete floor throughout the space, posing a trip risk to all workers. PPE hazard: One worker is not wearing a high-visibility vest, located on the left side of the image.",
+          "latency_ms": 7553.863569046371,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2152230971128609,
+          "bert_score_ref": 0.8682049512863159
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts an auditorium or large hall under construction, appearing to be in the fit-out stage with seating platforms installed. Visible materials include metal seating supports, drywall on walls, exposed ceiling grid with mechanical and electrical services, and concrete flooring. Several workers are present, engaged in installing the seating and associated components, with equipment like ladders and a small forklift visible.\n\n**QUALITY ISSUES:**\nUneven spacing is visible between some of the metal seating supports on the left side of the image. Drywall seams are visible on the wall to the right of the doorway, indicating a need for further finishing. There are gaps between some of the installed drywall panels, particularly visible on the wall facing the seating.\n\n**SAFETY ISSUES:**\nFall hazard: A ladder is extended without apparent securing mechanisms, posing a risk to the worker using it, located near the center of the image. Trip hazard: Cables and debris are scattered across the floor throughout the space, potentially causing trips for workers. PPE hazard: One worker is not wearing a high-visibility vest, located on the left side of the image.",
+          "latency_ms": 7789.804200991057,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21025641025641026,
+          "bert_score_ref": 0.8700422644615173
+        }
+      ],
+      "avg_rouge_l_ref": 0.21954670971030973,
+      "avg_bert_score_ref": 0.8702042102813721,
+      "avg_consistency": 0.6662251477040568,
+      "avg_latency_ms": 7794.635003025178
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space under construction, likely a commercial or institutional building. The construction stage appears to be fit-out, with wall paneling, electrical conduit installation, and floor preparation underway. Visible materials include metal framing, drywall, plastic sheeting, electrical wiring, and concrete flooring, with scaffolding and extension ladders providing access to elevated work areas.\n\n**QUALITY ISSUES:**\nVisible gaps exist between some installed wall panels, particularly on the left side of the image. Scattered debris and plastic sheeting cover the floor throughout the space, indicating a lack of cleanliness. The wall paneling on the right side appears to have inconsistent alignment.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to debris and wiring on the floor throughout the space, posing a risk to all workers. Fall hazard is present from the use of an extension ladder on the right side, with the worker at risk. Lack of consistent PPE is observed, as some workers are not wearing hard hats.",
+          "latency_ms": 7389.487719978206,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21574344023323616,
+          "bert_score_ref": 0.872626781463623
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space undergoing fit-out construction, likely a commercial building. Visible work includes drywall installation, electrical conduit runs across the ceiling, and floor preparation with debris and plastic sheeting. Materials present include drywall sheets, metal framing, electrical wiring, and scaffolding components.\n\n**QUALITY ISSUES:**\nDrywall sheets are leaning against each other without proper bracing on the left side of the image. Gaps are visible between some installed drywall sheets, particularly around the doorway on the right. Numerous drywall scraps and packaging materials are scattered across the floor.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to debris and materials scattered across the floor throughout the space, affecting all workers. Extension cord runs across the floor in the center of the image, creating a trip hazard for workers in that area. A worker is ascending a ladder without apparent three-point contact, posing a fall risk.",
+          "latency_ms": 6903.10994698666,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2054380664652568,
+          "bert_score_ref": 0.8689069747924805
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior space undergoing fit-out construction, likely a commercial building. Work is focused on wall partitioning, mechanical/electrical/plumbing (MEP) installation in the ceiling, and floor preparation. Visible materials include metal framing, drywall, plastic sheeting, electrical conduit, and construction debris.\n\n**QUALITY ISSUES:**\nSeveral sections of drywall appear to be unfinished or have visible gaps along seams, particularly on the left side of the image. The plastic sheeting on the floor is torn and bunched in multiple areas, creating an uneven surface. Exposed metal studs are visible in several wall sections, indicating incomplete drywall installation.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to loose electrical cables and construction debris scattered across the floor, posing a risk to all workers. Fall hazard is present from the partially constructed scaffolding on the right side, with workers potentially at risk. Lack of consistent PPE is observed, with some workers not wearing hard hats or high-visibility vests.",
+          "latency_ms": 7233.593922981527,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20527859237536658,
+          "bert_score_ref": 0.8744930028915405
+        }
+      ],
+      "avg_rouge_l_ref": 0.20882003302461985,
+      "avg_bert_score_ref": 0.8720089197158813,
+      "avg_consistency": 0.45159725792356203,
+      "avg_latency_ms": 7175.397196648798
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior construction space, likely a mechanical or electrical room, in the rough-in stage. Numerous workers are present, engaged in installing ductwork, conduit, and other building systems. Visible materials include metal framing, insulation, cardboard packaging, and a concrete floor covered in debris.\n\n**QUALITY ISSUES:**\nSeveral sections of installed wallboard appear to have gaps or misaligned joints visible along the walls. Conduit and ductwork supports are not consistently spaced or secured, particularly near the center of the room. Cardboard and packaging materials are scattered throughout the work area, indicating a lack of site tidiness.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to debris and materials scattered across the floor throughout the entire space, impacting all workers. Fall hazard is present from the use of extension ladders without apparent stabilization, visible near the right wall. Lack of consistent PPE is observed, with some workers not wearing safety glasses or gloves, impacting those working on low-level tasks.",
+          "latency_ms": 7629.62525698822,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19101123595505617,
+          "bert_score_ref": 0.8726518750190735
+        },
+        {
+          "text": "**SCENE:**\nThe image depicts a large interior construction space, likely a mechanical or electrical room, in the rough-in stage. Numerous workers are present, engaged in installing ductwork, conduit, and other building systems. Visible materials include metal framing, insulation, cardboard packaging, and various lengths of piping and wiring.\n\n**QUALITY ISSUES:**\nSeveral sections of installed wallboard appear to have gaps or uneven seams visible along the left and rear walls. Some conduit runs are not aligned consistently with the surrounding infrastructure, particularly near the center of the image. Cardboard and packaging debris are scattered across the floor, indicating a lack of site tidiness.\n\n**SAFETY ISSUES:**\nTrip hazard exists due to debris and materials scattered across the floor throughout the entire space, affecting all workers. Fall hazard is present from the use of extension ladders without apparent stabilization, visible in the center and right side of the image, affecting workers on the ladders. Lack of consistent PPE is observed, with some workers not wearing safety glasses, affecting those working on overhead installations.",
+          "latency_ms": 7541.905989986844,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20218579234972678,
+          "bert_score_ref": 0.8709750771522522
+        },
+        {
+          "text": "**SCENE:**\n\nThe image depicts a large interior construction space, likely a mechanical or electrical room, in the rough-in stage. Numerous workers are present, engaged in installing ductwork, conduit, and other building systems. Visible materials include metal framing, insulation, cardboard packaging, and various lengths of piping and wiring.\n\n**QUALITY ISSUES:**\n\nSeveral sections of installed wallboard appear to have gaps or misaligned joints visible along the lower portion of the walls. Conduit and piping installations lack consistent alignment and support in multiple areas throughout the space. Cardboard and packaging debris are scattered across the floor, indicating a lack of site cleanliness.\n\n**SAFETY ISSUES:**\n\nFall hazard: A worker is on an extension ladder without visible guardrails or secure footing, located near the center of the image. Trip hazard: Debris and materials are scattered across the floor throughout the space, posing a tripping risk to all workers. PPE hazard: Some workers are not wearing appropriate eye protection while working overhead, visible in multiple locations.",
+          "latency_ms": 7368.897508014925,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2072829131652661,
+          "bert_score_ref": 0.8734954595565796
+        }
+      ],
+      "avg_rouge_l_ref": 0.20015998049001635,
+      "avg_bert_score_ref": 0.8723741372426351,
+      "avg_consistency": 0.6775867207524322,
+      "avg_latency_ms": 7513.47625166333
+    }
+  ]
+}

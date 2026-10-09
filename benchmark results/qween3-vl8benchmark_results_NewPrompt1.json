@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "qwen3-vl:8b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.22910015948034507,
+    "bert_score_ref_mean": 0.873105690214369,
+    "consistency_mean": 0.557199862007765,
+    "latency_p50_ms": 19729.80855219066,
+    "latency_p95_ms": 29394.343229942024
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large interior room with drywall-covered walls, a concrete floor, and an exposed ceiling grid. Construction is in the interior fit-out stage, with visible drywall installation and scaffolding. Materials include drywall panels, concrete, and metal scaffolding; equipment features scaffolding, ladders, and toolboxes; two workers in high-visibility vests and hard hats are near a door on the left wall.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall are visible without apparent tape or mud application. The ceiling grid has exposed wiring without protective covers. Loose materials on the floor indicate incomplete cleanup during installation.  \n\n**SAFETY ISSUES**  \nScattered tools and debris on the floor create a trip hazard in the central area. The mobile scaffolding has wheels that may cause instability if not secured, affecting workers near the structure. Workers near the door are exposed to potential tripping hazards from floor debris.",
+          "latency_ms": 16408.00686273724,
+          "structure_valid": true,
+          "rouge_l_ref": 0.27627627627627627,
+          "bert_score_ref": 0.8857598304748535
+        },
+        {
+          "text": "SCENE: The space is a large indoor room with drywall walls, concrete flooring, and an exposed ceiling grid. Construction is in the interior fit-out phase, with visible materials including drywall, concrete, and metal scaffolding. Equipment present includes scaffolding, ladders, a toolbox, and storage boxes, while two workers in high-visibility vests and hard hats are near a door.\n\nQUALITY ISSUES: Drywall seams on the walls are visible without tape or mud application, indicating incomplete finishing. Scaffolding base plates appear unsecured on the concrete floor, potentially affecting stability. The ceiling grid has exposed wiring without visible protective covering.\n\nSAFETY ISSUES: Scattered debris on the concrete floor creates a tripping hazard for all personnel. Exposed wiring in the ceiling grid creates an electrical hazard for workers. Unsecured scaffolding base plates on the floor pose a tripping hazard.",
+          "latency_ms": 28677.89901793003,
+          "structure_valid": true,
+          "rouge_l_ref": 0.27950310559006214,
+          "bert_score_ref": 0.8846519589424133
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large interior room with drywall walls, concrete flooring, and an exposed ceiling grid. Construction is in the interior fit-out stage, with drywall installed but not finished. Visible materials include drywall panels, concrete, metal scaffolding, ladders, and toolboxes; two workers in high-visibility vests and hard hats are near a door.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall are visible and not taped. Ceiling grid spacing is inconsistent in the central area. Scaffolding base plates are unevenly positioned on the floor.  \n\n**SAFETY ISSUES**  \nTrip hazard from scattered tools and materials on the floor, affecting all personnel. Electrical hazard from exposed wiring on the ceiling grid, affecting workers near the ceiling.",
+          "latency_ms": 36014.440804719925,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2847682119205298,
+          "bert_score_ref": 0.8786965608596802
+        }
+      ],
+      "avg_rouge_l_ref": 0.2801825312622894,
+      "avg_bert_score_ref": 0.8830361167589823,
+      "avg_consistency": 0.6262213887870554,
+      "avg_latency_ms": 27033.448895129066
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is an interior room with concrete floors and walls, partially finished ceilings with metal grid frameworks. Construction stage is interior fit-out, with walls showing plaster application and ceiling frameworks. Visible materials include concrete, plywood sheets, and metal grid; equipment includes scaffolding, a tripod, and safety cones; workers are present: three individuals wearing high-visibility vests and hard hats, with one standing and two working on the floor.  \n\n**QUALITY ISSUES**  \nPlywood sheets are scattered on the floor without secure storage, visible near the center of the image. Wall patches near the window show uneven application, visible on the left wall. The ceiling grid framework appears incomplete, visible in the upper section of the image.  \n\n**SAFETY ISSUES**  \nTrip hazard from scattered plywood sheets on the floor, located near the center of the image, affecting workers in the area. No electrical hazards are visible in the image. No fall hazards are visible in the image.",
+          "latency_ms": 41768.67160946131,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23728813559322037,
+          "bert_score_ref": 0.8669387698173523
+        },
+        {
+          "text": "**SCENE**  \nThe space is an indoor construction area with concrete floors and walls, currently in interior fit-out stage. Visible materials include concrete, metal scaffolding, and plywood sheets. Equipment includes scaffolding, a tripod, and safety cones, with three workers wearing high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nUneven plaster application is visible on the walls near the window. The concrete floor shows inconsistent leveling in the central area.  \n\n**SAFETY ISSUES**  \nScattered plywood sheets on the floor create a trip hazard for workers in the central area.",
+          "latency_ms": 16315.753687173128,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22456140350877193,
+          "bert_score_ref": 0.8711134195327759
+        },
+        {
+          "text": "**SCENE**  \nThe space is an interior room with concrete floors and walls, partially finished with plaster. Construction is in the interior fit-out stage, with scaffolding erected on one side. Visible materials include plywood sheets, concrete, and metal scaffolding; equipment includes scaffolding, a tripod, and safety cones; workers are present wearing high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nPlywood sheets are scattered on the floor without proper securing or stacking, indicating improper material handling. Wall surfaces exhibit uneven plaster application in certain areas, suggesting inconsistent finishing work.  \n\n**SAFETY ISSUES**  \nScattered plywood sheets on the floor create a trip hazard for workers. The orange safety cone is positioned near the workers but does not effectively block the trip hazard area.",
+          "latency_ms": 27690.352078527212,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21383647798742136,
+          "bert_score_ref": 0.8746869564056396
+        }
+      ],
+      "avg_rouge_l_ref": 0.2252286723631379,
+      "avg_bert_score_ref": 0.870913048585256,
+      "avg_consistency": 0.5311027613765134,
+      "avg_latency_ms": 28591.592458387215
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with concrete walls partially covered in drywall, a ceiling with exposed metal framing and ductwork, and a floor with partially installed tiles. Construction is at an interior fit-out stage, with workers actively installing materials. Visible materials include concrete, drywall, metal scaffolding, and floor tiles; equipment includes scaffolding platforms, ladders, and tools; workers are present in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nFloor tiles in the central area show inconsistent alignment and spacing. Scaffolding platforms on the right side appear uneven in height. Drywall seams on the left wall exhibit inconsistent jointing.  \n\n**SAFETY ISSUES**  \nFall hazard from scaffolding platforms lacking guardrails on the right side. Trip hazard from scattered tools and materials on the floor near the center. Electrical hazard from exposed wiring hanging from the ceiling.",
+          "latency_ms": 26595.36050632596,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2198391420911528,
+          "bert_score_ref": 0.8714209198951721
+        },
+        {
+          "text": "SCENE: The space is a large, open interior room with partially finished walls and ceiling. Construction stage is interior fit-out, with visible MEP (mechanical, electrical, plumbing) installations underway. Visible materials include drywall panels, tile flooring sections, and metal scaffolding; equipment includes scaffolding platforms and ladders; workers are present in high-visibility vests and hard hats.\n\nQUALITY ISSUES: Tile flooring sections show inconsistent alignment, visible where multiple tiles meet in the central floor area. Drywall seams on the left wall appear unsealed, visible along the wall\u2019s vertical joints.\n\nSAFETY ISSUES: Exposed wiring on the ceiling creates an electrical hazard, visible in the upper section near the ductwork. Loose materials on the floor near scaffolding present a trip hazard, visible in the central area.",
+          "latency_ms": 25081.78395871073,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21169916434540392,
+          "bert_score_ref": 0.8637716174125671
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with partially finished walls, exposed ceiling infrastructure, and a tiled floor. Construction stage is interior fit-out, with workers actively installing elements. Visible materials include concrete walls, metal scaffolding, and floor tiles; equipment includes scaffolding platforms and ladders; workers are wearing high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nFloor tiles exhibit inconsistent alignment with visible gaps between sections. Scaffolding platforms show uneven height positioning. Ceiling ductwork appears misaligned relative to structural framing.  \n\n**SAFETY ISSUES**  \nLoose floor materials create trip hazards near the center of the room. Exposed electrical cables on the ceiling pose electrical hazards. Workers near scaffolding platforms are at risk of falling due to unstable platform positioning.",
+          "latency_ms": 21476.76653508097,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1864406779661017,
+          "bert_score_ref": 0.870802640914917
+        }
+      ],
+      "avg_rouge_l_ref": 0.20599299480088615,
+      "avg_bert_score_ref": 0.8686650594075521,
+      "avg_consistency": 0.4849477308275846,
+      "avg_latency_ms": 24384.63700003922
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with unfinished walls (drywall panels), exposed ceiling infrastructure (ductwork, framing), and concrete floors. Construction stage is interior fit-out with drywall installation and scaffolding for ceiling work. Visible materials include drywall, metal scaffolding, and cardboard boxes; equipment includes scaffolding, power tools, and material storage; workers are present in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall show inconsistent alignment, visible where panels meet. Scaffolding planks on the central platform appear unevenly spaced, creating gaps between supports. Large sheets of material on the floor are not uniformly positioned, with some overlapping or misaligned.  \n\n**SAFETY ISSUES**  \nLoose electrical cables on the floor create a trip hazard for workers near the scaffolding. Exposed wiring along the ceiling structure poses an electrical hazard to personnel working below. Workers near the scaffolding are not wearing fall protection, increasing fall risk from elevated platforms.",
+          "latency_ms": 20979.68694847077,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2261904761904762,
+          "bert_score_ref": 0.8769541382789612
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with high ceilings and curved ceiling framing (due to lens distortion). Construction stage is interior fit-out with drywall installation and ceiling framing. Visible materials include drywall panels on walls, concrete floor, and metal scaffolding; equipment includes scaffolding, toolboxes, and electrical cables; workers are present in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall show inconsistent alignment. Scaffolding structure has uneven vertical alignment on the right side.  \n\n**SAFETY ISSUES**  \nElectrical cables on the floor create a trip hazard for workers near the center. Loose toolboxes near the left wall pose a trip hazard.",
+          "latency_ms": 25779.51745595783,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20618556701030927,
+          "bert_score_ref": 0.8703303933143616
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large interior room with unfinished walls covered in drywall panels, an exposed ceiling with metal framing and ductwork, and concrete floors. Construction stage is interior fit-out with drywall installation and MEP rough-in. Visible materials include drywall, metal framing, and concrete; equipment includes scaffolding, toolboxes, and construction materials; workers are present in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall are uneven and misaligned. Scaffolding planks near the center are not uniformly spaced, creating inconsistent support. Some drywall panels on the right wall show visible gaps between panels.  \n\n**SAFETY ISSUES**  \nExposed electrical cables on the floor create a trip hazard for workers near the center of the room. Loose scaffolding components near the scaffolding structure pose a fall hazard for workers on the platform. Workers near the scaffolding without visible guardrails are at risk of falling from the elevated platform.",
+          "latency_ms": 20992.300905287266,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22686567164179106,
+          "bert_score_ref": 0.8739185333251953
+        }
+      ],
+      "avg_rouge_l_ref": 0.21974723828085885,
+      "avg_bert_score_ref": 0.8737343549728394,
+      "avg_consistency": 0.582029056930131,
+      "avg_latency_ms": 22583.835103238624
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with exposed ceiling infrastructure (ductwork, piping) and partially finished walls (drywall and wood paneling). Construction stage is interior fit-out, mid-stage. Visible materials include drywall, wood panels, concrete, paint cans, and construction tools; equipment includes traffic cones, buckets, and scaffolding structures. No workers are visible in the image.  \n\n**QUALITY ISSUES**  \nDrywall seams on the right wall are uneven and misaligned. Paint cans are scattered on the floor, indicating improper storage of materials.  \n\n**SAFETY ISSUES**  \nTrip hazards are present due to scattered buckets and tools on the concrete floor. Exposed electrical wiring near the ceiling poses an electrical hazard.",
+          "latency_ms": 26792.48438589275,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2428115015974441,
+          "bert_score_ref": 0.8780745267868042
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor area with exposed ceiling infrastructure (ducts, pipes) and partially finished walls with drywall and wooden panels. Construction stage is interior fit-out, mid-stage. Visible materials include drywall, wood panels, concrete, and paint cans; equipment includes traffic cones, buckets, and ladders; no workers are present.  \n\n**QUALITY ISSUES**  \nDrywall seams on the right wall are uneven and not properly taped. Wooden panels on the left wall show inconsistent alignment with visible gaps between panels. Paint cans and tools are scattered on the floor, indicating improper material storage.  \n\n**SAFETY ISSUES**  \nTrip hazard from scattered paint cans and tools on the central floor area. Electrical hazard from exposed wiring on the ceiling near the ductwork.",
+          "latency_ms": 29394.343229942024,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2469135802469136,
+          "bert_score_ref": 0.8744856715202332
+        },
+        {
+          "text": "SCENE: The space is a large indoor area with exposed ceiling infrastructure (ductwork, wiring) and partially finished walls (drywall, wood paneling) over a concrete floor. Construction is at an interior fit-out stage, mid-progress. Visible materials include drywall, wood panels, concrete, paint cans, and construction tools; equipment features traffic cones, buckets, and scaffolding structures; no workers are present.\n\nQUALITY ISSUES: Drywall seams on the right wall are visible without tape. Concrete floor exhibits uneven patches and scattered debris. Wood paneling on the left wall shows gaps between panels.\n\nSAFETY ISSUES: Debris on the concrete floor creates trip hazards for construction personnel. Exposed electrical wiring on the ceiling poses electrical hazards. Traffic cones are placed but do not clearly indicate restricted areas, contributing to trip hazards for construction personnel.",
+          "latency_ms": 27150.588617660105,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2754491017964072,
+          "bert_score_ref": 0.873714804649353
+        }
+      ],
+      "avg_rouge_l_ref": 0.2550580612135883,
+      "avg_bert_score_ref": 0.8754250009854635,
+      "avg_consistency": 0.6479054253516724,
+      "avg_latency_ms": 27779.138744498294
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large interior room in mid-construction, with concrete floors, wooden wall panels, and exposed ceiling infrastructure including metal pipes and electrical conduits. Visible materials include concrete, wood panels, and metal scaffolding. Equipment includes scaffolding platforms, ladders, fire extinguishers, and construction cones; no workers are present in the image.  \n\n**QUALITY ISSUES**  \nWooden wall panels exhibit visible gaps between panels on the right wall section. Scaffolding platforms show uneven alignment, with one side higher than the other.  \n\n**SAFETY ISSUES**  \nTrip hazards exist from scattered wooden planks and white cloths on the concrete floor in the central area. Electrical hazards are present due to exposed wiring on the ceiling, visible in the upper sections. Fall hazards are indicated by scaffolding platforms lacking guardrails, which could affect workers on the scaffolding.",
+          "latency_ms": 18554.85754739493,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19710144927536236,
+          "bert_score_ref": 0.8727747797966003
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor area with concrete floors, exposed ceiling framing, and partially finished walls. Construction is in the interior fit-out stage, with visible drywall, wooden wall panels, and metal structural framing. Materials include concrete, metal, drywall, and wood panels; equipment features scaffolding, ladders, and stacks of plywood; no workers are visible in the image.  \n\n**QUALITY ISSUES**  \nGaps between wooden wall panels are visible on the right wall section. Plywood stacks on the floor are not secured, indicating improper material storage. Uneven alignment of wooden panels on the left wall section is observable.  \n\n**SAFETY ISSUES**  \nTrip hazard from scattered white cloths on the concrete floor. Trip hazard from scaffolding legs positioned on the floor. Electrical hazard from exposed wiring running across the ceiling and walls.",
+          "latency_ms": 14470.779782161117,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18128654970760236,
+          "bert_score_ref": 0.8633415102958679
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area in mid-interior fit-out stage. Floors are concrete, walls feature wooden panels and unfinished sections. Visible materials include metal scaffolding, pipes, wooden panels, and concrete; equipment includes scaffolding, ladders, fire extinguishers, and safety cones. No workers are present in the image.  \n\n**QUALITY ISSUES**  \nWooden wall panels on the right side exhibit visible gaps between adjacent panels. Scaffolding base plates on the concrete floor show uneven alignment, with some posts not level.  \n\n**SAFETY ISSUES**  \nScattered debris (wooden planks, white cloths) on the concrete floor creates a trip hazard for potential workers. Exposed electrical cables on the ceiling and walls present an electrical hazard for potential workers.",
+          "latency_ms": 12696.37849368155,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2073170731707317,
+          "bert_score_ref": 0.8713847398757935
+        }
+      ],
+      "avg_rouge_l_ref": 0.19523502405123214,
+      "avg_bert_score_ref": 0.8691670099894205,
+      "avg_consistency": 0.49770509942774976,
+      "avg_latency_ms": 15240.6719410792
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is an indoor construction area with partially finished walls (some with wooden paneling, others with drywall), a concrete floor, and an exposed ceiling with metal framing and ductwork. The construction stage appears to be interior fit-out, specifically mechanical, electrical, and plumbing (MEP) installation. Visible materials include metal framing, drywall, wooden panels, and cables; equipment includes scaffolding, traffic cones, ladders, and toolboxes; workers are present wearing hard hats and high-visibility vests.  \n\n**QUALITY ISSUES**  \nDrywall seams on the central white wall are uneven and not flush with adjacent panels. Metal framing on the ceiling shows inconsistent spacing between support brackets. Cable routing on the ceiling is haphazard, with wires not neatly secured.  \n\n**SAFETY ISSUES**  \nExposed electrical wiring on the ceiling creates an electrical hazard for workers near the ductwork. Coiled cables on the floor near the center pose a trip hazard for personnel walking through the area. Workers on the scaffolding are exposed to fall hazards due to the elevated platform without visible guardrails.",
+          "latency_ms": 18506.318107247353,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2562674094707521,
+          "bert_score_ref": 0.8765403628349304
+        },
+        {
+          "text": "**SCENE**  \nThe space is an indoor construction site with partially finished walls (some with wooden paneling, others with drywall), exposed ceiling structures (metal framing and ducts), and concrete floors. Construction stage is interior fit-out, likely during mechanical, electrical, and plumbing installation. Visible materials include metal framing, drywall, wooden panels, electrical cables, and construction tools; equipment includes scaffolding, traffic cones, ladders, and toolboxes; workers are present wearing safety vests and hard hats.  \n\n**QUALITY ISSUES**  \nDrywall seams on the wall with white and brown paneling show uneven alignment. Metal framing on the ceiling has inconsistent spacing between supports. Electrical cable routing on the ceiling shows loose connections.  \n\n**SAFETY ISSUES**  \nElectrical cables on the floor create a trip hazard for workers. Traffic cones and tape on the floor also present a trip hazard. Workers on scaffolding are not wearing fall protection (interpretation).",
+          "latency_ms": 20984.477902762592,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2469879518072289,
+          "bert_score_ref": 0.8739473819732666
+        },
+        {
+          "text": "**SCENE**  \nThe space is an indoor construction area with partially finished walls (some with wood paneling, others with drywall), a concrete floor, and an exposed ceiling with metal framing and ductwork. Construction is in the interior fit-out stage, with visible materials including drywall, wood panels, metal ducts, and cables. Equipment includes scaffolding, traffic cones, ladders, and metal frames, with multiple workers wearing hard hats and high-visibility vests.  \n\n**QUALITY ISSUES**  \nDrywall seams on the right wall (where white and brown panels meet) show visible gaps between panels, indicating incomplete taping. Metal framing for the ceiling has inconsistent spacing between support beams, visible in the central section. Some metal ductwork sections on the ceiling appear misaligned, visible in the upper central area.  \n\n**SAFETY ISSUES**  \nTrip hazard from loose cables on the floor, visible near the center of the image. Fall hazard from elevated scaffolding, affecting workers on the scaffold (two workers visible on the scaffold). Electrical hazard from exposed wiring on the ceiling, visible in the upper central area.",
+          "latency_ms": 18632.63321109116,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24376731301939059,
+          "bert_score_ref": 0.8724132776260376
+        }
+      ],
+      "avg_rouge_l_ref": 0.24900755809912387,
+      "avg_bert_score_ref": 0.8743003408114115,
+      "avg_consistency": 0.5782330584005104,
+      "avg_latency_ms": 19374.4764070337
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with high ceilings and exposed structural elements. Construction is in the interior fit-out stage, with drywall installation and ceiling framing underway. Visible materials include drywall panels, metal framing, concrete floors, and scaffolding; equipment includes ladders, traffic cones, and coiled cables; workers are present in hard hats and high-visibility vests.  \n\n**QUALITY ISSUES**  \nDrywall panels on the right wall exhibit inconsistent alignment with visible gaps between panels. Ceiling metal framing shows uneven spacing between structural members. Some drywall panels on the left wall are not fully secured to the wall studs.  \n\n**SAFETY ISSUES**  \nCoiled cables on the floor present a trip hazard for workers. Traffic cones are placed but do not fully block the path of the cables, increasing trip risk for workers. No visible fall hazards from scaffolding as workers are on the ground.",
+          "latency_ms": 25190.79055264592,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19469026548672566,
+          "bert_score_ref": 0.8727731108665466
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with exposed ceiling framing, drywall panels on walls, and concrete floors. Construction stage is interior fit-out, mid-construction. Visible materials include drywall panels, metal framing, concrete, and coiled electrical cables; equipment includes scaffolding, ladders, traffic cones, and construction tools; workers are present in hard hats and high-visibility vests working on the floor and near walls.  \n\n**QUALITY ISSUES**  \nDrywall panels on the right wall exhibit inconsistent vertical alignment at seams. Exposed electrical wires in the ceiling grid are not secured to the structural framing. Loose drywall panels lean against the right wall.  \n\n**SAFETY ISSUES**  \nCoiled electrical cables on the floor create a trip hazard in the center of the room, affecting workers. Exposed electrical wires in the ceiling grid pose an electrical hazard, affecting workers. Traffic cones are placed but do not fully block the trip hazard from the cables.",
+          "latency_ms": 16779.50876299292,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22608695652173913,
+          "bert_score_ref": 0.8751515746116638
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with exposed ceiling structures, drywall panels on walls, and concrete floors. The construction stage is interior fit-out, with drywall installation and structural framing underway. Visible materials include drywall, metal framing, concrete, and scaffolding; equipment includes scaffolding, ladders, traffic cones, and cables; workers are present in hard hats and high-visibility vests, working on floor and wall installations.  \n\n**QUALITY ISSUES**  \nDrywall panels on the right wall have visible gaps between panels, indicating improper alignment. Metal framing on the ceiling shows inconsistent spacing between beams, affecting structural uniformity. The concrete floor has a visible crack running through it, suggesting potential settlement issues.  \n\n**SAFETY ISSUES**  \nTrip hazard from cables lying on the floor near the center of the image, affecting workers in the area. Electrical hazard from exposed wires hanging from the ceiling structure, affecting workers near the ceiling. No PPE violations observed as workers are wearing hard hats and high-visibility vests.",
+          "latency_ms": 19441.499408334494,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20281690140845074,
+          "bert_score_ref": 0.8723746538162231
+        }
+      ],
+      "avg_rouge_l_ref": 0.2078647078056385,
+      "avg_bert_score_ref": 0.8734331130981445,
+      "avg_consistency": 0.5618580822255331,
+      "avg_latency_ms": 20470.59957465778
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with straight walls, floors, and ceilings (lens distortion only). Construction stage is mid-interior fit-out, with drywall installation and ceiling framework assembly underway. Visible materials include drywall, concrete flooring, and metal ceiling framework; equipment includes scaffolding, buckets, and safety cones; workers are present in high-visibility vests and hard hats, with some on scaffolding and others on the ground.  \n\n**QUALITY ISSUES**  \nDrywall seams on the right wall are not flush, visible in the right wall section. Ceiling metal framework has inconsistent spacing between arches, visible in the ceiling area. Wall patches show uneven application, visible on the right wall.  \n\n**SAFETY ISSUES**  \nScaffolding on the left lacks guardrails, creating a fall hazard for workers on the scaffolding. Floor debris, including tools and a bucket, creates a trip hazard for all personnel. Exposed electrical wiring on the ceiling poses an electrical hazard near the ceiling structure.",
+          "latency_ms": 14421.927403658628,
+          "structure_valid": true,
+          "rouge_l_ref": 0.3048780487804878,
+          "bert_score_ref": 0.8725491762161255
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with high ceilings, currently in mid-stage interior fit-out. Visible materials include concrete floors, drywall on walls, and exposed ductwork/wiring on the ceiling. Equipment present includes scaffolding, buckets, traffic cones, and tools, with multiple workers in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nThe scaffolding platform on the left side is uneven, visible where workers are positioned. Drywall seams on the right wall are inconsistent, visible in the corner area.  \n\n**SAFETY ISSUES**  \nA fall hazard exists due to the scaffolding platform lacking guardrails, affecting workers on the left scaffolding. A trip hazard is present from scattered debris on the floor, affecting all workers. An electrical hazard is visible from exposed wiring on the ceiling, affecting all workers.",
+          "latency_ms": 17864.876728504896,
+          "structure_valid": true,
+          "rouge_l_ref": 0.27722772277227725,
+          "bert_score_ref": 0.8772023320198059
+        },
+        {
+          "text": "SCENE: The space is a large, open interior room with concrete floors and partially finished walls. Construction is in the interior fit-out stage, with visible materials including drywall, metal scaffolding, and exposed wiring. Workers in high-visibility vests and hard hats are present, with some on scaffolding and others on the ground.\n\nQUALITY ISSUES: Drywall seams on the left wall are uneven and not flush with adjacent panels. Scaffolding planks on the left scaffold are misaligned and not level. Exposed wiring in the ceiling grid is not secured to the structure.\n\nSAFETY ISSUES: Trip hazard from scattered debris on the floor affects all workers. Electrical hazard from exposed wiring on the ceiling grid affects workers near the grid. Fall hazard from scaffolding without guardrails on the left scaffold affects workers on the scaffold.",
+          "latency_ms": 16085.343221202493,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2727272727272727,
+          "bert_score_ref": 0.8734647035598755
+        }
+      ],
+      "avg_rouge_l_ref": 0.2849443480933459,
+      "avg_bert_score_ref": 0.8744054039319357,
+      "avg_consistency": 0.4745776860174474,
+      "avg_latency_ms": 16124.049117788672
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large interior room with concrete floors and partially finished walls. Construction stage is interior fit-out with exposed ceiling infrastructure and drywall installation. Visible materials include concrete, drywall, metal framing, and wiring; equipment includes a blue lift, scaffolding, and safety cones; no workers are visible in the image.  \n\n**QUALITY ISSUES**  \nUneven drywall seams are visible on the central wall section. Electrical conduits appear loosely secured along the ceiling framework. Some wall patches show inconsistent plaster application.  \n\n**SAFETY ISSUES**  \nLoose tools and cables on the floor create trip hazards across the workspace. Exposed wiring in the ceiling framework poses electrical hazards. Safety cones are placed without clear separation from walkways, increasing trip risk.",
+          "latency_ms": 9836.674547754228,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20202020202020202,
+          "bert_score_ref": 0.8717233538627625
+        },
+        {
+          "text": "**SCENE**  \nThe space is an interior room with concrete floors, walls partially covered with drywall, and exposed ceiling infrastructure including ductwork and electrical conduits. The construction stage is interior mechanical and electrical rough-in, with visible materials including concrete, drywall, and metal conduits. Equipment present includes a blue scissor lift, orange traffic cones, buckets, and scaffolding, with no workers visible in the image.  \n\n**QUALITY ISSUES**  \nUneven drywall seams are visible on the left wall section, indicating improper installation. Electrical conduits in the central ceiling area are not fully secured to the structure, showing potential workmanship issues. Drywall installation on the right wall section has visible gaps between panels, suggesting incomplete coverage.  \n\n**SAFETY ISSUES**  \nA loose electrical cable on the floor in the central area creates a trip hazard for workers. Exposed wiring in the ceiling structure poses an electrical hazard to workers. Traffic cones are placed without clear demarcation of hazardous zones, increasing trip risk.",
+          "latency_ms": 18642.53993332386,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23283582089552238,
+          "bert_score_ref": 0.8752591013908386
+        },
+        {
+          "text": "**SCENE**  \nThe space is an interior room with concrete floors and partially finished walls, indicating an active mechanical and electrical rough-in stage. Visible materials include concrete, drywall, metal ductwork, and electrical conduits. Equipment present includes a blue scissor lift, traffic cones, buckets, and scaffolding, with no workers visible in the image.  \n\n**QUALITY ISSUES**  \nUneven drywall seams are visible on the central white wall. Electrical conduits appear misaligned on the ceiling near the left side.  \n\n**SAFETY ISSUES**  \nLoose cables on the floor create a trip hazard for personnel in the area.",
+          "latency_ms": 17333.902592770755,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18450184501845018,
+          "bert_score_ref": 0.867938220500946
+        }
+      ],
+      "avg_rouge_l_ref": 0.20645262264472486,
+      "avg_bert_score_ref": 0.8716402252515157,
+      "avg_consistency": 0.5717482740438264,
+      "avg_latency_ms": 15271.03902461628
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is an interior room with exposed ceiling infrastructure, partial wall finishes, and a concrete floor. Construction stage is interior fit-out, with visible materials including drywall, wood panels, concrete, electrical cables, and metal ducts. Equipment includes traffic cones, toolboxes, and construction tools, with workers present in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nUneven drywall seams are visible on the left wall. Misaligned wood paneling is present on the central wall section. Electrical cables are loosely coiled on the floor near the center.  \n\n**SAFETY ISSUES**  \nScattered debris on the floor creates a trip hazard for workers near the center. Exposed electrical wiring on the ceiling poses an electrical hazard for workers in the upper area. Traffic cones are placed near the workers but do not mitigate the debris hazard.",
+          "latency_ms": 18264.539720490575,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2433234421364985,
+          "bert_score_ref": 0.8755808472633362
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large interior room with exposed ceiling infrastructure (ductwork, piping) and partially finished walls (drywall and wood paneling) over a concrete floor. Construction is in the mid-stage interior fit-out phase, with mechanical and electrical rough-in visible. Visible materials include drywall, wood paneling, electrical cables, and construction debris; equipment includes traffic cones, toolboxes, and a fire extinguisher; two workers in high-visibility vests and hard hats are present.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall are uneven and not flush, with visible gaps between panels. Electrical cables are coiled on the floor without secure mounting to the structure. Wood paneling on the right wall shows inconsistent spacing between panels.  \n\n**SAFETY ISSUES**  \nTrip hazard from loose electrical cables and construction debris on the floor, located in the central area of the room, affecting workers present. Trip hazard from scattered construction materials on the floor, located near the left wall, affecting workers present. No visible electrical hazards from exposed wiring.",
+          "latency_ms": 21973.00586104393,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23848238482384826,
+          "bert_score_ref": 0.8679874539375305
+        },
+        {
+          "text": "**SCENE**  \nThe space is an interior room under construction with exposed ceiling infrastructure, partially finished walls with drywall and wood paneling, and a concrete floor. Construction stage is mid-interior fit-out, with visible drywall installation, wood paneling, and mechanical systems. Visible materials include drywall, wood panels, concrete, and electrical cables; equipment includes traffic cones, tools, and construction debris; workers are present in high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nElectrical cables are coiled on the floor without secure mounting to walls or ceilings, visible near the center of the image. Drywall seams on the left wall show uneven alignment and incomplete taping. Wood paneling on the curved wall section has inconsistent spacing between panels.  \n\n**SAFETY ISSUES**  \nLoose electrical cables on the floor create a trip hazard near the coiled cables, affecting workers in the area. Construction debris and loose materials on the floor pose a trip hazard in the central workspace. Workers near the cones are exposed to potential trip hazards from the surrounding debris.",
+          "latency_ms": 19798.063402064145,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24258760107816713,
+          "bert_score_ref": 0.871935248374939
+        }
+      ],
+      "avg_rouge_l_ref": 0.24146447601283796,
+      "avg_bert_score_ref": 0.8718345165252686,
+      "avg_consistency": 0.5392057716323909,
+      "avg_latency_ms": 20011.86966119955
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with concrete floors, walls partially covered in drywall, and a ceiling with exposed structural framing and ductwork. Construction is in the structural framing stage, with visible rebar grids, drywall panels, and electrical conduits. Workers in hard hats and high-visibility vests are present, along with scattered rebar, cables, and tools.  \n\n**QUALITY ISSUES**  \nRebar grids on the floor show inconsistent alignment in multiple areas. Drywall seams on the right wall exhibit uneven taping and inconsistent joint coverage. Some rebar sections appear improperly spaced from adjacent structural elements.  \n\n**SAFETY ISSUES**  \nLoose rebar on the floor creates trip hazards for workers. Exposed electrical cables on the floor present electrical hazards. Workers near the rebar piles may be at risk from unstable materials, though this is an interpretation of potential instability.",
+          "latency_ms": 20489.363285712898,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19941348973607037,
+          "bert_score_ref": 0.8712457418441772
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with concrete floors and walls partially covered in drywall. Construction is in the interior framing and MEP installation stage, with visible materials including rebar, drywall panels, and exposed wiring. Multiple workers in yellow hard hats and green high-visibility vests are present, along with equipment such as a circular saw and coiled cables.  \n\n**QUALITY ISSUES**  \nRebar grids on the floor are misaligned in several areas, with inconsistent spacing between sections. Drywall seams on the walls show inconsistent joint taping, with visible gaps between panels.  \n\n**SAFETY ISSUES**  \nLoose rebar on the floor creates a trip hazard for workers in the immediate vicinity. Exposed wiring on the ceiling poses an electrical hazard to workers near the ceiling structure.",
+          "latency_ms": 9686.679507605731,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20606060606060608,
+          "bert_score_ref": 0.8654391169548035
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with concrete floors, drywall-covered walls, and an exposed ceiling with ductwork and wiring. Construction is in the interior framing and MEP installation stage, with visible materials including rebar, drywall panels, and concrete. Multiple workers in yellow hard hats and green safety vests are present, along with equipment such as a circular saw and coiled electrical cables.  \n\n**QUALITY ISSUES**  \nRebar grids on the floor are not uniformly aligned, with some sections offset from the intended layout. Drywall seams on the walls exhibit inconsistent spacing between panels. Loose rebar fragments and debris are scattered across the concrete floor.  \n\n**SAFETY ISSUES**  \nLoose rebar on the floor creates a trip hazard for workers. Exposed electrical cables on the floor pose a trip hazard. Workers near the rebar pile are at risk of tripping over loose materials.",
+          "latency_ms": 12768.957015126944,
+          "structure_valid": true,
+          "rouge_l_ref": 0.207492795389049,
+          "bert_score_ref": 0.868883490562439
+        }
+      ],
+      "avg_rouge_l_ref": 0.2043222970619085,
+      "avg_bert_score_ref": 0.8685227831204733,
+      "avg_consistency": 0.627987342787529,
+      "avg_latency_ms": 14314.999936148524
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe space is a large indoor room with an open layout, currently in interior fit-out stage. Visible materials include drywall panels on walls, metal sheets on the floor, and concrete flooring. Equipment includes scaffolding, ladders, traffic cones, and power tools, with multiple workers wearing high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nDrywall seams on the central wall are uneven and not flush. Metal sheets are scattered across the floor without proper stacking or alignment. Some drywall panels show visible gaps between seams.  \n\n**SAFETY ISSUES**  \nScattered metal sheets on the floor create a trip hazard for workers. Exposed wiring on the ceiling poses an electrical hazard. Loose cables on the floor also present a trip hazard.",
+          "latency_ms": 16677.091220393777,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21671826625386997,
+          "bert_score_ref": 0.8722766637802124
+        },
+        {
+          "text": "SCENE: The space is a large indoor room with straight walls, a concrete floor, and an exposed ceiling with metal framing and ductwork. Construction is at an interior fit-out stage, with drywall panels installed on walls and metal sheets scattered across the floor. Visible materials include drywall, metal sheets, and concrete; equipment includes scaffolding, ladders, traffic cones, and power tools; workers are present in high-visibility vests and hard hats.\n\nQUALITY ISSUES: Drywall seams on the main wall are visibly misaligned and uneven. Metal sheets on the floor are not stacked or secured, appearing haphazardly placed. Some drywall panels show inconsistent edge alignment along the wall.\n\nSAFETY ISSUES: Scattered metal sheets on the floor create a trip hazard for workers. Exposed electrical cables on the floor pose an electrical hazard for workers. Loose cables on the floor also present a trip hazard for workers.",
+          "latency_ms": 20172.24216274917,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2285714285714286,
+          "bert_score_ref": 0.8684419989585876
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor area with high ceilings and exposed structural framing. Construction is in the interior fit-out stage, with drywall installation underway on walls and metal framing visible on the ceiling. Visible materials include drywall panels, metal sheets, and concrete floors; equipment includes scaffolding, ladders, and traffic cones; workers are present wearing high-visibility vests and hard hats.  \n\n**QUALITY ISSUES**  \nDrywall seams on the central wall are uneven, visible near the ceiling. Metal sheets are scattered on the floor without proper stacking or alignment. Exposed wiring on the ceiling is not secured to the structural framework.  \n\n**SAFETY ISSUES**  \nScattered metal sheets on the floor create trip hazards for workers. Exposed wiring on the ceiling poses electrical hazards. Scaffolding lacks guardrails, creating fall hazards for workers on the platform.",
+          "latency_ms": 9927.264229394495,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23668639053254437,
+          "bert_score_ref": 0.8749668002128601
+        }
+      ],
+      "avg_rouge_l_ref": 0.22732536178594764,
+      "avg_bert_score_ref": 0.8718951543172201,
+      "avg_consistency": 0.6567055809550775,
+      "avg_latency_ms": 15592.199204179147
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "SCENE: The space is a large indoor area with high ceilings and exposed structural elements. Construction stage is interior fit-out, mid-stage. Visible materials include concrete floors, wooden wall panels, metal scaffolding, and electrical conduits; equipment includes scaffolding, ladders, and scattered tools; workers are present in high-visibility vests and hard hats, with some on scaffolding.\n\nQUALITY ISSUES: Materials are left unsecured on the floor near scaffolding structures. Wooden wall panels exhibit inconsistent alignment along the wall. Electrical conduits on the ceiling show uneven spacing.\n\nSAFETY ISSUES: Exposed electrical cables on the floor create a tripping hazard. Location: central floor area. Affected: all personnel in the space.",
+          "latency_ms": 19027.92466431856,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20618556701030927,
+          "bert_score_ref": 0.8694102764129639
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with concrete floors and high ceilings, in mid-stage interior fit-out. Visible materials include wooden wall panels, metal scaffolding, and electrical conduits. Workers in high-visibility vests and hard hats are present, with some on scaffolding and others on the floor.  \n\n**QUALITY ISSUES**  \nLoose tools and plastic sheets are scattered on the floor near scaffolding, indicating improper material storage. Wooden wall panels on the left wall section show misalignment with visible gaps between panels. Electrical conduits on the ceiling are not uniformly secured, suggesting inconsistent installation.  \n\n**SAFETY ISSUES**  \nLoose electrical cables on the floor near scaffolding create a trip hazard for workers. Exposed wiring on the ceiling poses an electrical hazard. No visible fall protection for workers on scaffolding.",
+          "latency_ms": 20221.644278615713,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2564102564102564,
+          "bert_score_ref": 0.8821877241134644
+        },
+        {
+          "text": "**SCENE**  \nThe space is a large indoor construction area with concrete floors and unfinished walls. Construction stage is interior fit-out, with visible metal ceiling framing and wooden wall panels. Materials include metal scaffolding, wooden panels, and concrete; equipment includes scaffolding, ladders, and tools; workers are multiple individuals in high-visibility vests and hard hats, some on scaffolding.  \n\n**QUALITY ISSUES**  \nWooden wall panels show visible gaps between panels on the left and center walls. Ceiling metal framing has inconsistent spacing between arches across the ceiling. Electrical cables on the floor are loosely arranged, indicating poor cable management.  \n\n**SAFETY ISSUES**  \nExposed electrical cables on the floor create a trip hazard for all workers. Scaffolding platforms lack guardrails, creating a fall hazard for workers on scaffolding. The red ladder is positioned near debris, creating a trip hazard for workers.",
+          "latency_ms": 19729.80855219066,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21875000000000003,
+          "bert_score_ref": 0.8781231641769409
+        }
+      ],
+      "avg_rouge_l_ref": 0.2271152744735219,
+      "avg_bert_score_ref": 0.8765737215677897,
+      "avg_consistency": 0.5360704352804857,
+      "avg_latency_ms": 19659.79249837498
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "SCENE: The space is an interior construction area with exposed ceiling infrastructure (ductwork, electrical conduits, and cables), partially installed drywall and wooden paneling on walls, and a concrete floor. Construction stage is interior fit-out with mechanical, electrical, and plumbing systems under installation. Visible materials include drywall, plywood, metal conduits, and construction tools; equipment features red step ladders, traffic cones, and toolboxes; workers are present in hard hats and high-visibility vests, with some actively working and others observing.\n\nQUALITY ISSUES: Loose electrical cables hang from the ceiling without secure mounting, visible in the upper central area. Drywall seams along the left wall show uneven alignment where panels meet the wooden paneling. Exposed conduit runs on the ceiling lack consistent spacing, visible in the upper right section.\n\nSAFETY ISSUES: Loose electrical cables on the floor create a trip hazard, affecting workers near the central area. Exposed electrical conduits and cables in the ceiling present an electrical hazard, affecting all workers in the space. Traffic cones are placed near equipment but not clearly marking a hazard zone, potentially causing trip hazards for workers.",
+          "latency_ms": 21931.355115026236,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19576719576719576,
+          "bert_score_ref": 0.8733723759651184
+        },
+        {
+          "text": "SCENE: The space is an indoor construction area with high ceilings and exposed structural elements. The construction stage is interior fit-out, with visible mechanical, electrical, and plumbing installations underway. Materials include concrete floors, drywall panels, and metal conduits; equipment features red ladders, traffic cones, and toolboxes; workers are present in hard hats and high-visibility vests.\n\nQUALITY ISSUES: Drywall panels on the white wall section exhibit uneven seams where they meet the ceiling, visible in the left-middle area. Electrical conduits in the ceiling area are not secured to the structural framework, visible in the upper central portion. Loose cables on the floor are not organized or secured, visible in the central floor area.\n\nSAFETY ISSUES: Exposed electrical wires in the ceiling area create an electrical hazard, affecting workers in the upper portion of the image. Loose cables on the floor create a trip hazard, affecting workers in the central floor area. Workers near the red ladder are positioned close to the ladder base, which may create a trip hazard, affecting workers in the central area.",
+          "latency_ms": 27443.31853836775,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23056300268096513,
+          "bert_score_ref": 0.8707799911499023
+        },
+        {
+          "text": "**SCENE**  \nThe space is an interior room with high ceilings and partially finished walls, indicating an interior fit-out stage. Visible materials include drywall, concrete flooring, and metal framing for ceiling structures. Equipment such as red ladders, traffic cones, toolboxes, and buckets are present, with multiple workers wearing hard hats and high-visibility vests.  \n\n**QUALITY ISSUES**  \nDrywall seams on the left wall are uneven and not aligned with adjacent panels. Cables are loosely bundled and not secured to the ceiling structure in the upper left quadrant. Flooring materials are scattered, creating inconsistent surface coverage.  \n\n**SAFETY ISSUES**  \nTrip hazard from loose cables on the floor near the red ladder. Electrical hazard from exposed wiring in the ceiling structure above the central area. Trip hazard from traffic cones placed on the floor in the lower left quadrant.",
+          "latency_ms": 13315.51434006542,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1933534743202417,
+          "bert_score_ref": 0.8749661445617676
+        }
+      ],
+      "avg_rouge_l_ref": 0.20656122425613418,
+      "avg_bert_score_ref": 0.8730395038922628,
+      "avg_consistency": 0.4417002360729679,
+      "avg_latency_ms": 20896.729331153136
+    }
+  ]
+}

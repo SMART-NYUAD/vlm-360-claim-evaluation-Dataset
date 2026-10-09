@@ -1,0 +1,468 @@
+{
+  "config": {
+    "model": "qwen3-vl:8b",
+    "ollama_url": "http://192.168.50.103:11434/v1/chat/completions",
+    "runs_per_image": 3,
+    "images": 15
+  },
+  "summary": {
+    "structure_valid_pct": 100.0,
+    "rouge_l_ref_mean": 0.22533245850651976,
+    "bert_score_ref_mean": 0.8793811493449741,
+    "consistency_mean": 0.4243017443634702,
+    "latency_p50_ms": 12523.240737617016,
+    "latency_p95_ms": 17282.128748483956
+  },
+  "per_image": [
+    {
+      "key": "panoramas/20241007/room02.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction space with curved walls partially covered in drywall, indicating interior finishing work. A prominent mobile scaffold structure occupies the central area, while two workers in high-visibility vests and hard hats stand near a doorway. Materials like ladders, toolboxes, and scattered debris are visible across the concrete floor, suggesting active progress on structural and finishing tasks.  \n\n### QUALITY ISSUES  \nDrywall seams on the curved walls lack proper taping and mudding, which could compromise structural integrity and lead to future cracking or water damage. The concrete floor shows uneven surfaces and stains, indicating incomplete or improper finishing that may affect the building\u2019s durability.  \n\n### SAFETY ISSUES  \nLoose debris scattered across the floor creates a significant tripping hazard for workers moving through the site. The mobile scaffold\u2019s wheeled base is not secured, increasing the risk of tipping if disturbed during use or movement.",
+          "latency_ms": 11553.961757570505,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2507462686567164,
+          "bert_score_ref": 0.8865857124328613
+        },
+        {
+          "text": "**SCENE**  \nThe interior space features curved walls partially covered in drywall and an exposed ceiling grid, with two workers in high-visibility vests and hard hats near a doorway. A large mobile scaffold structure dominates the central area, while scattered tools, ladders, and a large box occupy the concrete floor. The overall condition reflects active interior construction with unfinished surfaces and ongoing work.  \n\n**QUALITY ISSUES**  \nDrywall seams on the walls lack proper taping and mudding, resulting in visible, uneven surfaces that will require additional work to achieve a finished appearance. The ceiling grid\u2019s spacing appears inconsistent, potentially compromising future fixture alignment or structural integrity.  \n\n**SAFETY ISSUES**  \nScattered tools, debris, and materials across the floor create significant tripping hazards, especially near the scaffold and ladder. The mobile scaffold\u2019s wheels are not secured, increasing the risk of accidental movement and falls. Additionally, clutter near the doorway may obstruct emergency egress routes.",
+          "latency_ms": 11885.072317905724,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23738872403560832,
+          "bert_score_ref": 0.8863641023635864
+        },
+        {
+          "text": "### SCENE  \nThe interior space is a large room with curved walls partially covered in drywall, featuring a prominent metal scaffold structure in the center. Two workers in high-visibility vests and hard hats stand near a doorway, while ladders, toolboxes, and scattered materials occupy the concrete floor. The site appears active with ongoing interior finishing work, evidenced by temporary safety signage and exposed ceiling infrastructure.  \n\n### QUALITY ISSUES  \nDrywall seams on the curved walls show inconsistent taping and mudding, resulting in an uneven surface that may affect both aesthetics and structural performance. The ceiling grid\u2019s spacing appears irregular, potentially leading to uneven load distribution and future structural weaknesses. Electrical fixtures within the wall cavities lack proper sealing, increasing the risk of moisture damage and electrical faults.  \n\n### SAFETY ISSUES  \nThe mobile scaffold structure lacks visible anchoring or stabilization, creating a hazard of tipping if moved or disturbed. Loose tools and debris scattered across the concrete floor present significant tripping risks for workers. The red ladder positioned against the wall lacks a secure base and guardrails, increasing fall potential during use.",
+          "latency_ms": 11398.084994405508,
+          "structure_valid": true,
+          "rouge_l_ref": 0.25205479452054796,
+          "bert_score_ref": 0.8845393061637878
+        }
+      ],
+      "avg_rouge_l_ref": 0.24672992907095756,
+      "avg_bert_score_ref": 0.8858297069867452,
+      "avg_consistency": 0.4510248829761025,
+      "avg_latency_ms": 11612.373023293912
+    },
+    {
+      "key": "panoramas/20241007/room03.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe interior space is a large, curved-walled room with partially finished plastered walls and a metal grid ceiling structure. Workers in high-visibility vests and hard hats are engaged in floor preparation and material handling, with scaffolding on the left and scattered wooden planks, concrete slabs, and construction debris. The site appears active with ongoing work on wall finishing and ceiling installation, though the area remains cluttered with tools and materials.  \n\n### QUALITY ISSUES  \nThe floor exhibits uneven surfaces where wooden planks are laid, indicating poor leveling that could compromise the final finish. Wall plastering shows inconsistent thickness and texture, particularly near the window, suggesting inadequate application techniques. Additionally, the metal grid ceiling has visible gaps between panels, which may affect structural integrity or future MEP installations.  \n\n### SAFETY ISSUES  \nScaffolding on the left side lacks guardrails, creating a fall hazard for workers on elevated platforms. Scattered wooden planks and debris on the floor present tripping risks, especially in high-traffic zones near the scaffolding. The proximity of workers to the ceiling grid without protective barriers increases the risk of falling objects or accidental contact with overhead structures.",
+          "latency_ms": 11710.59505827725,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22279792746113988,
+          "bert_score_ref": 0.875701904296875
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with curved walls and a metal grid ceiling, indicating ongoing MEP installation. Workers are engaged in floor installation (handling wooden planks) and wall finishing (plastering visible on walls), with scaffolding positioned along the left wall. Materials include scattered wooden planks, concrete panels, and safety signage, while workers wear high-visibility vests and hard hats; the overall condition shows active construction with materials spread across the floor.  \n\n### QUALITY ISSUES  \nThe plaster on the curved wall adjacent to the window exhibits uneven texture and inconsistent application, risking an unprofessional final finish. Wooden planks laid on the floor are misaligned and not secured, which may compromise the structural integrity of the flooring system. The ceiling grid structure has inconsistent spacing between members, potentially leading to improper installation of suspended ceiling elements.  \n\n### SAFETY ISSUES  \nLoose wooden planks scattered across the floor create significant tripping hazards for workers navigating the site. The scaffolding on the left side lacks visible guardrails, increasing the risk of falls for personnel working at height. Exposed electrical outlets on the wall near the work area pose an electrocution hazard due to lack of protective covers.",
+          "latency_ms": 13436.564672738314,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2352941176470588,
+          "bert_score_ref": 0.875737726688385
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with curved walls and a metal grid ceiling, featuring scaffolding positioned along the left wall. Workers in high-visibility vests and hard hats are engaged in floor installation and site inspection, surrounded by materials like wooden planks, concrete panels, and construction equipment. The overall condition is active with organized material storage but visible work-in-progress.  \n\n### QUALITY ISSUES  \nWooden planks laid on the floor are unevenly spaced and misaligned, potentially compromising the structural integrity of the flooring. Wall surfaces exhibit inconsistent plastering with visible gaps, which may result in an uneven final finish. Concrete panels against the wall are not flush with the wall surface, indicating improper installation.  \n\n### SAFETY ISSUES  \nScattered wooden planks and other materials across the floor create significant tripping hazards, especially in well-lit areas. The scaffolding structure lacks visible guardrails, increasing the risk of falls for workers on elevated platforms. Exposed electrical conduits in the ceiling grid pose a shock hazard if not properly insulated.",
+          "latency_ms": 22722.19678759575,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22465753424657536,
+          "bert_score_ref": 0.8784027099609375
+        }
+      ],
+      "avg_rouge_l_ref": 0.227583193118258,
+      "avg_bert_score_ref": 0.8766141136487325,
+      "avg_consistency": 0.39153738411806505,
+      "avg_latency_ms": 15956.452172870437
+    },
+    {
+      "key": "panoramas/20241009/room02.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large, open interior space with curved ceiling structures and partially finished walls, where workers in high-visibility vests and hard hats are actively installing flooring and assembling scaffolding. Materials like scaffolding, tiles, and tools are scattered across the floor, with incomplete tile placement and early-stage drywall work visible on the walls. The overall condition reflects active construction, with multiple work zones and natural light streaming through a central window.  \n\n### QUALITY ISSUES  \nFlooring tiles exhibit inconsistent spacing and alignment, which may compromise the finished surface\u2019s integrity and create uneven transitions between panels. The ceiling\u2019s metal framework shows irregular spacing between arches, risking structural instability and aesthetic inconsistencies in the final build. Drywall installation on the left wall lacks proper sealing, leaving visible gaps that could lead to moisture damage over time.  \n\n### SAFETY ISSUES  \nScaffolding platforms on the central structure lack guardrails, exposing workers to fall hazards from elevated positions during installation tasks. Exposed electrical conduits in the ceiling are not adequately insulated, creating a shock risk near active work areas where workers are present. Loose scaffolding components on the left side could shift unexpectedly, causing tripping hazards on the unfinished floor.",
+          "latency_ms": 15475.52999574691,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21709006928406466,
+          "bert_score_ref": 0.880241334438324
+        },
+        {
+          "text": "### SCENE  \nThe site is a large, open interior with curved metal ceiling frameworks and partially finished walls, featuring multiple work zones. Workers in high-visibility vests and hard hats are actively installing scaffolding and flooring panels. Materials include scaffolding systems, tools, and flooring materials, with the space appearing well-lit but with ongoing construction activities.  \n\n### QUALITY ISSUES  \nThe curved ceiling structure exhibits inconsistent spacing between support elements, which may compromise structural integrity. Flooring panels on the ground are unevenly laid, creating gaps that could lead to future finish defects. Additionally, scaffolding platforms lack proper leveling, risking misalignment during installation.  \n\n### SAFETY ISSUES  \nScaffolding positioned near the window is too close to the glass, creating a hazard for accidental contact or falling debris. Workers on elevated platforms are not utilizing fall arrest systems, increasing fall risk. The scaffolding structure appears inadequately braced, which could lead to instability under load.",
+          "latency_ms": 13245.003984309733,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2041884816753927,
+          "bert_score_ref": 0.8785208463668823
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with a curved metal ceiling structure, partially finished walls (some drywall, some painted), and a central window. Workers in high-visibility vests and hard hats are engaged in flooring installation, scaffolding work, and material handling. Materials like scaffolding, flooring panels, and tools are scattered across the floor, with active construction underway in multiple zones.  \n\n### QUALITY ISSUES  \nThe flooring panels exhibit inconsistent alignment and visible gaps between sections, indicating improper installation that may compromise durability. Drywall on the walls shows uneven edges and incomplete sealing, suggesting substandard finishing work. The metal ceiling arches appear misaligned in certain areas, potentially affecting structural integrity.  \n\n### SAFETY ISSUES  \nScaffolding platforms lack guardrails, exposing workers to fall hazards from elevated positions. Construction materials and tools are scattered across the floor, creating tripping risks in high-traffic areas. Workers on scaffolding are not wearing fall protection harnesses, increasing the likelihood of severe injury in case of a fall.",
+          "latency_ms": 17209.48880445212,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2284263959390863,
+          "bert_score_ref": 0.8831911683082581
+        }
+      ],
+      "avg_rouge_l_ref": 0.2165683156328479,
+      "avg_bert_score_ref": 0.8806511163711548,
+      "avg_consistency": 0.38379951014222113,
+      "avg_latency_ms": 15310.007594836256
+    },
+    {
+      "key": "panoramas/20241009/room03.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe space is a large, curved interior with exposed ceiling structures and partially finished walls, featuring ongoing work on scaffolding and drywall installation. Workers in high-visibility vests and hard hats are actively moving materials like plywood sheets and handling scaffolding components across the concrete floor. The area contains scattered construction materials, including drywall panels and boxes, with an overall active construction environment.  \n\n### QUALITY ISSUES  \nThe curved ceiling framework exhibits inconsistent spacing between metal arches, which may compromise structural alignment and aesthetic finish. Drywall seams on the left wall are visibly unsealed, risking future moisture damage and poor surface quality. Plywood sheets on the floor lack proper securing, potentially leading to displacement during construction activities.  \n\n### SAFETY ISSUES  \nScaffolding platforms lack guardrails on multiple sides, creating a significant fall hazard for workers on elevated surfaces. Electrical cords are strewn across the floor near active work zones, posing a tripping risk for personnel. The scaffolding base plates appear uneven, which could cause instability during movement or load application.",
+          "latency_ms": 11305.416660383344,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22857142857142856,
+          "bert_score_ref": 0.8811936378479004
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with curved ceilings featuring exposed metal frameworks and partially finished walls with drywall. Workers in high-visibility vests and hard hats are actively assembling scaffolding and handling materials like cardboard boxes and sheet goods. The overall condition reflects an active construction phase with ongoing structural work, though the floor shows scattered debris and tools.  \n\n### QUALITY ISSUES  \nDrywall seams on the walls lack proper taping and mudding, risking future cracks and an uneven surface finish. The metal ceiling framework has inconsistent spacing between arches, which may compromise structural alignment and aesthetics. Sheet materials on the floor are not secured, increasing the risk of damage during operations.  \n\n### SAFETY ISSUES  \nScaffolding platforms lack fall protection systems, exposing workers to fall hazards from elevated positions. Exposed electrical cords on the floor create tripping risks, particularly in high-traffic zones near the scaffolding. The scaffolding structure shows inadequate bracing, potentially leading to instability under load.",
+          "latency_ms": 13855.710819363594,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2346041055718475,
+          "bert_score_ref": 0.8805474042892456
+        },
+        {
+          "text": "### SCENE  \nThe site is a large, open interior space with curved ceiling structures and partially finished walls. Workers in high-visibility vests and hard hats are actively installing drywall and assembling scaffolding. Materials such as plywood sheets, drywall panels, and construction boxes are scattered across the concrete floor, indicating ongoing interior finishing work.  \n\n### QUALITY ISSUES  \nDrywall seams on the left wall are uneven and lack proper tape and joint compound application, resulting in a rough, unprofessional finish. The curved steel framework in the ceiling shows inconsistent spacing between arches, which may compromise structural integrity. Additionally, the plywood sheets on the floor are not uniformly laid, creating uneven surfaces that could affect future flooring installations.  \n\n### SAFETY ISSUES  \nExposed electrical cords on the floor create a significant tripping hazard, especially in the central work area where multiple workers are moving. Scaffolding platforms lack guardrails, increasing the risk of falls for workers on elevated surfaces. Loose tools and materials near the scaffolding also pose a potential falling object hazard.",
+          "latency_ms": 16107.02614299953,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22349570200573066,
+          "bert_score_ref": 0.8855648636817932
+        }
+      ],
+      "avg_rouge_l_ref": 0.2288904120496689,
+      "avg_bert_score_ref": 0.8824353019396464,
+      "avg_consistency": 0.42598957932291265,
+      "avg_latency_ms": 13756.051207582155
+    },
+    {
+      "key": "panoramas/20241009/room04.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large, open commercial interior with exposed ceiling framing, ductwork, and partial drywall installation. Ongoing work includes drywall finishing, ceiling structure assembly, and material storage, with paint cans, construction cones, and tools scattered across the concrete floor. No workers are present, but the space shows active construction with unfinished walls and ceilings.  \n\n### QUALITY ISSUES  \nDrywall seams on the right wall are inadequately taped and mudded, risking uneven surfaces and poor aesthetic finish. The curved ceiling framing lacks consistent alignment, which could compromise structural integrity and load distribution. Electrical conduits are not properly secured to the ceiling structure, increasing the risk of future damage or misalignment.  \n\n### SAFETY ISSUES  \nScattered paint cans and tools across the floor create significant tripping hazards in high-traffic work zones. Exposed electrical wiring in the ceiling structure poses a severe shock risk, particularly in areas with potential moisture exposure. The absence of guardrails around elevated ceiling sections increases fall hazards for any workers present.",
+          "latency_ms": 13289.166155271232,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21798365122615804,
+          "bert_score_ref": 0.8767991065979004
+        },
+        {
+          "text": "### SCENE  \nThe space is a large, open interior with exposed ceiling infrastructure including metal framing, ductwork, and electrical conduits. Ongoing work involves drywall installation and finishing, with materials like paint cans, construction tools, and protective barriers scattered across the concrete floor. The overall condition reflects active construction with unfinished walls and ceilings, though no workers are present in the immediate view.  \n\n### QUALITY ISSUES  \nDrywall seams along the curved wall are uneven and improperly taped, risking future gaps or cracks. The ceiling\u2019s metal framework shows inconsistent spacing between supports, which could compromise structural integrity under load. Paint cans are stored on the floor without proper containment, indicating poor material handling practices.  \n\n### SAFETY ISSUES  \nExposed electrical wiring in the ceiling grid poses a shock hazard, especially where cables are loosely secured near structural elements. Scattered tools and paint cans create significant tripping risks across the entire workspace. The absence of guardrails or fall protection near elevated work areas suggests potential hazards for future tasks.",
+          "latency_ms": 17214.88011442125,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20108695652173916,
+          "bert_score_ref": 0.8778963088989258
+        },
+        {
+          "text": "### SCENE  \nThe space is a large, open interior under construction with exposed ceiling infrastructure, including ductwork, piping, and structural framing. Ongoing work involves partial drywall installation on walls, with some sections featuring wooden sheathing and others showing unfinished concrete surfaces. Materials like paint buckets, safety cones, and tools are scattered across the concrete floor, while no workers are visible, suggesting a temporary pause in activity.  \n\n### QUALITY ISSUES  \nDrywall seams on the right wall are inadequately taped and mudded, risking future cracks and uneven finishes. Wooden paneling on the left wall is not uniformly installed, with visible gaps between panels that could compromise structural integrity. The ceiling\u2019s structural framing shows inconsistent spacing, potentially leading to load-bearing issues over time.  \n\n### SAFETY ISSUES  \nExposed electrical conduits near the ceiling pose a shock hazard, especially where they are not properly secured or insulated. Loose paint cans and tools scattered across the floor create tripping risks in the open workspace. The absence of guardrails around elevated work areas, such as the open ceiling sections, increases fall potential for workers.",
+          "latency_ms": 11189.522841013968,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2309711286089239,
+          "bert_score_ref": 0.8785966634750366
+        }
+      ],
+      "avg_rouge_l_ref": 0.21668057878560704,
+      "avg_bert_score_ref": 0.8777640263239542,
+      "avg_consistency": 0.47273789367730823,
+      "avg_latency_ms": 13897.856370235482
+    },
+    {
+      "key": "panoramas/20241009/room05.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is an indoor construction space with exposed ceiling structures including metal arch frameworks, electrical conduits, and HVAC ducts. Ongoing work involves structural framing and MEP installations, with materials like stacked plywood, metal framing components, and scaffolding systems visible. The concrete floor has scattered debris, including white sheets and loose materials, and no workers are present, indicating a temporary pause in active work.  \n\n### QUALITY ISSUES  \nThe metal arch framing exhibits inconsistent vertical spacing and misalignment, which may compromise structural integrity under load. Electrical conduits are routed without proper securement, creating potential failure points. Additionally, drywall installation is incomplete, with visible gaps and uneven surfaces at the arch-frame intersections.  \n\n### SAFETY ISSUES  \nLoose plywood stacks on the floor present a significant tripping hazard, particularly near the scaffolding and material storage zones. The scaffolding structure lacks adequate base plate anchoring, increasing the risk of collapse during movement or load application. Exposed electrical wiring in the ceiling framework creates a potential shock hazard if not properly insulated or secured.",
+          "latency_ms": 14519.965306855738,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1732283464566929,
+          "bert_score_ref": 0.8655391335487366
+        },
+        {
+          "text": "### SCENE  \nThe space is a large indoor construction area with exposed ceiling infrastructure, including metal framing, ductwork, and electrical conduits. Ongoing work involves interior framing and MEP (mechanical, electrical, plumbing) installations, with wooden wall panels partially installed. Materials like plywood stacks, metal scaffolding, and tools are scattered across the concrete floor, and no workers are visible in the immediate frame, indicating active but possibly intermittent labor.  \n\n### QUALITY ISSUES  \nThe wooden wall panels appear unevenly installed, with visible gaps and inconsistent alignment, compromising the structural integrity and aesthetic finish. Metal framing for the ceiling shows inconsistent spacing between supports, potentially leading to uneven load distribution and future structural issues. Additionally, electrical conduits are loosely secured within the ceiling framework, risking damage or misalignment during future installations.  \n\n### SAFETY ISSUES  \nExposed electrical wiring in the ceiling creates a significant shock hazard, especially near the scaffolding where workers may be operating. The scaffolding lacks proper guardrails along its elevated platforms, increasing the risk of falls from height. Debris, including loose white cloths on the floor, presents tripping hazards in the active work zone.",
+          "latency_ms": 12563.754600472748,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1683673469387755,
+          "bert_score_ref": 0.8695546984672546
+        },
+        {
+          "text": "### SCENE  \nThe space is a large, open interior with exposed ceiling structures featuring metal arches, ductwork, and electrical wiring. Ongoing work includes structural framing (metal frameworks), interior wall paneling (wooden boards), and material storage (stacked plywood and metal rods). Materials are scattered across the concrete floor, with no visible workers; the overall condition reflects active construction with incomplete finishes.  \n\n### QUALITY ISSUES  \nThe metal ceiling framework exhibits inconsistent spacing between arches, which may compromise structural integrity and load-bearing capacity. Wooden wall panels show visible gaps between sections, indicating improper alignment and potential future settling. Electrical conduits are loosely secured to the ceiling structure, risking disconnection or damage during future use.  \n\n### SAFETY ISSUES  \nExposed electrical wiring near the ceiling creates a shock hazard, especially in areas with no protective casing or insulation. Scattered white cloths on the concrete floor present tripping risks for workers navigating the site. Scaffolding base plates appear unevenly positioned, potentially leading to instability during use and falls from height.",
+          "latency_ms": 10691.523340530694,
+          "structure_valid": true,
+          "rouge_l_ref": 0.17066666666666666,
+          "bert_score_ref": 0.8691167831420898
+        }
+      ],
+      "avg_rouge_l_ref": 0.1707541200207117,
+      "avg_bert_score_ref": 0.8680702050526937,
+      "avg_consistency": 0.3846049976383713,
+      "avg_latency_ms": 12591.747749286393
+    },
+    {
+      "key": "panoramas/20241009/room06.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with curved walls, featuring wooden paneling on lower sections and unfinished white drywall above. Workers in high-visibility vests and hard hats are actively installing curved metal ceiling frames and electrical conduits, with scaffolding positioned near the center. Materials like metal framing, cables, and construction tools are scattered across the concrete floor, indicating ongoing structural and MEP work.  \n\n### QUALITY ISSUES  \nThe drywall seams on the white walls exhibit uneven finishes with visible gaps, suggesting improper taping and joint compound application. Metal ceiling arches are inconsistently spaced, potentially compromising structural integrity and alignment. Electrical conduits are loosely secured to the ceiling structure, risking future disconnections or damage.  \n\n### SAFETY ISSUES  \nScaffolding platforms lack top guardrails, creating a fall hazard for workers elevated on the structure. Exposed electrical cables on the floor present tripping risks and potential electrical shock dangers. The cluttered workspace with metal frames and tools creates uneven surfaces, increasing slip-and-fall incidents.",
+          "latency_ms": 12532.493758015335,
+          "structure_valid": true,
+          "rouge_l_ref": 0.29461756373937675,
+          "bert_score_ref": 0.8798441886901855
+        },
+        {
+          "text": "### SCENE  \nThe site is an indoor construction space with curved walls, partially finished with wooden paneling on lower sections and exposed ceiling frameworks. Workers in high-visibility vests and hard hats are engaged in installing curved metal structures and electrical conduits, with scaffolding supporting elevated work. Materials include metal beams, safety cones, electrical cables, and wooden panels, while the overall condition shows active construction with incomplete finishes and organized work zones.  \n\n### QUALITY ISSUES  \nThe curved metal framework on the ceiling exhibits inconsistent spacing between arches, which may compromise structural stability and load distribution. Electrical conduits are loosely attached to the ceiling structure, risking disconnection or damage during future operations. Wooden wall paneling shows uneven alignment and visible gaps, indicating improper installation techniques that could affect the final finish.  \n\n### SAFETY ISSUES  \nScaffolding platforms lack adequate base stabilization, creating a potential collapse hazard under worker or material loads. Exposed electrical cables on the floor present tripping risks and potential electrical shock hazards for personnel. Workers positioned near the scaffolding edge without visible guardrails increase the likelihood of falls, especially in low-light conditions.",
+          "latency_ms": 11552.17650718987,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2734584450402145,
+          "bert_score_ref": 0.8789561986923218
+        },
+        {
+          "text": "### SCENE  \nThe site is an indoor construction space with curved metal frameworks suspended from the ceiling, indicating structural or MEP (mechanical, electrical, plumbing) installation work. Workers in high-visibility vests and hard hats are positioned on scaffolding and the floor, with materials like metal conduits, cones, and scaffolding equipment scattered across the concrete floor. The walls feature partial wooden paneling and unfinished drywall, with the overall condition showing active construction in a large, open-plan area.  \n\n### QUALITY ISSUES  \nThe curved metal framework on the ceiling exhibits inconsistent spacing between supports, potentially compromising structural integrity. Drywall seams on the walls are uneven and improperly finished, indicating inadequate installation techniques. Electrical conduits appear loosely secured, risking future electrical faults due to misalignment.  \n\n### SAFETY ISSUES  \nScaffolding lacks guardrails, creating a fall hazard for workers on elevated platforms. Loose metal conduits and tools on the floor present tripping risks in the active work zone. Exposed electrical wiring near the ceiling poses a shock hazard due to inadequate cable management.",
+          "latency_ms": 9443.914637900889,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2801120448179272,
+          "bert_score_ref": 0.8805167078971863
+        }
+      ],
+      "avg_rouge_l_ref": 0.2827293511991728,
+      "avg_bert_score_ref": 0.8797723650932312,
+      "avg_consistency": 0.44930505395135534,
+      "avg_latency_ms": 11176.194967702031
+    },
+    {
+      "key": "panoramas/20241011/room02.jpg",
+      "runs": [
+        {
+          "text": "**SCENE**  \nThe site is a large indoor construction area with curved metal arch framing for the ceiling, partially installed drywall on walls, and scaffolding platforms. Workers in hard hats and high-visibility vests are actively installing structural elements and handling materials like metal beams and drywall panels. The concrete floor is scattered with tools, cones, and unused drywall sheets, indicating ongoing interior framing and finishing work.  \n\n**QUALITY ISSUES**  \nDrywall seams on the curved wall are uneven and improperly taped, risking future water damage and aesthetic defects. The metal arch framing shows inconsistent curvature, which may compromise structural stability and alignment. Additionally, the concrete floor exhibits visible cracks, suggesting inadequate curing or load-bearing issues.  \n\n**SAFETY ISSUES**  \nScaffolding platforms are positioned too close to the ceiling structure, increasing fall risk for workers on upper levels. Electrical cords are loosely coiled on the floor near scaffolding, creating tripping hazards. The cracked concrete floor presents uneven surfaces that could cause slips or trips for personnel.",
+          "latency_ms": 11946.050996892154,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2184873949579832,
+          "bert_score_ref": 0.8760223388671875
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction space with curved metal ceiling frameworks, partially installed drywall walls, and a concrete floor showing signs of wear. Workers in hard hats and high-visibility vests are actively installing structural elements, using scaffolding for elevated work, and managing materials like metal beams and drywall panels. The overall condition is active construction with organized work zones, though some materials are left unsecured and temporary barriers are in place.  \n\n### QUALITY ISSUES  \nThe concrete floor displays significant cracks, suggesting improper curing or structural settlement that could compromise stability. Drywall seams on the curved wall sections are uneven and inconsistently taped, leading to an unprofessional finish. Metal framework components on the ceiling exhibit misalignment, which may affect load-bearing capacity and overall structural integrity.  \n\n### SAFETY ISSUES  \nExposed electrical cables on the floor create tripping hazards, particularly near scaffolding and work areas. Scaffolding platforms lack guardrails, increasing the risk of falls for workers on elevated surfaces. Construction materials, such as leaning drywall panels, obstruct pathways and could impede emergency egress.",
+          "latency_ms": 13396.464903838933,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2010869565217391,
+          "bert_score_ref": 0.879097580909729
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction area with curved metal ceiling structures and partially installed drywall walls. Workers in safety vests and hard hats are actively engaged in drywall installation, structural framing, and material handling. Materials like scaffolding, metal framing, drywall panels, and construction cones are scattered throughout, indicating active progress but a cluttered workspace.  \n\n### QUALITY ISSUES  \nDrywall seams on the curved wall are uneven and inadequately taped, risking moisture damage and structural weaknesses. Metal ceiling arches show misalignment, creating potential gaps for future issues. The concrete floor features a prominent crack near the wall, suggesting possible foundation or curing problems.  \n\n### SAFETY ISSUES  \nExposed electrical cables on the floor create a significant tripping hazard, especially in high-traffic zones. Scaffolding on the right side lacks visible bracing, increasing the risk of collapse. Workers on the scaffolding are not wearing fall protection, which is a critical safety oversight.",
+          "latency_ms": 16670.645677484572,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21511627906976746,
+          "bert_score_ref": 0.8773413896560669
+        }
+      ],
+      "avg_rouge_l_ref": 0.2115635435164966,
+      "avg_bert_score_ref": 0.8774871031443278,
+      "avg_consistency": 0.42370584019448604,
+      "avg_latency_ms": 14004.387192738553
+    },
+    {
+      "key": "panoramas/20241011/room03.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction space with curved architectural elements, where workers are actively installing ceiling frameworks using scaffolding on the left. Multiple personnel in high-visibility vests and hard hats are engaged in tasks like ceiling assembly and wall finishing, with materials such as metal arches, drywall, and tools scattered across the concrete floor. The overall condition reflects an active construction phase with partial interior finishes, including plastered walls and exposed ceiling infrastructure.  \n\n### QUALITY ISSUES  \nThe metal arches forming the ceiling dome exhibit inconsistent spacing and alignment, which may compromise structural stability and lead to uneven load distribution. Wall plastering is uneven in several sections, with visible seams and gaps that could cause future moisture intrusion and aesthetic defects. Additionally, drywall seams on curved walls lack proper sealing, risking durability and a subpar final appearance.  \n\n### SAFETY ISSUES  \nScaffolding on the left side lacks adequate bracing and guardrails, creating a significant fall hazard for elevated workers. Scattered tools and materials across the concrete floor present tripping hazards, especially in high-traffic zones near the scaffolding. Exposed electrical wiring from temporary lighting fixtures mounted on walls poses an electrocution risk if not properly secured.",
+          "latency_ms": 14572.180249728262,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24324324324324326,
+          "bert_score_ref": 0.8839178681373596
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with curved walls and a high ceiling, currently in active construction. Workers are installing a metal arch framework on the ceiling and finishing drywall on the walls, with scaffolding supporting elevated work. Materials include scaffolding, metal arches, drywall panels, and tools, while workers wear high-visibility vests and hard hats; the overall condition shows partial completion with exposed MEP systems and scattered construction debris.  \n\n### QUALITY ISSUES  \nThe curved wall\u2019s drywall installation exhibits uneven seams and inconsistent texture, indicating improper surface preparation and finishing. The ceiling\u2019s metal arch framework shows visible misalignment between arches, compromising structural integrity for the intended load-bearing capacity. Additionally, electrical outlets on the wall are not securely mounted, risking future electrical failures.  \n\n### SAFETY ISSUES  \nA chair is placed in the middle of the work area, creating a significant trip hazard for moving workers. Exposed electrical cords on the floor pose an electrocution risk, especially in wet conditions. The scaffolding lacks proper guardrails, increasing the likelihood of falls from elevated platforms.",
+          "latency_ms": 16131.964392028749,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21264367816091953,
+          "bert_score_ref": 0.8765633702278137
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with a curved ceiling structure under construction, featuring metal arch frameworks and partially finished walls with drywall patches. Workers in high-visibility vests and hard hats are actively installing ceiling components on scaffolding and handling materials on the ground. The concrete floor shows scattered debris, tools, and construction materials, with a window providing natural light to the otherwise industrial workspace.  \n\n### QUALITY ISSUES  \nThe metal arch framework on the ceiling exhibits inconsistent spacing and alignment, potentially compromising structural stability. Wall surfaces display uneven plaster application with visible seams and gaps, indicating improper finishing techniques. Loose metal components on the floor risk displacement during ongoing work, affecting material integrity.  \n\n### SAFETY ISSUES  \nScaffolding platforms lack guardrails, creating a significant fall hazard for workers elevated on the structure. Exposed electrical wiring along the walls poses a shock risk, especially in the presence of potential moisture. Debris scattered across the concrete floor presents tripping hazards for all personnel moving through the site.",
+          "latency_ms": 13407.436127774417,
+          "structure_valid": true,
+          "rouge_l_ref": 0.25958702064896755,
+          "bert_score_ref": 0.8861034512519836
+        }
+      ],
+      "avg_rouge_l_ref": 0.23849131401771012,
+      "avg_bert_score_ref": 0.8821948965390524,
+      "avg_consistency": 0.3648460560675892,
+      "avg_latency_ms": 14703.860256510476
+    },
+    {
+      "key": "panoramas/20241011/room04.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a spacious interior with high ceilings featuring exposed ductwork, electrical conduits, and unfinished structural elements. Ongoing work includes drywall installation on some walls and wooden paneling on others, with scattered materials like paint cans, construction cones, and a blue lift indicating active labor. The overall condition reflects a typical construction zone with unfinished surfaces and organized chaos from ongoing tasks.  \n\n### QUALITY ISSUES  \nDrywall on the central wall exhibits uneven texture and incomplete taping, with visible seams lacking proper sealing. Electrical conduits are loosely attached to the ceiling structure, risking future misalignment or damage. Wooden paneling on the right wall shows inconsistent spacing and alignment, indicating improper installation.  \n\n### SAFETY ISSUES  \nExposed electrical wiring near the ceiling creates a significant shock hazard, especially where cables are not properly secured. Tripping hazards are prevalent from scattered tools and cones in the central aisle, increasing fall risk. The scaffolding in the background appears unstable due to uneven footing, posing a fall hazard for workers.",
+          "latency_ms": 11324.493330903351,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19186046511627908,
+          "bert_score_ref": 0.876018226146698
+        },
+        {
+          "text": "### SCENE  \nThe site is a large, open interior space with exposed ceiling infrastructure, including metal framing, ductwork, and electrical conduits. Ongoing work involves drywall installation, electrical wiring, and mechanical system setup, with materials like paint cans, cones, and construction debris scattered across the concrete floor. Workers are not prominently visible, but the area shows active construction with tools and equipment positioned for various tasks, indicating a mid-stage project with typical site clutter.  \n\n### QUALITY ISSUES  \nDrywall seams on the central wall exhibit uneven alignment and incomplete coverage, suggesting improper installation techniques. Electrical conduits are loosely attached to the ceiling structure, risking future displacement or damage to the building\u2019s systems. The concrete floor shows inconsistent texture and staining, indicating inadequate surface preparation before subsequent finishes.  \n\n### SAFETY ISSUES  \nExposed electrical cords on the floor near the blue lift and paint storage create significant tripping hazards for personnel. Loose tools and debris around the scaffolding platform could lead to slips or falls during movement. The ceiling\u2019s exposed wiring lacks proper insulation, presenting an electrocution risk in the central workspace where workers may be present.",
+          "latency_ms": 11587.537174113095,
+          "structure_valid": true,
+          "rouge_l_ref": 0.19834710743801653,
+          "bert_score_ref": 0.878896176815033
+        },
+        {
+          "text": "### SCENE  \nThe site is a large, open interior space with exposed ceiling infrastructure (ductwork, piping, and wiring) and partially finished walls featuring drywall and wooden paneling. Ongoing work involves electrical and mechanical installations, evidenced by scattered materials like paint cans, construction cones, and scaffolding equipment. The overall condition reflects an active construction zone with tools and materials dispersed across the concrete floor, indicating ongoing work without visible workers present.  \n\n### QUALITY ISSUES  \nThe central wall\u2019s drywall shows uneven application and prominent seams, indicating improper finishing techniques. Electrical conduits are loosely attached to the ceiling structure, risking future damage or dislodgement. Additionally, the wooden paneling on the right wall has inconsistent alignment and gaps, suggesting inadequate installation practices.  \n\n### SAFETY ISSUES  \nExposed electrical wiring near the ceiling poses a significant shock hazard, particularly where cables lack proper insulation or secure mounting. Scattered tools and cones on the concrete floor create tripping hazards in high-traffic areas, especially near the scaffolding. The scaffolding platform lacks guardrails, increasing the risk of falls for workers accessing elevated work zones.",
+          "latency_ms": 11183.056105859578,
+          "structure_valid": true,
+          "rouge_l_ref": 0.1864406779661017,
+          "bert_score_ref": 0.8778955936431885
+        }
+      ],
+      "avg_rouge_l_ref": 0.1922160835067991,
+      "avg_bert_score_ref": 0.8776033322016398,
+      "avg_consistency": 0.4576132881973507,
+      "avg_latency_ms": 11365.028870292008
+    },
+    {
+      "key": "panoramas/20241011/room06.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe space is a large, open interior with partially finished walls (drywall and wood paneling) and an exposed ceiling featuring ductwork and electrical conduits. Two workers in high-visibility vests and hard hats are present\u2014one near a workbench with materials, the other handling equipment. The floor is cluttered with construction debris, cables, and safety cones, indicating active work on interior finishes and MEP systems.  \n\n### QUALITY ISSUES  \nThe drywall installation on the curved wall shows uneven seams and inconsistent taping, compromising structural integrity and finish quality. Electrical conduits are loosely secured to the ceiling structure, risking future damage or code violations. Additionally, the wood paneling installation lacks proper alignment with adjacent drywall, creating visual and functional inconsistencies.  \n\n### SAFETY ISSUES  \nExposed electrical wiring and ductwork near the ceiling create a tripping hazard for workers moving through the space. Loose cables on the floor, particularly near the worker\u2019s work area, pose a significant fall risk. The absence of guardrails around elevated work areas (if any) and the cluttered floor could lead to accidental falls or equipment damage.",
+          "latency_ms": 9924.560365267098,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2887139107611548,
+          "bert_score_ref": 0.8840830326080322
+        },
+        {
+          "text": "### SCENE  \nThe space is a large indoor construction area with curved walls, partially finished with drywall and wood paneling. Ongoing work includes electrical wiring, HVAC duct installation, and wall finishing, with two workers in high-visibility vests and hard hats actively engaged in tasks. Materials visible include exposed cables, construction debris, safety cones, and tools, while the overall condition shows active construction with significant clutter but visible progress on structural elements.  \n\n### QUALITY ISSUES  \nDrywall seams on the left wall exhibit uneven application and improper taping, which may lead to future cracking and aesthetic issues. Wood paneling on the curved wall is inconsistently spaced, resulting in an unprofessional finish and potential structural gaps. Electrical conduits are loosely secured to the ceiling framework, risking future displacement during occupancy.  \n\n### SAFETY ISSUES  \nExposed electrical cables on the floor near the workers create a tripping hazard and potential electric shock risk. Scattered debris and tools across the concrete floor increase slip and fall dangers, especially in high-traffic areas. Safety cones are inadequately positioned to block hazardous zones, leaving workers vulnerable to moving equipment and loose materials.",
+          "latency_ms": 11838.663113303483,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24352331606217617,
+          "bert_score_ref": 0.8769924640655518
+        },
+        {
+          "text": "### SCENE  \nThe interior space is a large, partially constructed commercial area with exposed ceiling infrastructure, including metal framing, ductwork, and electrical conduits. Two workers in high-visibility vests and hard hats are engaged in cable management and material handling, surrounded by coiled electrical cables, construction cones, and scattered debris. The overall condition reflects active construction with unfinished walls (some drywall, some wooden paneling) and a cluttered floor, indicating ongoing work.  \n\n### QUALITY ISSUES  \nDrywall seams on the left wall display inconsistent taping and mudding, resulting in visible gaps that could compromise the finished surface and lead to moisture intrusion. Wooden wall panels along the curved section are not uniformly aligned, with some sections offset from adjacent panels, affecting the final aesthetic and structural cohesion.  \n\n### SAFETY ISSUES  \nExposed electrical cables on the floor, particularly near the workers, create a tripping hazard due to their unsecured placement and proximity to walkways. Loose debris, including scattered tools and materials, poses slip and fall risks across the concrete floor, especially in areas with uneven surfaces.",
+          "latency_ms": 20077.134266495705,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24064171122994651,
+          "bert_score_ref": 0.881263256072998
+        }
+      ],
+      "avg_rouge_l_ref": 0.2576263126844258,
+      "avg_bert_score_ref": 0.8807795842488607,
+      "avg_consistency": 0.39121662325777584,
+      "avg_latency_ms": 13946.785915022096
+    },
+    {
+      "key": "panoramas/20241014/room02.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction area with curved ceiling structures and exposed ductwork, indicating ongoing interior framing. Multiple workers in hard hats and high-visibility vests are actively handling rebar grids on the concrete floor, while walls feature partially installed drywall with visible seams. The floor is scattered with rebar pieces and construction debris, reflecting active structural framing work.  \n\n### QUALITY ISSUES  \nRebar grids on the floor are improperly spaced and aligned, potentially compromising load-bearing capacity per design specifications. Drywall seams lack proper taping and joint compound application, which may lead to future cracking and uneven surfaces. The ceiling\u2019s metal framing shows inconsistent spacing, risking structural integrity of the curved roof.  \n\n### SAFETY ISSUES  \nLoose rebar piles near workers create a tripping hazard, especially in low-light conditions. Exposed electrical cords on the floor pose electrocution risks and tripping dangers without protective covering. The absence of guardrails around rebar stacks increases the likelihood of material displacement or worker falls.",
+          "latency_ms": 12693.551554344594,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2070844686648501,
+          "bert_score_ref": 0.8754591345787048
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction area with curved ceiling structures and partially installed drywall walls. Workers in hard hats and high-visibility vests are actively placing rebar grids on the concrete floor, while electrical conduits and temporary lighting fixtures are visible overhead. The overall condition shows active progress in structural framing, with materials and equipment scattered across the work zone.  \n\n### QUALITY ISSUES  \nRebar grids on the floor are inconsistently spaced and misaligned, which may weaken the structural foundation. Drywall seams lack proper taping and mudding, increasing the risk of future cracks and water damage. Additionally, the concrete slabs exhibit uneven surfaces where rebar is placed, potentially compromising load-bearing capacity.  \n\n### SAFETY ISSUES  \nLarge piles of rebar are unsecured, creating a hazard for collapse and pinching injuries. Electrical cords are strewn across the floor, posing a tripping risk in high-traffic areas. The exposed ceiling wiring lacks protective casing, elevating the risk of electrical shock during maintenance activities.",
+          "latency_ms": 15703.296171501279,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2136986301369863,
+          "bert_score_ref": 0.8727489113807678
+        },
+        {
+          "text": "### SCENE  \nThe construction site occupies a large indoor space with curved steel ceiling structures and exposed mechanical and electrical systems. Workers wearing hard hats and high-visibility vests are actively installing rebar grids and preparing concrete slabs, with some positioned near the walls and others working on the floor. The area shows partial drywall installation on walls, scattered rebar, and ongoing structural work, indicating active progress in the building\u2019s interior.  \n\n### QUALITY ISSUES  \nRebar grids on the floor display inconsistent spacing between bars, which may weaken the structural integrity of the concrete slab. Drywall seams on the walls are uneven and improperly aligned, risking future moisture penetration and aesthetic defects. Additionally, the concrete slabs exhibit uneven surfaces, potentially affecting the final flooring installation.  \n\n### SAFETY ISSUES  \nExposed electrical cords on the floor create a tripping hazard for workers navigating the site. Large piles of rebar along the perimeter are unsecured, posing a fall risk near the open doorway. The ceiling\u2019s exposed wiring lacks proper insulation, increasing the potential for electrical shock hazards.",
+          "latency_ms": 17282.128748483956,
+          "structure_valid": true,
+          "rouge_l_ref": 0.23342175066313,
+          "bert_score_ref": 0.875469982624054
+        }
+      ],
+      "avg_rouge_l_ref": 0.2180682831549888,
+      "avg_bert_score_ref": 0.8745593428611755,
+      "avg_consistency": 0.431505693245702,
+      "avg_latency_ms": 15226.325491443276
+    },
+    {
+      "key": "panoramas/20241014/room03.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with curved metal panels and drywall-covered walls, where workers are actively installing structural elements. Materials include stacked metal sheets, ladders, and safety cones, with scaffolding supporting workers on the right side. The overall condition shows active construction with partially finished walls and exposed ceiling infrastructure.  \n\n### QUALITY ISSUES  \nDrywall seams on the central wall exhibit uneven taping and mudding, creating visible ridges that compromise surface finish. Curved metal panels on the floor are misaligned and improperly stacked, risking damage during installation. The ceiling\u2019s structural framework has inconsistent spacing between beams, potentially affecting load-bearing capacity.  \n\n### SAFETY ISSUES  \nScattered metal sheets and tools across the floor create tripping hazards, particularly near the scaffolding area. Exposed electrical cords on the ground near the workers pose electrocution risks and trip dangers. The scaffolding platform on the right side appears unbraced, increasing the likelihood of collapse during work.",
+          "latency_ms": 12273.986748419702,
+          "structure_valid": true,
+          "rouge_l_ref": 0.20670391061452514,
+          "bert_score_ref": 0.8775245547294617
+        },
+        {
+          "text": "### SCENE  \nThe space is a large, open interior with curved architectural elements and exposed ceiling infrastructure, including ductwork and wiring. Ongoing work involves installing metal panels and drywall, with workers in hard hats and high-visibility vests handling materials and equipment. Materials like stacked metal sheets, ladders, and construction tools are scattered across the floor, while the overall condition reflects active construction with visible debris and unfinished surfaces.  \n\n### QUALITY ISSUES  \nMetal panels are misaligned and improperly secured, with inconsistent gaps between sections that compromise structural integrity and aesthetic finish. Drywall seams lack uniform taping and mudding, resulting in uneven surfaces that will require rework to meet quality standards. Additionally, curved metal panels on the floor show signs of damage from improper handling, indicating poor material management and storage practices.  \n\n### SAFETY ISSUES  \nExposed electrical cords on the floor create tripping hazards near workers and equipment, particularly in high-traffic zones. Loose metal panels scattered across the workspace pose a risk of falling objects, especially in areas where workers move between tasks. The scaffolding lacks proper guardrails, increasing fall risk for workers on elevated platforms and violating fall protection standards.",
+          "latency_ms": 9526.424162089825,
+          "structure_valid": true,
+          "rouge_l_ref": 0.18829516539440203,
+          "bert_score_ref": 0.8765316605567932
+        },
+        {
+          "text": "### SCENE  \nThe space is a large, open interior with curved architectural elements, likely a gymnasium or auditorium under construction. Ongoing work includes installing curved metal panels on walls and ceilings, with drywall partially applied to walls. Workers in high-visibility vests and hard hats are positioned around the site, managing materials like stacked metal sheets and scaffolding, while the overall condition shows active construction with exposed structural elements and scattered tools.  \n\n### QUALITY ISSUES  \nThe curved metal panels along the walls exhibit inconsistent curvature and visible gaps between panels, compromising structural integrity and aesthetic alignment. Drywall seams on the central wall are unevenly taped and mudded, creating an unprofessional finish that may lead to future cracking. Additionally, the metal panels near the ceiling show improper spacing, which could affect load distribution and acoustic performance.  \n\n### SAFETY ISSUES  \nExposed electrical cords on the floor near the metal sheet stacks create a tripping hazard, especially in low-light areas where visibility is reduced. Scaffolding on the right side lacks proper guardrails, putting workers at risk of falls from elevated positions. Loose tools and materials scattered around the site, including near the ladders, increase the likelihood of accidental strikes or slips.",
+          "latency_ms": 8447.481039911509,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2144638403990025,
+          "bert_score_ref": 0.8725621104240417
+        }
+      ],
+      "avg_rouge_l_ref": 0.20315430546930988,
+      "avg_bert_score_ref": 0.8755394419034322,
+      "avg_consistency": 0.3865532666296947,
+      "avg_latency_ms": 10082.630650140345
+    },
+    {
+      "key": "panoramas/20241014/room04.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large, open interior space with a curved metal ceiling framework under construction, featuring multiple scaffolding platforms and partially installed wooden wall panels. Workers in high-visibility vests and hard hats are engaged in tasks including ceiling work, wall panel installation, and electrical conduit management. The floor shows scattered tools, cables, and construction debris, indicating active progress but a somewhat cluttered workspace.  \n\n### QUALITY ISSUES  \nThe curved metal ceiling arches exhibit visible misalignment with inconsistent spacing between sections, compromising structural integrity. Wooden wall panels are unevenly installed, with gaps and inconsistent vertical alignment, affecting aesthetic and functional standards. Electrical conduits are loosely secured to the ceiling structure, risking damage during future operations.  \n\n### SAFETY ISSUES  \nLoose electrical cables and tools scattered across the floor create significant tripping hazards in the main work area. Scaffolding platforms lack proper guardrails, increasing fall risk for workers elevated on these structures. The red ladder is positioned near active zones without stabilization, posing a tipping hazard if disturbed.",
+          "latency_ms": 13947.681446559727,
+          "structure_valid": true,
+          "rouge_l_ref": 0.22413793103448273,
+          "bert_score_ref": 0.8841500878334045
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor space with a partially completed curved metal ceiling structure, featuring exposed structural frameworks and unfinished walls. Multiple workers in high-visibility vests and hard hats are engaged in tasks, including scaffolding work, material handling, and wall panel installation, with wooden wall panels and scattered construction materials like plastic sheeting and tools. The overall condition shows active progress with exposed structural elements and unfinished surfaces, indicating ongoing interior construction.  \n\n### QUALITY ISSUES  \nThe curved metal ceiling framework exhibits inconsistent spacing between arches, potentially compromising structural integrity and load distribution. Wooden wall panels appear improperly aligned with visible gaps, risking future sealing or aesthetic issues. Additionally, electrical conduits are not neatly secured, leading to potential future interference with finishes.  \n\n### SAFETY ISSUES  \nExposed electrical cables on the floor create a significant tripping hazard for workers moving through the site. Scaffolding platforms lack visible guardrails, increasing fall risk for personnel working at height. The red ladder is positioned near active work zones without clear space, posing a collision risk with moving equipment or workers.",
+          "latency_ms": 8302.275064401329,
+          "structure_valid": true,
+          "rouge_l_ref": 0.233983286908078,
+          "bert_score_ref": 0.8833687901496887
+        },
+        {
+          "text": "### SCENE  \nThe interior space is a large, open construction area with curved metal ceiling frameworks and scaffolding supporting active work. Workers in high-visibility vests and hard hats are positioned on scaffolding and walking the floor, handling materials like wooden panels and tools. The site shows progress with partially installed wall panels, exposed utilities, and scattered debris across the concrete floor.  \n\n### QUALITY ISSUES  \nThe curved ceiling arches exhibit inconsistent spacing between structural elements, potentially compromising load distribution. Wooden wall panels are unevenly aligned with visible gaps, which may affect acoustic performance and visual standards. Electrical conduits within the ceiling framework appear loosely secured, risking future disconnections or damage.  \n\n### SAFETY ISSUES  \nExposed electrical cords on the floor create a tripping hazard for workers navigating the site. Scaffolding platforms lack guardrails, increasing the risk of falls for personnel working at elevated heights. The red ladder is positioned near a pile of debris, which could cause instability during use.",
+          "latency_ms": 11712.206716649234,
+          "structure_valid": true,
+          "rouge_l_ref": 0.24778761061946905,
+          "bert_score_ref": 0.8853865265846252
+        }
+      ],
+      "avg_rouge_l_ref": 0.23530294285400993,
+      "avg_bert_score_ref": 0.8843018015225729,
+      "avg_consistency": 0.5205717765132392,
+      "avg_latency_ms": 11320.721075870097
+    },
+    {
+      "key": "panoramas/20241014/room06.jpg",
+      "runs": [
+        {
+          "text": "### SCENE  \nThe site is a large indoor commercial space with exposed ceiling infrastructure (metal framing, electrical conduits, and ductwork) spanning the entire area. Multiple workers in hard hats and high-visibility vests are engaged in tasks like electrical installation and material handling, surrounded by scattered tools, ladders, and construction materials. The overall condition is active but disorganized, with partially finished walls (some drywall installed, others unfinished) and a cluttered floor.  \n\n### QUALITY ISSUES  \nElectrical conduits are visibly unsecured and loosely bundled, risking damage or short circuits, particularly in the central ceiling area where wires hang without proper cable trays. Drywall installation appears inconsistent, with uneven seams and gaps on the left wall section, compromising structural integrity and finish quality. The ceiling framing lacks uniform alignment, creating an uneven surface that may affect future finishes.  \n\n### SAFETY ISSUES  \nExposed electrical wiring throughout the ceiling poses a significant shock hazard, especially near the worker cluster on the right where tools and materials are stored. The floor is cluttered with tools, boxes, and cables, creating multiple tripping hazards that could cause falls or collisions. Ladders are positioned in high-traffic areas without clear access paths, increasing the risk of accidents during movement.",
+          "latency_ms": 9992.840585298836,
+          "structure_valid": true,
+          "rouge_l_ref": 0.2239185750636132,
+          "bert_score_ref": 0.8854734301567078
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor construction area with a curved ceiling featuring exposed structural steel and utility conduits. Workers in hard hats (white, blue, orange) and high-visibility vests are engaged in electrical work, drywall installation, and material handling. The floor is cluttered with tools, boxes, and construction debris, while walls show partial drywall installation and wooden paneling.  \n\n### QUALITY ISSUES  \nElectrical conduits and cables are loosely strung without proper securing, risking damage or electrical faults. Drywall seams are uneven and improperly taped, compromising both aesthetics and structural integrity. Ceiling framing lacks consistent alignment, which may lead to future structural instability.  \n\n### SAFETY ISSUES  \nExposed electrical wiring near workers creates a significant shock hazard due to lack of proper insulation. Scattered cones, tools, and materials on the floor create tripping hazards throughout the work area. Workers are positioned too close to active electrical equipment without protective barriers, increasing the risk of accidents.",
+          "latency_ms": 12523.240737617016,
+          "structure_valid": true,
+          "rouge_l_ref": 0.21839080459770113,
+          "bert_score_ref": 0.887347400188446
+        },
+        {
+          "text": "### SCENE  \nThe site is a large indoor commercial space with a curved ceiling, featuring exposed ductwork, wiring, and structural steel. Multiple workers in hard hats and high-visibility vests are engaged in tasks like drywall installation, electrical work, and material handling. The area is cluttered with tools, boxes, pipes, and safety cones, with walls partially finished in drywall and wooden panels, indicating active construction phases.  \n\n### QUALITY ISSUES  \nDrywall seams on the left wall show inconsistent taping and mudding, creating visible gaps that could compromise structural integrity and aesthetics. Electrical conduits are loosely secured to the ceiling structure, risking future damage or short circuits due to improper installation. The ceiling\u2019s metal framework appears misaligned in sections, potentially affecting load distribution and long-term stability.  \n\n### SAFETY ISSUES  \nA red step ladder is positioned on an uneven floor surface near scattered materials, increasing the risk of tipping and falls. Exposed electrical wires hang loosely near workers, creating a severe shock hazard without proper insulation or containment. The floor is cluttered with tools and boxes, presenting multiple tripping hazards that could lead to injuries during movement.",
+          "latency_ms": 9889.053623192012,
+          "structure_valid": true,
+          "rouge_l_ref": 0.25857519788918204,
+          "bert_score_ref": 0.8885238766670227
+        }
+      ],
+      "avg_rouge_l_ref": 0.23362819251683212,
+      "avg_bert_score_ref": 0.8871149023373922,
+      "avg_consistency": 0.4295143195198791,
+      "avg_latency_ms": 10801.711648702621
+    }
+  ]
+}
